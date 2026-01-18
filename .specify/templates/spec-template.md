@@ -19,6 +19,8 @@
   - Deployed independently
   - Demonstrated to users independently
 -->
+**TDD requirement**: Acceptance scenarios MUST be implementable as automated tests.
+Tests MUST be written before implementation.
 
 ### User Story 1 - [Brief Title] (Priority: P1)
 

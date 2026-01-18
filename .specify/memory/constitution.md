@@ -1,50 +1,60 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+- Version change: N/A → 0.1.0
+- Modified principles: Initial set (I–V)
+- Added sections: Product Boundaries & Content Rules; Development Workflow & Quality Gates
+- Removed sections: None
+- Templates requiring updates: ✅ .specify/templates/plan-template.md; ✅ .specify/templates/spec-template.md; ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: TODO(RATIFICATION_DATE): original adoption date unknown
+-->
+# Let It Be Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. User Compassion & Non-Judgment
+Content and UX MUST avoid guilt, shame, or forced positivity. Copy MUST avoid
+imperative "you should" language, promises of outcomes, or comparisons to others.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Single-Purpose Minimalism
+The product MUST focus on emotional buffering and low-effort recovery. No social
+features, gamification, goal tracking, or engagement traps are allowed.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Test-Driven Development (NON-NEGOTIABLE)
+All behavior changes MUST be implemented via TDD: write the failing test first,
+confirm it fails, then implement, then refactor. Every user story MUST have
+automated tests that cover the acceptance scenarios.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Privacy & Local-First
+The app MUST work without accounts and remain usable offline. No emotional
+telemetry, behavioral tracking, or user profiling is permitted.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Simple, Explicit Code Quality
+Prefer the smallest viable design, avoid speculative abstractions, and keep
+data structures straightforward. Code MUST be readable, tested, and reviewed
+against this constitution.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Product Boundaries & Content Rules
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- The product MUST NOT provide diagnosis or replace professional care.
+- The product MUST NOT introduce social/community or competitive mechanics.
+- Content MUST avoid commands, promises, comparisons, and guilt framing.
+- State selection and cards MUST remain low-friction and short-form.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow & Quality Gates
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Every change MUST include tests created before implementation.
+- Features MUST ship with acceptance scenarios mapped to automated tests.
+- Content changes MUST be reviewed against Principle I and Product Boundaries.
+- Local-first and privacy constraints MUST be validated during review.
 
 ## Governance
 <!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- Amendments require updating this constitution and the Sync Impact Report,
+  plus explicit approval from the project maintainer.
+- Versioning follows semantic versioning: MAJOR for breaking governance changes,
+  MINOR for new principles or materially expanded guidance, PATCH for clarifications.
+- Every plan/spec/tasks document MUST include a Constitution Check and confirm
+  compliance before implementation.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.1.0 | **Ratified**: TODO(RATIFICATION_DATE): original adoption date unknown | **Last Amended**: 2026-01-17

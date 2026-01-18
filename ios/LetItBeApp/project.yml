@@ -1,0 +1,53 @@
+name: LetItBeApp
+options:
+  bundleIdPrefix: com.letitbe
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1"
+targets:
+  LetItBeApp:
+    type: application
+    platform: iOS
+    settings:
+      base:
+        INFOPLIST_FILE: Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app
+    sources:
+      - App
+      - Views
+      - ViewModels
+      - Models
+      - Services
+      - Persistence
+      - Resources
+    resources:
+      - Resources
+  LetItBeTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: LetItBeApp
+    settings:
+      base:
+        INFOPLIST_FILE: Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.tests
+    sources:
+      - path: ../LetItBeTests
+    resources:
+      - Resources/content.json
+  LetItBeUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    dependencies:
+      - target: LetItBeApp
+    settings:
+      base:
+        INFOPLIST_FILE: Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.uitests
+    sources:
+      - path: ../LetItBeUITests

@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D61F33A35CF36F9ABF3352 /* ContentPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E50B05C829C76D061EAB0 /* ContentPayload.swift */; };
+		25DEDF970DCA3CC99CAD394C /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */; };
+		25FD8484A3D1BA5E6040DE1C /* StopLossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988AF6C87738C94EC467BBD /* StopLossView.swift */; };
+		31A94B92F9A8BAEB21E5480A /* StopLossServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */; };
+		345ECE8CA44CC022B3CF9A50 /* StopLossRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FAB34463DF0C4177F61971 /* StopLossRepository.swift */; };
+		34F9997D8FDEC1513057F5C5 /* CardRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053839EE137677FF99C2F68 /* CardRotationTests.swift */; };
+		3BA790B85F49FAAB124F10B5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C268AD30B95B313B38B8EDF /* Card.swift */; };
+		441B22E80AD01742B73AC01A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198B79A44BC077AE04FF356D /* AppState.swift */; };
+		49CC11C5C5512CDD44D3EACC /* StopLossViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0BB8BB7B642DDCA16603C5 /* StopLossViewModel.swift */; };
+		52ABA58BE6D285E9109B177B /* StopLossFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB3B5A9D4ED8715627CA31 /* StopLossFlowTests.swift */; };
+		53D07CDE254AF9BB98C813FB /* StopLossSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADB4C8C89825CE77DA44B5 /* StopLossSession.swift */; };
+		7B4736D402D9904F489856FF /* HomeToCardFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB887DF81C52C5A9F50CCB5B /* HomeToCardFlowTests.swift */; };
+		7DCC1988BF7D9292AFFA08E2 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C2763D79173E0EB902889 /* CardViewModel.swift */; };
+		8033FE15A4ACD0D4D38A832D /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = BE4CE0EB751CDB22C1BCDBF4 /* content.json */; };
+		8356D08F88A810F2D46DA228 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */; };
+		8D837637B479E677B882B446 /* StopLossService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07427827E3E904EEBBEE5E8 /* StopLossService.swift */; };
+		95E94ABBAABB645B7968711A /* ContentRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */; };
+		9D5DEA806C560FE0B7F3EF1E /* SQLiteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9335F0346120C86933172 /* SQLiteStore.swift */; };
+		9E5A410C9AEF31091E072DA7 /* LetItBeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F9FFEFA87D67D8CA08DE58 /* LetItBeApp.swift */; };
+		AB8CD997060C06609C483B0B /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3378436224740D30992AC4 /* State.swift */; };
+		B7B80193FA545725414B0CC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C9D0FF2D38E25B490EA77 /* CardView.swift */; };
+		B8FED0E859F67EA64A55737D /* StatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D7116007C2B77E76E7F1D /* StatePickerView.swift */; };
+		CC76E9D7D1EDDCFE7C43BCBD /* CardSwapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41200259A9BEF39EDE1DEBB /* CardSwapTests.swift */; };
+		E47F84361D986984612C3764 /* StatePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475A9A6B118A6B42369DB21 /* StatePickerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402F70C58F3DA418CF9342C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07054D80CD434A8546BB5FDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168E317DB58E3C4F5D7D9C78;
+			remoteInfo = LetItBeApp;
+		};
+		5C74539DFB5422C891373A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07054D80CD434A8546BB5FDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168E317DB58E3C4F5D7D9C78;
+			remoteInfo = LetItBeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ADB4C8C89825CE77DA44B5 /* StopLossSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossSession.swift; sourceTree = "<group>"; };
+		13FAB34463DF0C4177F61971 /* StopLossRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossRepository.swift; sourceTree = "<group>"; };
+		179C9D0FF2D38E25B490EA77 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		198B79A44BC077AE04FF356D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		237E50B05C829C76D061EAB0 /* ContentPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPayload.swift; sourceTree = "<group>"; };
+		3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3C268AD30B95B313B38B8EDF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4053839EE137677FF99C2F68 /* CardRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRotationTests.swift; sourceTree = "<group>"; };
+		43F6B5ED613865CFDFC93693 /* LetItBeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetItBeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossServiceTests.swift; sourceTree = "<group>"; };
+		65C9335F0346120C86933172 /* SQLiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteStore.swift; sourceTree = "<group>"; };
+		6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryTests.swift; sourceTree = "<group>"; };
+		72B2B5A2AEDADAF1B5B91CB0 /* LetItBeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetItBeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A475A9A6B118A6B42369DB21 /* StatePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePickerViewModel.swift; sourceTree = "<group>"; };
+		A67D5F5D682BA9EE31512C64 /* LetItBeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetItBeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3378436224740D30992AC4 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		AB887DF81C52C5A9F50CCB5B /* HomeToCardFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeToCardFlowTests.swift; sourceTree = "<group>"; };
+		AE0BB8BB7B642DDCA16603C5 /* StopLossViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossViewModel.swift; sourceTree = "<group>"; };
+		B07427827E3E904EEBBEE5E8 /* StopLossService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossService.swift; sourceTree = "<group>"; };
+		B41200259A9BEF39EDE1DEBB /* CardSwapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwapTests.swift; sourceTree = "<group>"; };
+		BE4CE0EB751CDB22C1BCDBF4 /* content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		C82D7116007C2B77E76E7F1D /* StatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePickerView.swift; sourceTree = "<group>"; };
+		C988AF6C87738C94EC467BBD /* StopLossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossView.swift; sourceTree = "<group>"; };
+		D0FB3B5A9D4ED8715627CA31 /* StopLossFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossFlowTests.swift; sourceTree = "<group>"; };
+		E01C2763D79173E0EB902889 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		F4F9FFEFA87D67D8CA08DE58 /* LetItBeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetItBeApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		251C6B0B3F21D3954937D271 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				198B79A44BC077AE04FF356D /* AppState.swift */,
+				E01C2763D79173E0EB902889 /* CardViewModel.swift */,
+				A475A9A6B118A6B42369DB21 /* StatePickerViewModel.swift */,
+				AE0BB8BB7B642DDCA16603C5 /* StopLossViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		58E2BFC27611DEC89AD66230 /* LetItBeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4053839EE137677FF99C2F68 /* CardRotationTests.swift */,
+				6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */,
+				5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */,
+			);
+			name = LetItBeTests;
+			path = ../LetItBeTests;
+			sourceTree = "<group>";
+		};
+		62315BDD234EF6D576B66132 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE4CE0EB751CDB22C1BCDBF4 /* content.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8301562D06DDC44E78809C39 = {
+			isa = PBXGroup;
+			children = (
+				F7C9824D66680879FEBBDB74 /* App */,
+				58E2BFC27611DEC89AD66230 /* LetItBeTests */,
+				D6872A0F70F7911381692253 /* LetItBeUITests */,
+				E3BAA5D175D3929471A2FB04 /* Models */,
+				B1F5DB0F145BD015067D17E6 /* Persistence */,
+				62315BDD234EF6D576B66132 /* Resources */,
+				E036442054CA08F9DC26D57A /* Services */,
+				251C6B0B3F21D3954937D271 /* ViewModels */,
+				FB41EC7FC36096CB631501FC /* Views */,
+				E1A478EDA0F1C4D0A04B7C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F5DB0F145BD015067D17E6 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				65C9335F0346120C86933172 /* SQLiteStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		D6872A0F70F7911381692253 /* LetItBeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B41200259A9BEF39EDE1DEBB /* CardSwapTests.swift */,
+				AB887DF81C52C5A9F50CCB5B /* HomeToCardFlowTests.swift */,
+				D0FB3B5A9D4ED8715627CA31 /* StopLossFlowTests.swift */,
+			);
+			name = LetItBeUITests;
+			path = ../LetItBeUITests;
+			sourceTree = "<group>";
+		};
+		E036442054CA08F9DC26D57A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */,
+				13FAB34463DF0C4177F61971 /* StopLossRepository.swift */,
+				B07427827E3E904EEBBEE5E8 /* StopLossService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E1A478EDA0F1C4D0A04B7C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67D5F5D682BA9EE31512C64 /* LetItBeApp.app */,
+				43F6B5ED613865CFDFC93693 /* LetItBeTests.xctest */,
+				72B2B5A2AEDADAF1B5B91CB0 /* LetItBeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3BAA5D175D3929471A2FB04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C268AD30B95B313B38B8EDF /* Card.swift */,
+				237E50B05C829C76D061EAB0 /* ContentPayload.swift */,
+				AB3378436224740D30992AC4 /* State.swift */,
+				03ADB4C8C89825CE77DA44B5 /* StopLossSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7C9824D66680879FEBBDB74 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4F9FFEFA87D67D8CA08DE58 /* LetItBeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB41EC7FC36096CB631501FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				179C9D0FF2D38E25B490EA77 /* CardView.swift */,
+				3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */,
+				C82D7116007C2B77E76E7F1D /* StatePickerView.swift */,
+				C988AF6C87738C94EC467BBD /* StopLossView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168E317DB58E3C4F5D7D9C78 /* LetItBeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D520BED4611F376F2343DFDB /* Build configuration list for PBXNativeTarget "LetItBeApp" */;
+			buildPhases = (
+				322374B9B998441ADAB8064F /* Sources */,
+				DCABFE5A2B0954A3D685A882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetItBeApp;
+			packageProductDependencies = (
+			);
+			productName = LetItBeApp;
+			productReference = A67D5F5D682BA9EE31512C64 /* LetItBeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AF48E7E0926420669B18C35 /* LetItBeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6206FFB295C3969E86C2FC21 /* Build configuration list for PBXNativeTarget "LetItBeUITests" */;
+			buildPhases = (
+				1B4FA94222712EADD8C246D9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A923B41E3545214ADA2D1A07 /* PBXTargetDependency */,
+			);
+			name = LetItBeUITests;
+			packageProductDependencies = (
+			);
+			productName = LetItBeUITests;
+			productReference = 72B2B5A2AEDADAF1B5B91CB0 /* LetItBeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		765ACE5681EA1B324DDA92CF /* LetItBeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FE410E41938818A2B7E98B /* Build configuration list for PBXNativeTarget "LetItBeTests" */;
+			buildPhases = (
+				8F5CEDE89E2ECAEB7DDEB41C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D965EDCED7BF193620EF98B /* PBXTargetDependency */,
+			);
+			name = LetItBeTests;
+			packageProductDependencies = (
+			);
+			productName = LetItBeTests;
+			productReference = 43F6B5ED613865CFDFC93693 /* LetItBeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07054D80CD434A8546BB5FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					168E317DB58E3C4F5D7D9C78 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					2AF48E7E0926420669B18C35 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168E317DB58E3C4F5D7D9C78;
+					};
+					765ACE5681EA1B324DDA92CF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C59E7D648FBD181A4DA63421 /* Build configuration list for PBXProject "LetItBeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8301562D06DDC44E78809C39;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168E317DB58E3C4F5D7D9C78 /* LetItBeApp */,
+				765ACE5681EA1B324DDA92CF /* LetItBeTests */,
+				2AF48E7E0926420669B18C35 /* LetItBeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCABFE5A2B0954A3D685A882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8033FE15A4ACD0D4D38A832D /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B4FA94222712EADD8C246D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC76E9D7D1EDDCFE7C43BCBD /* CardSwapTests.swift in Sources */,
+				7B4736D402D9904F489856FF /* HomeToCardFlowTests.swift in Sources */,
+				52ABA58BE6D285E9109B177B /* StopLossFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322374B9B998441ADAB8064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B22E80AD01742B73AC01A /* AppState.swift in Sources */,
+				3BA790B85F49FAAB124F10B5 /* Card.swift in Sources */,
+				B7B80193FA545725414B0CC8 /* CardView.swift in Sources */,
+				7DCC1988BF7D9292AFFA08E2 /* CardViewModel.swift in Sources */,
+				07D61F33A35CF36F9ABF3352 /* ContentPayload.swift in Sources */,
+				25DEDF970DCA3CC99CAD394C /* ContentRepository.swift in Sources */,
+				8356D08F88A810F2D46DA228 /* HomeView.swift in Sources */,
+				9E5A410C9AEF31091E072DA7 /* LetItBeApp.swift in Sources */,
+				9D5DEA806C560FE0B7F3EF1E /* SQLiteStore.swift in Sources */,
+				AB8CD997060C06609C483B0B /* State.swift in Sources */,
+				B8FED0E859F67EA64A55737D /* StatePickerView.swift in Sources */,
+				E47F84361D986984612C3764 /* StatePickerViewModel.swift in Sources */,
+				345ECE8CA44CC022B3CF9A50 /* StopLossRepository.swift in Sources */,
+				8D837637B479E677B882B446 /* StopLossService.swift in Sources */,
+				53D07CDE254AF9BB98C813FB /* StopLossSession.swift in Sources */,
+				25FD8484A3D1BA5E6040DE1C /* StopLossView.swift in Sources */,
+				49CC11C5C5512CDD44D3EACC /* StopLossViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5CEDE89E2ECAEB7DDEB41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F9997D8FDEC1513057F5C5 /* CardRotationTests.swift in Sources */,
+				95E94ABBAABB645B7968711A /* ContentRepositoryTests.swift in Sources */,
+				31A94B92F9A8BAEB21E5480A /* StopLossServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D965EDCED7BF193620EF98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168E317DB58E3C4F5D7D9C78 /* LetItBeApp */;
+			targetProxy = 402F70C58F3DA418CF9342C4 /* PBXContainerItemProxy */;
+		};
+		A923B41E3545214ADA2D1A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168E317DB58E3C4F5D7D9C78 /* LetItBeApp */;
+			targetProxy = 5C74539DFB5422C891373A7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08199CAFF384F3F8C070D1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetItBeApp.app/LetItBeApp";
+			};
+			name = Debug;
+		};
+		19FE5EBC4C5A153585424589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetItBeApp;
+			};
+			name = Debug;
+		};
+		1A1F6EFEB55DB91A74830E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D62B22DA5314412F52B708E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetItBeApp.app/LetItBeApp";
+			};
+			name = Release;
+		};
+		5E525D89FD08BFCF2344BDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		86FF5732F5F72C3BFDFD5301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E87919798F929CB0E853ED44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetItBeApp;
+			};
+			name = Release;
+		};
+		ECBE3C96A126E65445B5FE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6206FFB295C3969E86C2FC21 /* Build configuration list for PBXNativeTarget "LetItBeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FE5EBC4C5A153585424589 /* Debug */,
+				E87919798F929CB0E853ED44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67FE410E41938818A2B7E98B /* Build configuration list for PBXNativeTarget "LetItBeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08199CAFF384F3F8C070D1E6 /* Debug */,
+				2D62B22DA5314412F52B708E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C59E7D648FBD181A4DA63421 /* Build configuration list for PBXProject "LetItBeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE3C96A126E65445B5FE72 /* Debug */,
+				5E525D89FD08BFCF2344BDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D520BED4611F376F2343DFDB /* Build configuration list for PBXNativeTarget "LetItBeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FF5732F5F72C3BFDFD5301 /* Debug */,
+				1A1F6EFEB55DB91A74830E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07054D80CD434A8546BB5FDE /* Project object */;
+}

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Let It Be | 摆烂心法</title>
+    <style>
+        :root {
+            --bg-color: #fcfbf9; /* Warm rice paper */
+            --text-color: #3d3d3d; /* Soft ink */
+            --accent-color: #8c8c8c;
+            --secondary-text: #969696;
+            --highlight: #d4d4d4;
+            --card-bg: rgba(255,255,255,0.5);
+            --transition-speed: 0.6s;
+            --font-main: "Songti SC", "Noto Serif SC", "Times New Roman", serif;
+            --font-ui: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+        }
+
+        .dark-mode {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --accent-color: #a0a0a0;
+            --secondary-text: #888888;
+            --highlight: #333333;
+            --card-bg: rgba(255,255,255,0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow: hidden; /* App-like feel */
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+
+        #app {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* View Container */
+        .view {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 40px 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity var(--transition-speed) ease-in-out, transform var(--transition-speed) ease-in-out;
+            transform: translateY(10px);
+            z-index: 1;
+        }
+
+        .view.active {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+            z-index: 2;
+        }
+
+        /* Typography */
+        h1 {
+            font-weight: normal;
+            font-size: 2.4rem;
+            margin-bottom: 0.5em;
+            letter-spacing: 0.1em;
+            text-align: center;
+        }
+
+        h2 {
+            font-weight: normal;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: var(--secondary-text);
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .subtitle {
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+            color: var(--secondary-text);
+            margin-top: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        /* Buttons */
+        .btn {
+            background: none;
+            border: 1px solid var(--text-color);
+            color: var(--text-color);
+            padding: 14px 32px;
+            font-size: 1rem;
+            font-family: var(--font-main);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+            border-radius: 4px;
+            min-width: 140px;
+            text-align: center;
+        }
+
+        .btn:active {
+            background-color: var(--text-color);
+            color: var(--bg-color);
+            transform: scale(0.98);
+        }
+
+        .btn-text {
+            border: none;
+            background: none;
+            color: var(--secondary-text);
+            font-size: 0.9rem;
+            padding: 10px;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            cursor: pointer;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 3rem;
+            width: 100%;
+            max-width: 300px;
+            align-items: center;
+        }
+
+        /* Top Controls */
+        .top-controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            gap: 15px;
+        }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+            color: var(--text-color);
+        }
+
+        .icon-btn:hover { opacity: 1; }
+
+        /* Floating Back button */
+        .back-nav {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+            opacity: 0.6;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: opacity 0.3s;
+            color: var(--text-color);
+        }
+        .back-nav:hover { opacity: 1; }
+
+        /* --- Specific Views --- */
+
+        /* Home */
+        .home-logo {
+            width: 80px;
+            height: 80px;
+            border: 2px solid var(--text-color);
+            border-radius: 50%;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        /* State Picker */
+        .state-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+            max-width: 340px;
+        }
+
+        .state-card {
+            aspect-ratio: 1;
+            border: 1px solid var(--highlight);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            border-radius: 2px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .state-card:hover {
+            border-color: var(--text-color);
+            background-color: var(--card-bg);
+        }
+        
+        .state-card.selected {
+             background-color: var(--text-color);
+             color: var(--bg-color);
+             border-color: var(--text-color);
+        }
+        
+        /* SVG Icons */
+        .state-icon-svg {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 16px;
+            stroke: var(--text-color);
+            fill: none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            transition: stroke 0.4s ease;
+        }
+        
+        .state-card.selected .state-icon-svg {
+            stroke: var(--bg-color);
+        }
+
+        .state-label {
+            font-size: 1.2rem;
+            margin-bottom: 6px;
+            letter-spacing: 0.1em;
+        }
+        
+        .state-sub {
+            font-size: 0.75rem;
+            color: var(--secondary-text);
+            font-family: var(--font-ui);
+            font-weight: 300;
+        }
+        
+        .state-card.selected .state-sub {
+            color: rgba(255,255,255,0.7); /* Adjust for dark text bg */
+        }
+        
+        /* Dark mode adjustment for selected sub-text if bg is dark */
+        .dark-mode .state-card.selected .state-sub {
+            color: rgba(0,0,0,0.6);
+        }
+
+        /* Content Card */
+        .card-container {
+            max-width: 360px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+        
+        .card-content {
+            min-height: 240px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+        }
+
+        .card-body {
+            font-size: 1.1rem;
+            white-space: pre-line;
+        }
+
+        .card-footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: var(--secondary-text);
+            font-style: italic;
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 16px;
+        }
+
+        .card-actions .btn {
+            flex: 1;
+            min-width: auto;
+            padding: 12px 0;
+        }
+
+        /* Stop Loss (Timer) */
+        .timer-display {
+            font-size: 4rem;
+            font-family: var(--font-ui);
+            font-weight: 200;
+            margin: 1rem 0;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .breathing-guide {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: var(--highlight);
+            position: absolute;
+            z-index: -1;
+            opacity: 0.15;
+            transition: all 4s ease-in-out;
+        }
+
+        .breathing-guide.animating {
+            animation: breathe 8s infinite ease-in-out;
+        }
+
+        @keyframes breathe {
+            0%, 100% { transform: scale(0.8); opacity: 0.1; }
+            50% { transform: scale(1.4); opacity: 0.3; }
+        }
+
+        .breath-hint {
+            font-size: 1.2rem;
+            letter-spacing: 0.5em;
+            color: var(--secondary-text);
+            height: 1.5em;
+            margin-top: 1rem;
+        }
+
+        /* Utility */
+        .hidden { display: none; }
+        .fade-out { opacity: 0 !important; }
+
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <!-- Top Controls -->
+    <div class="top-controls">
+        <button class="icon-btn" onclick="toggleDarkMode()" id="darkModeBtn">◑</button>
+    </div>
+
+    <!-- Navigation (Hidden on Home) -->
+    <div class="back-nav hidden" id="backBtn" onclick="goBack()">←</div>
+
+    <!-- 1. HOME VIEW -->
+    <div id="view-home" class="view active">
+        <div class="home-logo">空</div>
+        <h1>摆烂心法</h1>
+        <div class="subtitle">Let It Be</div>
+        
+        <div class="btn-group">
+            <button class="btn" onclick="navigateTo('view-picker')">我想摆烂</button>
+            <button class="btn-text" onclick="alert('还没做，先歇会儿吧')">快速止损</button>
+        </div>
+    </div>
+
+    <!-- 2. PICKER VIEW -->
+    <div id="view-picker" class="view">
+        <h2>现在感觉如何？</h2>
+        <div class="state-grid">
+            <div class="state-card" onclick="selectState('tired')">
+                <!-- Icon: A drooping flower / melting shape -->
+                <svg class="state-icon-svg" viewBox="0 0 24 24">
+                    <path d="M12 2C9 2 7 3.5 7 6c0 4 5 5 5 10v4"></path>
+                    <path d="M12 6c3 0 5 1.5 5 4s-2 5-5 5"></path>
+                    <path d="M8 20h8"></path>
+                </svg>
+                <span class="state-label">累</span>
+                <span class="state-sub">能量枯竭</span>
+            </div>
+            <div class="state-card" onclick="selectState('numb')">
+                <!-- Icon: A broken/dashed circle (Void) -->
+                <svg class="state-icon-svg" viewBox="0 0 24 24">
+                    <path d="M12 21a9 9 0 0 1-9-9"></path>
+                    <path d="M3.5 10a9 9 0 0 1 7-8"></path>
+                    <path d="M15 2.5a9 9 0 0 1 6.5 7"></path>
+                    <circle cx="12" cy="12" r="2" fill="currentColor" stroke="none" opacity="0.2"></circle>
+                </svg>
+                <span class="state-label">麻</span>
+                <span class="state-sub">麻木 · 空</span>
+            </div>
+            <div class="state-card" onclick="selectState('hide')">
+                <!-- Icon: A cave / arch / shell -->
+                <svg class="state-icon-svg" viewBox="0 0 24 24">
+                    <path d="M2 20h20"></path>
+                    <path d="M4 20v-5a8 8 0 0 1 16 0v5"></path>
+                    <path d="M12 12v8"></path>
+                    <path d="M9 16l3-4 3 4"></path>
+                </svg>
+                <span class="state-label">躲</span>
+                <span class="state-sub">拖延 · 逃避</span>
+            </div>
+            <div class="state-card" onclick="selectState('annoyed')">
+                <!-- Icon: Chaotic lines (Noise) -->
+                <svg class="state-icon-svg" viewBox="0 0 24 24">
+                    <path d="M3 12h2l2-4 4 8 4-6 2 4 2-2h2"></path>
+                    <path d="M3 7c2 0 4 2 6 2s4-3 8-3 4 2 4 2" opacity="0.5"></path>
+                    <path d="M3 17c2 0 3-2 7-2s4 3 7 3 4-2 4-2" opacity="0.5"></path>
+                </svg>
+                <span class="state-label">烦</span>
+                <span class="state-sub">焦虑 · 噪音</span>
+            </div>
+        </div>
+        <div class="subtitle" style="margin-top: 3rem">无需思考，直觉选择</div>
+    </div>
+
+    <!-- 3. CARD VIEW -->
+    <div id="view-card" class="view">
+        <div class="card-container">
+            <div id="card-display" class="card-content">
+                <div class="card-title" id="card-title">标题</div>
+                <div class="card-body" id="card-body">内容区域</div>
+                <div class="card-footer" id="card-footer">底部小字</div>
+            </div>
+
+            <div class="card-actions">
+                <button class="btn" style="border-style: dashed" onclick="navigateTo('view-stoploss')">止损一下</button>
+                <button class="btn" onclick="nextCard()">换一条</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. STOP LOSS VIEW -->
+    <div id="view-stoploss" class="view">
+        <div class="breathing-guide" id="breather"></div>
+        <h2>呼吸</h2>
+        <div class="timer-display" id="timer">02:00</div>
+        <div class="breath-hint" id="breath-hint"></div>
+        <p style="margin-top: 2rem">跟随圆圈的起伏，什么都别想。</p>
+        
+        <div class="btn-group">
+            <button class="btn" onclick="startTimer()" id="timer-btn">开始</button>
+            <button class="btn-text" onclick="stopTimerAndLeave()">结束</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // --- Data ---
+    const contentDB = {
+        tired: [
+            { title: "允许断电", body: "你现在的电量仅剩 5%。\n这不是故障，是保护机制。\n不要试图强行重启，\n就让屏幕黑一会儿。", footer: "世界不会因为你休息十分钟而毁灭。" },
+            { title: "躺平物理学", body: "重力是不可抗拒的。\n顺应它，躺下来。\n你现在是一袋土豆，\n土豆不需要思考KPI。", footer: "地面会托住你。" },
+            { title: "苔藓策略", body: "学着做一簇苔藓吧。\n不需要开花，不需要竞争速度，\n只需要在阴暗潮湿的角落里，\n静静地绿着。", footer: "不作为，也是一种作为。" },
+            { title: "重力拥抱", body: "感受床垫对你身体的支撑。\n每一寸皮肤都在被大地接纳。\n你不需要支撑任何东西，\n你是被支撑的那个。", footer: "此刻，你是绝对安全的。" },
+            { title: "休眠模式", body: "笔记本电脑都知道在过热时待机，\n你为什么不可以？\n合上你的“盖子”，\n让风扇慢慢停下来。", footer: "散热需要时间。" }
+        ],
+        numb: [
+            { title: "看着手心", body: "举起你的手，看着掌纹。\n不需要找回意义，\n只需要确认它的存在。\n它是热的，这就够了。", footer: "存在即是胜利。" },
+            { title: "机械化运行", body: "感觉不到快乐也没关系。\n像一台旧冰箱一样嗡嗡作响吧，\n只要还没断电，\n就已经是尽职尽责了。", footer: "允许自己做个废物。" },
+            { title: "云的观测", body: "窗外的云没有目标，\n它们只是由于风的推动而移动。\n你现在也只是一朵云，\n漫无目的地飘过这一小时。", footer: "不需要留下任何痕迹。" },
+            { title: "空房间", body: "把自己想象成一间空房子。\n风穿过窗户，又从门缝溜走。\n情绪进进出出，\n但房子依然静默地立在那。", footer: "你只是背景，不是戏份。" },
+            { title: "暂时的石头", body: "此时此刻，你是一块石头。\n溪水流过你，阳光照耀你，\n你不需要回应，\n你只是在那里。", footer: "石头不需要自我实现。" }
+        ],
+        hide: [
+            { title: "躲进洞里", body: "那个任务很可怕，我知道。\n所以现在不要去想它。\n想象你是一个寄居蟹，\n缩回壳里，外面全是沙滩。", footer: "安全第一，工作第二。" },
+            { title: "推迟决战", body: "今天不是决战的好日子。\n敌军（deadline）很强，\n但我方挂起了免战牌。\n明天再说，或者后天。", footer: "拖延是情绪的避难所。" },
+            { title: "被窝岛屿", body: "被子构成的边界，\n就是你今天领土的终点。\n外界的喧嚣无法穿透棉絮，\n这里是唯一的禁航区。", footer: "主权归你所有。" },
+            { title: "隐身斗篷", body: "披上这件隐形衣。\n消息免打扰，邮件不回复，\n在数字世界里，\n你已经暂时注销了。", footer: "找不到你，是他们的事。" },
+            { title: "暂停键", body: "世界是一个巨大的影碟，\n而你握着遥控器。\n按下暂停，画面静止，\n你可以去厨房喝杯水再回来。", footer: "剧情会等你，或者不等也行。" }
+        ],
+        annoyed: [
+            { title: "静音模式", body: "闭上眼睛，按下心里的静音键。\n把周围的人声变成白噪音。\n你现在在深海里，\n只有水流的声音。", footer: "在这个维度，没人能找到你。" },
+            { title: "丢垃圾", body: "把脑子里的念头打包，\n想象用力把它们扔进垃圾桶。\n咚的一声，\n盖上盖子。", footer: "清理内存，但不负责回收。" },
+            { title: "深海潜水", body: "所有的焦虑都在海平面上，\n而你正在缓慢下潜。\n光线变暗，水压变得温柔，\n声音都消失在气泡里。", footer: "深处只有寂静。" },
+            { title: "白噪音化", body: "那些声音、那些催促、那些指责，\n统统把它们调低采样率，\n变成一阵沙沙的雨声。\n雨下完了，就没事了。", footer: "让噪音只是噪音。" },
+            { title: "泡泡包裹", body: "你被一个透明的泡泡包围了。\n那些尖锐的东西撞上来，\n只会轻轻滑开。\n你很安全，你很完整。", footer: "保持你的弹性。" }
+        ]
+    };
+
+    // --- State ---
+    let currentState = 'tired';
+    let historyStack = ['view-home'];
+
+    // --- Init ---
+    if (localStorage.getItem('lib_darkmode') === 'true') {
+        document.body.classList.add('dark-mode');
+    }
+
+    // --- Navigation Logic ---
+    function navigateTo(viewId) {
+        // Hide current
+        const currentView = document.querySelector('.view.active');
+        if (currentView) {
+            currentView.classList.remove('active');
+        }
+
+        // Show next
+        const nextView = document.getElementById(viewId);
+        nextView.classList.add('active');
+
+        // History handling
+        if (viewId === 'view-home') {
+            historyStack = ['view-home'];
+            document.getElementById('backBtn').classList.add('hidden');
+        } else {
+            historyStack.push(viewId);
+            document.getElementById('backBtn').classList.remove('hidden');
+        }
+    }
+
+    function goBack() {
+        if (historyStack.length > 1) {
+            stopTimer(); // Ensure timer stops if leaving
+            historyStack.pop(); 
+            const prevViewId = historyStack[historyStack.length - 1];
+            
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.getElementById(prevViewId).classList.add('active');
+
+            if (prevViewId === 'view-home') {
+                document.getElementById('backBtn').classList.add('hidden');
+            }
+        }
+    }
+
+    // --- Dark Mode ---
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        const isDark = document.body.classList.contains('dark-mode');
+        localStorage.setItem('lib_darkmode', isDark);
+    }
+
+    // --- Core Features ---
+
+    function selectState(state) {
+        currentState = state;
+        loadRandomCard();
+        navigateTo('view-card');
+    }
+
+    function loadRandomCard() {
+        const cards = contentDB[currentState];
+        const randomCard = cards[Math.floor(Math.random() * cards.length)];
+        
+        updateCardDisplay(randomCard);
+    }
+    
+    function updateCardDisplay(card) {
+        const display = document.getElementById('card-display');
+        display.style.opacity = 0;
+        
+        setTimeout(() => {
+            document.getElementById('card-title').innerText = card.title;
+            document.getElementById('card-body').innerText = card.body;
+            document.getElementById('card-footer').innerText = card.footer;
+            display.style.opacity = 1;
+        }, 300);
+    }
+
+    function nextCard() {
+        loadRandomCard();
+    }
+    
+    // --- Timer & Breathing Logic ---
+    let timerInterval;
+    let breathInterval;
+    
+    function startTimer() {
+        const btn = document.getElementById('timer-btn');
+        if(btn.innerText === "正在进行...") return;
+
+        btn.innerText = "正在进行...";
+        const breather = document.getElementById('breather');
+        const hint = document.getElementById('breath-hint');
+        
+        // Start Animations
+        breather.classList.add('animating');
+        
+        // Breathing Text Logic (8s cycle)
+        const updateBreathText = () => {
+            hint.innerText = "吸气...";
+            setTimeout(() => {
+                if (breather.classList.contains('animating')) {
+                    hint.innerText = "呼气...";
+                }
+            }, 4000);
+        };
+        
+        updateBreathText();
+        breathInterval = setInterval(updateBreathText, 8000);
+
+        // Countdown Logic
+        let timeLeft = 120; // 2 minutes
+        const timerDisplay = document.getElementById('timer');
+        
+        clearInterval(timerInterval);
+        timerInterval = setInterval(() => {
+            timeLeft--;
+            const m = Math.floor(timeLeft / 60).toString().padStart(2, '0');
+            const s = (timeLeft % 60).toString().padStart(2, '0');
+            timerDisplay.innerText = `${m}:${s}`;
+            
+            if (timeLeft <= 0) {
+                stopTimer();
+                timerDisplay.innerText = "00:00";
+                btn.innerText = "完成";
+                setTimeout(() => {
+                    alert("呼吸结束。希望你找回了一点点宁静。");
+                    navigateTo('view-home');
+                    resetTimerUI();
+                }, 500);
+            }
+        }, 1000);
+    }
+
+    function stopTimer() {
+        clearInterval(timerInterval);
+        clearInterval(breathInterval);
+        const breather = document.getElementById('breather');
+        const hint = document.getElementById('breath-hint');
+        breather.classList.remove('animating');
+        hint.innerText = "";
+    }
+
+    function stopTimerAndLeave() {
+        stopTimer();
+        navigateTo('view-home');
+        resetTimerUI();
+    }
+
+    function resetTimerUI() {
+        document.getElementById('timer').innerText = "02:00";
+        document.getElementById('timer-btn').innerText = "开始";
+    }
+
+</script>
+
+</body>
+</html>

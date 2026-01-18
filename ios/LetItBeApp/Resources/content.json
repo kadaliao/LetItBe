@@ -1,0 +1,82 @@
+{
+  "states": [
+    { "id": "state_tired", "key": "tired", "name": "累", "description": "能量枯竭" },
+    { "id": "state_numb", "key": "numb", "name": "麻", "description": "麻木·空" },
+    { "id": "state_hide", "key": "hide", "name": "躲", "description": "拖延·逃避" },
+    { "id": "state_annoyed", "key": "annoyed", "name": "烦", "description": "焦虑·噪音" }
+  ],
+  "cards": [
+    {
+      "id": "card_tired_001",
+      "state_id": "state_tired",
+      "title": "允许断电",
+      "body": "你现在的电量仅剩 5%。\n这不是故障，是保护机制。\n让屏幕黑一会儿吧。",
+      "footer": "世界不会因为你休息十分钟而毁灭。",
+      "tags": ["tired"],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_002",
+      "state_id": "state_tired",
+      "title": "重力拥抱",
+      "body": "感受床垫对你身体的支撑。\n你是被支撑的那个。",
+      "footer": "此刻，你是安全的。",
+      "tags": ["tired"],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_001",
+      "state_id": "state_numb",
+      "title": "看着手心",
+      "body": "举起你的手，看着掌纹。\n不需要找回意义，只确认存在。",
+      "footer": "存在即是胜利。",
+      "tags": ["numb"],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_002",
+      "state_id": "state_numb",
+      "title": "空房间",
+      "body": "把自己想象成一间空房子。\n情绪进进出出，但你在那。",
+      "footer": "你只是背景，不是戏份。",
+      "tags": ["numb"],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_001",
+      "state_id": "state_hide",
+      "title": "暂停键",
+      "body": "按下暂停，画面静止。\n去喝杯水再回来也行。",
+      "footer": "剧情会等你，或者不等也行。",
+      "tags": ["hide"],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_002",
+      "state_id": "state_hide",
+      "title": "隐身斗篷",
+      "body": "消息免打扰，邮件不回复。\n你暂时注销了。",
+      "footer": "找不到你，是他们的事。",
+      "tags": ["hide"],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_001",
+      "state_id": "state_annoyed",
+      "title": "静音模式",
+      "body": "闭上眼睛，把周围声音调成白噪音。",
+      "footer": "在这个维度，没人能找到你。",
+      "tags": ["annoyed"],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_002",
+      "state_id": "state_annoyed",
+      "title": "丢垃圾",
+      "body": "把脑子里的念头打包扔掉。\n咚的一声，盖上盖子。",
+      "footer": "清理内存，但不负责回收。",
+      "tags": ["annoyed"],
+      "action_type": "none"
+    }
+  ]
+}

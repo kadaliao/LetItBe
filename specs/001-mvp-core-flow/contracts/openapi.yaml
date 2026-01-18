@@ -1,0 +1,146 @@
+openapi: 3.0.3
+info:
+  title: Let It Be 本地内容服务
+  version: 1.0.0
+  description: |
+    本地内容读取与止损会话的内部接口规范，用于 MVP 核心流程。
+servers:
+  - url: /v1
+paths:
+  /states:
+    get:
+      summary: 获取状态列表
+      responses:
+        '200':
+          description: 状态列表
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/State'
+  /cards/random:
+    get:
+      summary: 按状态获取随机卡片
+      parameters:
+        - in: query
+          name: state_key
+          required: true
+          schema:
+            type: string
+            enum: [tired, numb, hide, annoyed]
+      responses:
+        '200':
+          description: 随机卡片
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Card'
+        '404':
+          description: 该状态无可用卡片
+  /stop-loss/start:
+    post:
+      summary: 启动止损会话
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [card_id, duration_seconds]
+              properties:
+                card_id:
+                  type: string
+                duration_seconds:
+                  type: integer
+                  minimum: 1
+      responses:
+        '200':
+          description: 会话已启动
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StopLossSession'
+  /stop-loss/finish:
+    post:
+      summary: 结束止损会话
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [session_id, exit_reason]
+              properties:
+                session_id:
+                  type: string
+                exit_reason:
+                  type: string
+                  enum: [completed, canceled]
+      responses:
+        '200':
+          description: 会话已结束
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StopLossSession'
+components:
+  schemas:
+    State:
+      type: object
+      required: [id, key, name]
+      properties:
+        id:
+          type: string
+        key:
+          type: string
+          enum: [tired, numb, hide, annoyed]
+        name:
+          type: string
+        description:
+          type: string
+          nullable: true
+    Card:
+      type: object
+      required: [id, state_id, title, body, footer]
+      properties:
+        id:
+          type: string
+        state_id:
+          type: string
+        title:
+          type: string
+        body:
+          type: string
+        footer:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        action_type:
+          type: string
+          enum: [stop_loss, none]
+    StopLossSession:
+      type: object
+      required: [id, card_id, duration_seconds, started_at]
+      properties:
+        id:
+          type: string
+        card_id:
+          type: string
+        state_id:
+          type: string
+        duration_seconds:
+          type: integer
+        started_at:
+          type: string
+          format: date-time
+        ended_at:
+          type: string
+          format: date-time
+          nullable: true
+        exit_reason:
+          type: string
+          enum: [completed, canceled]
+          nullable: true

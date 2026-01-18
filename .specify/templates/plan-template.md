@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] Principle I: Content/UX avoids guilt, commands, and promises.
+- [ ] Principle II: Scope stays single-purpose; no social/gamified features.
+- [ ] Principle III: TDD plan with tests-first coverage for acceptance scenarios.
+- [ ] Principle IV: Local-first and privacy constraints preserved.
+- [ ] Principle V: Design favors simple, explicit structures.
 
 ## Project Structure
 
