@@ -4,11 +4,14 @@ import Foundation
 final class StopLossViewModel: ObservableObject {
     @Published private(set) var remainingSeconds: Int = 120
     @Published private(set) var isRunning = false
+    @Published private(set) var isInhaling = true
     @Published private(set) var errorMessage: String?
     @Published private(set) var didComplete = false
 
     private let service: StopLossService
     private var timer: Timer?
+    private let breathCycleSeconds = 4
+    private var sessionDurationSeconds = 120
     private(set) var session: StopLossSession?
 
     init(service: StopLossService) {
@@ -19,12 +22,14 @@ final class StopLossViewModel: ObservableObject {
         do {
             session = try service.startSession(card: card, state: state, durationSeconds: durationSeconds)
             remainingSeconds = durationSeconds
+            sessionDurationSeconds = durationSeconds
             isRunning = true
+            isInhaling = true
             errorMessage = nil
             didComplete = false
             startTimer()
         } catch {
-            errorMessage = "无法开始止损"
+            errorMessage = "无法开始修复"
         }
     }
 
@@ -33,13 +38,14 @@ final class StopLossViewModel: ObservableObject {
         timer?.invalidate()
         timer = nil
         isRunning = false
+        isInhaling = true
         do {
             _ = try service.finishSession(session, reason: reason)
             if reason == .completed {
                 didComplete = true
             }
         } catch {
-            errorMessage = "无法结束止损"
+            errorMessage = "无法结束修复"
         }
     }
 
@@ -50,11 +56,17 @@ final class StopLossViewModel: ObservableObject {
             Task { @MainActor in
                 if self.remainingSeconds > 0 {
                     self.remainingSeconds -= 1
+                    self.updateBreathPhase()
                     if self.remainingSeconds == 0 {
                         self.stop(reason: .completed)
                     }
                 }
             }
         }
+    }
+
+    private func updateBreathPhase() {
+        let elapsedSeconds = sessionDurationSeconds - remainingSeconds
+        isInhaling = (elapsedSeconds / breathCycleSeconds) % 2 == 0
     }
 }

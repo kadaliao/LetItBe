@@ -1,10 +1,7 @@
 import XCTest
 
-final class CardSwapTests: XCTestCase {
+final class CardSwapTests: LetItBeUITestCase {
     func testSwapCardWithinState() {
-        let app = XCUIApplication()
-        app.launch()
-
         let entryButton = app.buttons["home_primary_entry"]
         XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
         entryButton.tap()

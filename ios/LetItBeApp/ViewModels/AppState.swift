@@ -31,4 +31,10 @@ final class AppState: ObservableObject {
     func goToStopLoss() {
         route = .stopLoss
     }
+
+    func goToStopLoss(card: Card, state: State) {
+        selectedState = state
+        currentCard = card
+        route = .stopLoss
+    }
 }

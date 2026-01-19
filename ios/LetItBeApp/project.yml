@@ -9,6 +9,8 @@ settings:
     DEVELOPMENT_TEAM: ""
     CODE_SIGN_STYLE: Automatic
     TARGETED_DEVICE_FAMILY: "1"
+    SUPPORTED_PLATFORMS: "iphonesimulator iphoneos"
+    SDKROOT: iphoneos
 targets:
   LetItBeApp:
     type: application
@@ -27,6 +29,7 @@ targets:
       - Resources
     resources:
       - Resources
+      - Assets.xcassets
   LetItBeTests:
     type: bundle.unit-test
     platform: iOS
@@ -51,3 +54,17 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.uitests
     sources:
       - path: ../LetItBeUITests
+schemes:
+  LetItBeApp:
+    shared: true
+    build:
+      targets:
+        LetItBeApp: all
+    test:
+      targets:
+        - LetItBeTests
+        - LetItBeUITests
+    run:
+      config: Debug
+    archive:
+      config: Release

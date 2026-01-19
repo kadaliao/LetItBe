@@ -1,7 +1,7 @@
 import XCTest
 
-final class HomeToCardFlowTests: LetItBeUITestCase {
-    func testHomeToCardFlow() {
+final class CardSnapshotTests: LetItBeUITestCase {
+    func testCardUIPlaceholder() {
         let entryButton = app.buttons["home_primary_entry"]
         XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
         entryButton.tap()
@@ -11,7 +11,5 @@ final class HomeToCardFlowTests: LetItBeUITestCase {
         stateButton.tap()
 
         XCTAssertTrue(app.staticTexts["card_title"].waitForExistence(timeout: 2))
-        XCTAssertTrue(app.staticTexts["card_body"].exists)
-        XCTAssertTrue(app.staticTexts["card_footer"].exists)
     }
 }

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct StopLossView: View {
     @EnvironmentObject private var appState: AppState
+    @EnvironmentObject private var theme: ThemeViewModel
     @StateObject private var viewModel: StopLossViewModel
 
     init(viewModel: StopLossViewModel? = nil) {
@@ -13,33 +14,53 @@ struct StopLossView: View {
     }
 
     var body: some View {
-        VStack(spacing: 16) {
-            Text("呼吸")
-                .font(.title2)
+        let isDark = theme.isDarkMode
+        VStack(spacing: Theme.spacingMedium) {
+            ZStack {
+                BreathingGuideView(isDark: isDark)
+                    .frame(width: 200, height: 200)
 
-            Text(timeString(from: viewModel.remainingSeconds))
-                .font(.system(size: 48, weight: .light, design: .rounded))
-                .accessibilityIdentifier("stoploss_timer")
+                VStack(spacing: Theme.spacingSmall) {
+                    Text("呼吸")
+                        .font(Theme.fontBody(isDark: isDark))
+                        .themedTextColor(isDark: isDark)
+
+                    Text(timeString(from: viewModel.remainingSeconds))
+                        .font(.system(size: 48, weight: .light, design: .rounded))
+                        .foregroundColor(Theme.textColor(isDark: isDark))
+                        .accessibilityIdentifier("stoploss_timer")
+
+                    Text(viewModel.isInhaling ? "吸气…" : "呼气…")
+                        .font(Theme.fontCaption(isDark: isDark))
+                        .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
+                }
+            }
+            .padding(.vertical, Theme.spacingLarge)
 
             if let error = viewModel.errorMessage {
                 Text(error)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
             }
 
             Button(viewModel.isRunning ? "正在进行..." : "开始") {
                 startIfNeeded()
             }
+            .buttonStyle(PrimaryOutlineButtonStyle(isDark: isDark))
             .disabled(viewModel.isRunning)
             .accessibilityIdentifier("stoploss_start")
-            .accessibilityLabel("开始止损计时")
+            .accessibilityLabel("开始修复计时")
 
             Button("结束") {
                 stopAndReturn()
             }
+            .buttonStyle(LinkButtonStyle(isDark: isDark))
             .accessibilityIdentifier("stoploss_exit")
-            .accessibilityLabel("结束止损并返回主页")
+            .accessibilityLabel("结束修复并返回主页")
         }
-        .padding()
+        .padding(Theme.spacingLarge)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .themedBackground(isDark: isDark)
+        .animation(.easeInOut(duration: Theme.transitionDuration), value: isDark)
         .onAppear {
             startIfNeeded()
         }

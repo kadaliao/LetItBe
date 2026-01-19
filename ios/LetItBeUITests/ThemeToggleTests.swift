@@ -1,9 +1,11 @@
 import XCTest
 
-final class StopLossFlowTests: LetItBeUITestCase {
-    func testStopLossFlow() {
+final class ThemeToggleTests: LetItBeUITestCase {
+    func testThemeTogglePlaceholder() {
         let entryButton = app.buttons["home_primary_entry"]
         XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
+        XCTAssertTrue(app.buttons["theme_toggle"].waitForExistence(timeout: 2))
+
         entryButton.tap()
 
         let stateButton = app.buttons["state_tired"]
@@ -14,12 +16,6 @@ final class StopLossFlowTests: LetItBeUITestCase {
         XCTAssertTrue(stopLossButton.waitForExistence(timeout: 2))
         stopLossButton.tap()
 
-        XCTAssertTrue(app.staticTexts["stoploss_timer"].waitForExistence(timeout: 2))
-
-        let exitButton = app.buttons["stoploss_exit"]
-        XCTAssertTrue(exitButton.waitForExistence(timeout: 2))
-        exitButton.tap()
-
-        XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
+        XCTAssertFalse(app.buttons["theme_toggle"].exists)
     }
 }

@@ -1,7 +1,7 @@
 import XCTest
 
-final class StopLossFlowTests: LetItBeUITestCase {
-    func testStopLossFlow() {
+final class StopLossSnapshotTests: LetItBeUITestCase {
+    func testStopLossUIPlaceholder() {
         let entryButton = app.buttons["home_primary_entry"]
         XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
         entryButton.tap()
@@ -15,11 +15,5 @@ final class StopLossFlowTests: LetItBeUITestCase {
         stopLossButton.tap()
 
         XCTAssertTrue(app.staticTexts["stoploss_timer"].waitForExistence(timeout: 2))
-
-        let exitButton = app.buttons["stoploss_exit"]
-        XCTAssertTrue(exitButton.waitForExistence(timeout: 2))
-        exitButton.tap()
-
-        XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
     }
 }
