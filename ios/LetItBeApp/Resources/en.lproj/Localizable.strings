@@ -1,0 +1,52 @@
+"home_logo" = "Void";
+"home_title" = "Let It Be";
+"home_subtitle" = "Let It Be";
+"home_primary_cta" = "I want to let go";
+"home_primary_accessibility" = "Go to state picker";
+"home_quick_repair" = "Quick Fix";
+
+"picker_title" = "How are you feeling?";
+"picker_hint" = "No overthinking. Pick by instinct.";
+"picker_state_accessibility" = "Select state: %@";
+
+"state_tired_name" = "Tired";
+"state_tired_subtitle" = "Low energy";
+"state_numb_name" = "Numb";
+"state_numb_subtitle" = "Numb / Empty";
+"state_hide_name" = "Hide";
+"state_hide_subtitle" = "Avoid / Delay";
+"state_annoyed_name" = "Annoyed";
+"state_annoyed_subtitle" = "Anxious / Noise";
+
+"card_fix" = "Quick Repair";
+"card_fix_accessibility" = "Start quick repair";
+"card_swap" = "Another one";
+"card_swap_accessibility" = "Show another card";
+"card_back" = "Choose another state";
+"card_back_accessibility" = "Back to state picker";
+"card_empty" = "No content yet";
+"card_share_accessibility" = "Save share image";
+
+"stoploss_breathe" = "Breathe";
+"stoploss_inhale" = "Inhale...";
+"stoploss_exhale" = "Exhale...";
+"stoploss_running" = "In progress...";
+"stoploss_start" = "Start";
+"stoploss_start_accessibility" = "Start repair timer";
+"stoploss_end" = "Finish";
+"stoploss_end_accessibility" = "Finish repair and return home";
+
+"error_no_states" = "No states available right now";
+"error_no_new_card" = "No new cards right now";
+"error_no_card" = "No cards available right now";
+"error_start_repair" = "Unable to start repair";
+"error_end_repair" = "Unable to finish repair";
+
+"share_saved" = "Saved to Photos";
+"share_error_permission" = "Can't save: allow Photos access";
+"share_error_render" = "Unable to render image";
+"share_error_save" = "Save failed. Please try again.";
+"share_qr_title" = "Scan to learn more";
+"share_qr_subtitle" = "Let It Be";
+"share_qr_placeholder" = "QR code";
+"common_ok" = "OK";

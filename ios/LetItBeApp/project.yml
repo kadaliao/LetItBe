@@ -28,8 +28,9 @@ targets:
       - Persistence
       - Resources
     resources:
-      - Resources
-      - Assets.xcassets
+      - path: Resources
+      - path: Assets.xcassets
+        type: folder.assetcatalog
   LetItBeTests:
     type: bundle.unit-test
     platform: iOS

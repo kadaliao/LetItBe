@@ -29,7 +29,7 @@ final class StopLossViewModel: ObservableObject {
             didComplete = false
             startTimer()
         } catch {
-            errorMessage = "无法开始修复"
+            errorMessage = String(localized: "error_start_repair")
         }
     }
 
@@ -45,7 +45,7 @@ final class StopLossViewModel: ObservableObject {
                 didComplete = true
             }
         } catch {
-            errorMessage = "无法结束修复"
+            errorMessage = String(localized: "error_end_repair")
         }
     }
 

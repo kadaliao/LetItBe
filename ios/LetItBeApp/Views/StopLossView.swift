@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct StopLossView: View {
     @EnvironmentObject private var appState: AppState
@@ -15,13 +16,15 @@ struct StopLossView: View {
 
     var body: some View {
         let isDark = theme.isDarkMode
+        let breathKey: LocalizedStringKey = viewModel.isInhaling ? "stoploss_inhale" : "stoploss_exhale"
+        let startKey: LocalizedStringKey = viewModel.isRunning ? "stoploss_running" : "stoploss_start"
         VStack(spacing: Theme.spacingMedium) {
             ZStack {
                 BreathingGuideView(isDark: isDark)
                     .frame(width: 200, height: 200)
 
                 VStack(spacing: Theme.spacingSmall) {
-                    Text("呼吸")
+                    Text("stoploss_breathe")
                         .font(Theme.fontBody(isDark: isDark))
                         .themedTextColor(isDark: isDark)
 
@@ -30,7 +33,7 @@ struct StopLossView: View {
                         .foregroundColor(Theme.textColor(isDark: isDark))
                         .accessibilityIdentifier("stoploss_timer")
 
-                    Text(viewModel.isInhaling ? "吸气…" : "呼气…")
+                    Text(breathKey)
                         .font(Theme.fontCaption(isDark: isDark))
                         .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
                 }
@@ -42,20 +45,22 @@ struct StopLossView: View {
                     .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
             }
 
-            Button(viewModel.isRunning ? "正在进行..." : "开始") {
+            Button {
                 startIfNeeded()
+            } label: {
+                Text(startKey)
             }
             .buttonStyle(PrimaryOutlineButtonStyle(isDark: isDark))
             .disabled(viewModel.isRunning)
             .accessibilityIdentifier("stoploss_start")
-            .accessibilityLabel("开始修复计时")
+            .accessibilityLabel(String(localized: "stoploss_start_accessibility"))
 
-            Button("结束") {
+            Button("stoploss_end") {
                 stopAndReturn()
             }
             .buttonStyle(LinkButtonStyle(isDark: isDark))
             .accessibilityIdentifier("stoploss_exit")
-            .accessibilityLabel("结束修复并返回主页")
+            .accessibilityLabel(String(localized: "stoploss_end_accessibility"))
         }
         .padding(Theme.spacingLarge)
         .frame(maxWidth: .infinity, maxHeight: .infinity)

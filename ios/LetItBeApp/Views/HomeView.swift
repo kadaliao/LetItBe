@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct HomeView: View {
     @EnvironmentObject private var appState: AppState
@@ -11,32 +12,32 @@ struct HomeView: View {
                 .strokeBorder(Theme.textColor(isDark: isDark), lineWidth: 2)
                 .frame(width: 80, height: 80)
                 .overlay(
-                    Text("空")
+                    Text("home_logo")
                         .font(Theme.fontTitle)
                         .themedTextColor(isDark: isDark)
                 )
                 .padding(.bottom, Theme.spacingLarge)
 
-            Text("摆烂心法")
+            Text("home_title")
                 .font(Theme.fontTitle)
                 .trackingCompat(8)
                 .themedTextColor(isDark: isDark)
 
-            Text("Let It Be")
+            Text("home_subtitle")
                 .font(Theme.fontSubtitle(isDark: isDark))
                 .textCase(.uppercase)
                 .trackingCompat(4)
                 .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
 
             VStack(spacing: Theme.spacingSmall) {
-                Button("我想摆烂") {
+                Button("home_primary_cta") {
                     appState.goToPicker()
                 }
                 .buttonStyle(PrimaryOutlineButtonStyle(isDark: isDark))
                 .accessibilityIdentifier("home_primary_entry")
-                .accessibilityLabel("进入状态选择")
+                .accessibilityLabel(String(localized: "home_primary_accessibility"))
 
-                Button("快速修复") {
+                Button("home_quick_repair") {
                     quickRepair()
                 }
                     .buttonStyle(LinkButtonStyle(isDark: isDark))

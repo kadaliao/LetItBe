@@ -1,0 +1,52 @@
+"home_logo" = "空";
+"home_title" = "摆烂心法";
+"home_subtitle" = "Let It Be";
+"home_primary_cta" = "我想摆烂";
+"home_primary_accessibility" = "进入状态选择";
+"home_quick_repair" = "快速修复";
+
+"picker_title" = "现在感觉如何？";
+"picker_hint" = "无需思考，直觉选择";
+"picker_state_accessibility" = "选择状态：%@";
+
+"state_tired_name" = "累";
+"state_tired_subtitle" = "能量枯竭";
+"state_numb_name" = "麻";
+"state_numb_subtitle" = "麻木 · 空";
+"state_hide_name" = "躲";
+"state_hide_subtitle" = "拖延 · 逃避";
+"state_annoyed_name" = "烦";
+"state_annoyed_subtitle" = "焦虑 · 噪音";
+
+"card_fix" = "修复一下";
+"card_fix_accessibility" = "进入修复计时";
+"card_swap" = "换一条";
+"card_swap_accessibility" = "切换到另一条卡片";
+"card_back" = "重新选择状态";
+"card_back_accessibility" = "返回状态选择";
+"card_empty" = "暂无内容";
+"card_share_accessibility" = "保存分享图片";
+
+"stoploss_breathe" = "呼吸";
+"stoploss_inhale" = "吸气...";
+"stoploss_exhale" = "呼气...";
+"stoploss_running" = "正在进行...";
+"stoploss_start" = "开始";
+"stoploss_start_accessibility" = "开始修复计时";
+"stoploss_end" = "结束";
+"stoploss_end_accessibility" = "结束修复并返回主页";
+
+"error_no_states" = "暂时没有可用状态";
+"error_no_new_card" = "暂时没有新的卡片";
+"error_no_card" = "暂时没有可用卡片";
+"error_start_repair" = "无法开始修复";
+"error_end_repair" = "无法结束修复";
+
+"share_saved" = "已保存到相册";
+"share_error_permission" = "无法保存：请允许添加到相册";
+"share_error_render" = "生成图片失败";
+"share_error_save" = "保存失败，请重试";
+"share_qr_title" = "扫码了解";
+"share_qr_subtitle" = "Let It Be";
+"share_qr_placeholder" = "二维码";
+"common_ok" = "好的";

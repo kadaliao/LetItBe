@@ -16,7 +16,7 @@ final class StatePickerViewModel: ObservableObject {
             errorMessage = nil
         } catch {
             states = []
-            errorMessage = "暂时没有可用状态"
+            errorMessage = String(localized: "error_no_states")
         }
     }
 

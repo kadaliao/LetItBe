@@ -1,0 +1,1350 @@
+{
+  "states": [
+    {
+      "id": "state_tired",
+      "key": "tired",
+      "name": "Tired",
+      "description": "Low energy"
+    },
+    {
+      "id": "state_numb",
+      "key": "numb",
+      "name": "Numb",
+      "description": "Numb / Empty"
+    },
+    {
+      "id": "state_hide",
+      "key": "hide",
+      "name": "Hide",
+      "description": "Avoid / Delay"
+    },
+    {
+      "id": "state_annoyed",
+      "key": "annoyed",
+      "name": "Annoyed",
+      "description": "Anxious / Noise"
+    }
+  ],
+  "cards": [
+    {
+      "id": "card_tired_001",
+      "state_id": "state_tired",
+      "title": "Power Down",
+      "body": "Your battery is at 5%.\nThis is not a failure, it is protection.\nLet the screen go dark for a bit.",
+      "footer": "The world will not fall apart if you rest for ten minutes.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_002",
+      "state_id": "state_tired",
+      "title": "Gravity Hug",
+      "body": "Feel the mattress supporting your body.\nYou are the one being held.",
+      "footer": "Right now, you are safe.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_001",
+      "state_id": "state_numb",
+      "title": "Look at Your Palm",
+      "body": "Raise your hand and look at the lines.\nNo need to find meaning, just confirm you are here.",
+      "footer": "Existing is a win.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_002",
+      "state_id": "state_numb",
+      "title": "Empty Room",
+      "body": "Imagine yourself as an empty room.\nEmotions come and go, but you stay.",
+      "footer": "You are the backdrop, not the scene.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_001",
+      "state_id": "state_hide",
+      "title": "Pause Button",
+      "body": "Press pause. The frame freezes.\nGo drink some water and come back.",
+      "footer": "The story will wait for you, or it will not, and that is okay.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_002",
+      "state_id": "state_hide",
+      "title": "Invisibility Cloak",
+      "body": "Do Not Disturb, no replies to emails.\nYou are temporarily logged out.",
+      "footer": "If they cannot find you, that is on them.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_001",
+      "state_id": "state_annoyed",
+      "title": "Silent Mode",
+      "body": "Close your eyes and turn nearby sounds into white noise.",
+      "footer": "In this dimension, no one can reach you.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_002",
+      "state_id": "state_annoyed",
+      "title": "Trash It",
+      "body": "Bundle the thoughts in your head and throw them out.\nThunk, lid closed.",
+      "footer": "Clear the cache, no recycling required.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_003",
+      "state_id": "state_tired",
+      "title": "Low Battery",
+      "body": "Turn today's output to minimum.\nAllow yourself to stay where you are.",
+      "footer": "Pausing is not failure.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_004",
+      "state_id": "state_tired",
+      "title": "Soft Landing",
+      "body": "Sit down, feet on the floor.\nHand your weight to the ground.",
+      "footer": "Being supported is also progress.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_005",
+      "state_id": "state_tired",
+      "title": "Ten Minutes",
+      "body": "Give yourself ten minutes with no decisions.\nJust breathe.",
+      "footer": "A small rest still recharges.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_006",
+      "state_id": "state_tired",
+      "title": "Blanket Weight",
+      "body": "Put a blanket over you.\nFeel the safety of being wrapped.",
+      "footer": "You do not have to hold it all.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_007",
+      "state_id": "state_tired",
+      "title": "One Thing",
+      "body": "Do just one small thing today.\nDone is a win.",
+      "footer": "Low goals give you room.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_008",
+      "state_id": "state_tired",
+      "title": "Borrowed Support",
+      "body": "Put the phone down and lean on the chair.\nLet it hold you for a while.",
+      "footer": "You do not have to carry it all.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_009",
+      "state_id": "state_tired",
+      "title": "Half Speed",
+      "body": "Move at half speed.\nYou are not in a race.",
+      "footer": "Slow is still forward.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_010",
+      "state_id": "state_tired",
+      "title": "Power Button",
+      "body": "Pretend you have a power button.\nPress it and let the system sleep.",
+      "footer": "Sleep is not shutdown.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_011",
+      "state_id": "state_tired",
+      "title": "No Fight",
+      "body": "Do not fight the tiredness today.\nIt is just asking you to pause.",
+      "footer": "Hearing it is enough.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_012",
+      "state_id": "state_tired",
+      "title": "By the Window",
+      "body": "Look at the light outside for a moment.\nNo meaning required.",
+      "footer": "Light will come in on its own.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_013",
+      "state_id": "state_tired",
+      "title": "Power Saver",
+      "body": "Set social, work, and feelings to power saver.\nKeep only what is necessary.",
+      "footer": "Saving energy is smart.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_014",
+      "state_id": "state_tired",
+      "title": "Light Task",
+      "body": "Pick the lightest task.\nFinish it, then stop.",
+      "footer": "Stopping is part of finishing.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_015",
+      "state_id": "state_tired",
+      "title": "Drink Water",
+      "body": "Drink a glass of water, then decide the next step.\nNo rush right now.",
+      "footer": "Refuel before you move.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_016",
+      "state_id": "state_tired",
+      "title": "Slow Breaths",
+      "body": "Inhale for four counts, exhale for four.\nLet the rhythm carry you.",
+      "footer": "Breath is a free charger.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_017",
+      "state_id": "state_tired",
+      "title": "No Hero",
+      "body": "No need to be a hero today.\nJust hold on in an ordinary way.",
+      "footer": "Ordinary is worthy.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_018",
+      "state_id": "state_tired",
+      "title": "Micro Rest",
+      "body": "Close your eyes for 30 seconds.\nThis is allowed.",
+      "footer": "Tiny rests add up.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_019",
+      "state_id": "state_tired",
+      "title": "Loose Grip",
+      "body": "Relax your shoulders.\nImagine loosening what you are holding.",
+      "footer": "You do not have to grip so tight.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_020",
+      "state_id": "state_tired",
+      "title": "Head Down",
+      "body": "Rest your forehead on the desk for ten seconds.\nLet your head rest too.",
+      "footer": "A short pause is okay.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_021",
+      "state_id": "state_tired",
+      "title": "Delay Allowed",
+      "body": "Allow yourself to push things back a little today.\nThat does not make you bad.",
+      "footer": "Delaying a bit still keeps you alive.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_022",
+      "state_id": "state_tired",
+      "title": "Minimum Version",
+      "body": "Do the minimum version today.\nDone is enough.",
+      "footer": "Low power still runs.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_023",
+      "state_id": "state_tired",
+      "title": "No Catching Up",
+      "body": "The world runs fast.\nYou do not have to chase.",
+      "footer": "Your pace still counts.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_024",
+      "state_id": "state_tired",
+      "title": "Lean",
+      "body": "Find a backrest and lean for a while.\nLet your body loosen.",
+      "footer": "Leaning still lets you continue.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_025",
+      "state_id": "state_tired",
+      "title": "Shrink the List",
+      "body": "Cut the list down to three items.\nEverything else is for tomorrow.",
+      "footer": "Smaller is safer.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_026",
+      "state_id": "state_tired",
+      "title": "Pause Screen",
+      "body": "Imagine the screen is frozen.\nYou can step away.",
+      "footer": "Pause is not the end.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_027",
+      "state_id": "state_tired",
+      "title": "Light Social",
+      "body": "Say fewer words today.\nPower saver is still kind.",
+      "footer": "Quiet is not cold.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_028",
+      "state_id": "state_tired",
+      "title": "Warmth",
+      "body": "Place your palms on a warm cup.\nNotice the temperature.",
+      "footer": "Warmth brings you back.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_029",
+      "state_id": "state_tired",
+      "title": "Lie Down",
+      "body": "If you can, lie down for a bit.\nNo explanation needed.",
+      "footer": "Rest has meaning.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_030",
+      "state_id": "state_tired",
+      "title": "Later Sprint",
+      "body": "No sprint today.\nWait for your battery to return.",
+      "footer": "Later is still in time.",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_003",
+      "state_id": "state_numb",
+      "title": "Name Five Things",
+      "body": "Find five things you can see.\nSay their names out loud.",
+      "footer": "Sound brings you back.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_004",
+      "state_id": "state_numb",
+      "title": "Cold Water",
+      "body": "Run cold water over your wrists.\nFeel the shock.",
+      "footer": "A spark can wake you.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_005",
+      "state_id": "state_numb",
+      "title": "Finger Taps",
+      "body": "Tap the desk with your fingertips.\nListen to the rhythm.",
+      "footer": "Rhythm is here.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_006",
+      "state_id": "state_numb",
+      "title": "Wall Texture",
+      "body": "Touch a wall surface.\nRough or smooth is fine.",
+      "footer": "Texture is real.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_007",
+      "state_id": "state_numb",
+      "title": "Count the Tiles",
+      "body": "Count floor tiles or window panes.\nTen is enough.",
+      "footer": "Numbers help you land.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_008",
+      "state_id": "state_numb",
+      "title": "Hand on Chest",
+      "body": "Place a hand on your chest.\nFeel the rise and fall.",
+      "footer": "You are still here.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_009",
+      "state_id": "state_numb",
+      "title": "Press the Floor",
+      "body": "Press your heels into the floor for three seconds.\nThen release.",
+      "footer": "The ground stays.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_010",
+      "state_id": "state_numb",
+      "title": "Soft Focus",
+      "body": "Soften your gaze until it blurs.\nSee the whole instead of details.",
+      "footer": "Blur is okay.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_011",
+      "state_id": "state_numb",
+      "title": "Slow Blinks",
+      "body": "Blink slowly five times.\nLike a tiny reboot.",
+      "footer": "Restart a little.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_012",
+      "state_id": "state_numb",
+      "title": "Three Sounds",
+      "body": "Find three different sounds.\nFar, near, and inside you.",
+      "footer": "Sound locates you.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_013",
+      "state_id": "state_numb",
+      "title": "Light and Shadow",
+      "body": "Find the edge between light and shadow.\nWatch it for a moment.",
+      "footer": "Edges wake you.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_014",
+      "state_id": "state_numb",
+      "title": "Count Breaths",
+      "body": "Count from one to eight with your breath.\nIf you lose track, it is fine.",
+      "footer": "Any count counts.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_015",
+      "state_id": "state_numb",
+      "title": "Small Movement",
+      "body": "Roll your shoulders twice.\nGive the body a bit of presence.",
+      "footer": "A little is enough.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_016",
+      "state_id": "state_numb",
+      "title": "Squeeze and Release",
+      "body": "Clench your fist for three seconds.\nThen release slowly.",
+      "footer": "Releasing is a motion.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_017",
+      "state_id": "state_numb",
+      "title": "Warm Food",
+      "body": "Imagine the warmth of soup.\nIf you can, take a sip.",
+      "footer": "Warmth pulls you back.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_018",
+      "state_id": "state_numb",
+      "title": "A Color",
+      "body": "Find a color you like.\nUse it as an anchor.",
+      "footer": "Color can be a rope.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_019",
+      "state_id": "state_numb",
+      "title": "Stretch Fingers",
+      "body": "Open and close your fingers.\nRepeat five times.",
+      "footer": "Small repeats settle you.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_020",
+      "state_id": "state_numb",
+      "title": "Trace the Edge",
+      "body": "Trace the edge of the table with a finger.\nGo slowly.",
+      "footer": "Edges make you clear.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_021",
+      "state_id": "state_numb",
+      "title": "Scent Check",
+      "body": "Smell your shirt or pillow.\nOne second is enough.",
+      "footer": "Smell is honest.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_022",
+      "state_id": "state_numb",
+      "title": "Shift Weight",
+      "body": "Shift your weight from left to right.\nThree times is enough.",
+      "footer": "Movement is existence.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_023",
+      "state_id": "state_numb",
+      "title": "Step in Place",
+      "body": "Step in place ten times.\nFeel the soles.",
+      "footer": "Steps remind you.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_024",
+      "state_id": "state_numb",
+      "title": "Short Walk",
+      "body": "Walk to the door and back.\nA small loop counts.",
+      "footer": "The path does not need to be long.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_025",
+      "state_id": "state_numb",
+      "title": "Shake Hands",
+      "body": "Shake your hands for ten seconds.\nLoosen the numbness.",
+      "footer": "Let blood move.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_026",
+      "state_id": "state_numb",
+      "title": "Touch Fabric",
+      "body": "Touch the edge of your clothes or blanket.\nFeel the fibers.",
+      "footer": "Details pull you back.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_027",
+      "state_id": "state_numb",
+      "title": "Check Temperature",
+      "body": "Notice if the air is cool or warm.\nSay it out loud.",
+      "footer": "Naming makes it real.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_028",
+      "state_id": "state_numb",
+      "title": "Look Up",
+      "body": "Look up at the ceiling or the sky.\nPick a corner.",
+      "footer": "Looking up changes the channel.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_029",
+      "state_id": "state_numb",
+      "title": "One Word",
+      "body": "Give this moment one word.\nSimple is enough.",
+      "footer": "A word is an anchor.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_030",
+      "state_id": "state_numb",
+      "title": "Tap the Knees",
+      "body": "Tap your knees left and right.\nLike soothing yourself.",
+      "footer": "You can be soothed.",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_003",
+      "state_id": "state_hide",
+      "title": "Do Not Disturb",
+      "body": "Set your phone to Do Not Disturb.\nYou are offline today.",
+      "footer": "Temporary disappearance is allowed.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_004",
+      "state_id": "state_hide",
+      "title": "Small Cave",
+      "body": "Find a small corner to sit.\nSmaller can feel safer.",
+      "footer": "Small spaces protect.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_005",
+      "state_id": "state_hide",
+      "title": "Close the Door",
+      "body": "Close a door.\nLet the outside stay outside.",
+      "footer": "The door is your boundary.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_006",
+      "state_id": "state_hide",
+      "title": "Reply Later",
+      "body": "Delay the replies.\nNot replying is a choice.",
+      "footer": "You have the right not to respond.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_007",
+      "state_id": "state_hide",
+      "title": "Cover the Screen",
+      "body": "Turn the screen face down or cover it.\nLet your eyes rest.",
+      "footer": "Not seeing is okay.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_008",
+      "state_id": "state_hide",
+      "title": "Safe Corner",
+      "body": "Pick a place that feels safe.\nStay there for a bit.",
+      "footer": "Safety can be a place.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_009",
+      "state_id": "state_hide",
+      "title": "Invisible Mode",
+      "body": "Imagine putting on an invisibility cloak.\nNo one can find you.",
+      "footer": "You do not have to show up today.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_010",
+      "state_id": "state_hide",
+      "title": "Mute Notifications",
+      "body": "Mute notifications for an hour.\nThe world will not collapse.",
+      "footer": "You are not customer service.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_011",
+      "state_id": "state_hide",
+      "title": "Hide for a While",
+      "body": "Tell yourself: only for a while.\nNot forever.",
+      "footer": "Short is enough.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_012",
+      "state_id": "state_hide",
+      "title": "No Explanation",
+      "body": "You do not need to explain today.\nSilence is valid.",
+      "footer": "You do not owe a manual.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_013",
+      "state_id": "state_hide",
+      "title": "One Step Back",
+      "body": "Step back a little.\nGive yourself buffer.",
+      "footer": "Distance is safety.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_014",
+      "state_id": "state_hide",
+      "title": "Quiet Bubble",
+      "body": "Imagine a clear bubble around you.\nThe outside cannot reach.",
+      "footer": "It is quiet inside.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_015",
+      "state_id": "state_hide",
+      "title": "Dim the Lights",
+      "body": "Dim the lights a bit.\nLower brightness, lower pressure.",
+      "footer": "Even light can be power saver.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_016",
+      "state_id": "state_hide",
+      "title": "Offline Mode",
+      "body": "Set yourself to offline.\nCome back later.",
+      "footer": "Offline is not gone.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_017",
+      "state_id": "state_hide",
+      "title": "Shrink Social",
+      "body": "Today, face only one person or one task.\nEverything else can fade.",
+      "footer": "Smaller lets you breathe.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_018",
+      "state_id": "state_hide",
+      "title": "Pause Chats",
+      "body": "Put chat windows aside.\nNo need to reply now.",
+      "footer": "Later is fine.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_019",
+      "state_id": "state_hide",
+      "title": "Close One Tab",
+      "body": "Close one webpage or app.\nOne less doorway.",
+      "footer": "Fewer doors, calmer mind.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_020",
+      "state_id": "state_hide",
+      "title": "Off Stage",
+      "body": "You can step off stage for a while.\nThe show goes on.",
+      "footer": "Stepping out is rhythm.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_021",
+      "state_id": "state_hide",
+      "title": "Small Room",
+      "body": "Imagine a small room just for you.\nThe door says Do Not Disturb.",
+      "footer": "It is yours.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_022",
+      "state_id": "state_hide",
+      "title": "Leave It Unopened",
+      "body": "Do not open the message yet.\nNot looking will not break it.",
+      "footer": "Handle it later.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_023",
+      "state_id": "state_hide",
+      "title": "Short Disconnect",
+      "body": "Allow a short disconnect.\nA day is okay.",
+      "footer": "Disconnect is not wrong.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_024",
+      "state_id": "state_hide",
+      "title": "Back in the Shell",
+      "body": "Like a small animal, go back into your shell.\nStay quiet.",
+      "footer": "The shell protects you.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_025",
+      "state_id": "state_hide",
+      "title": "Avoid the Crowd",
+      "body": "Avoid the crowd today.\nTake the small path.",
+      "footer": "Small paths still lead out.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_026",
+      "state_id": "state_hide",
+      "title": "Only Breathe",
+      "body": "Just breathe today.\nEverything else can wait.",
+      "footer": "Breathing is the task.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_027",
+      "state_id": "state_hide",
+      "title": "Silent Phone",
+      "body": "Put your phone on silent.\nThe world will not fall.",
+      "footer": "A little quiet helps.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_028",
+      "state_id": "state_hide",
+      "title": "Rain Check",
+      "body": "Give yourself an excuse, like it is raining.\nStaying in is reasonable.",
+      "footer": "An excuse can be protection.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_029",
+      "state_id": "state_hide",
+      "title": "Narrow the View",
+      "body": "See only one meter ahead.\nDo not look farther.",
+      "footer": "One meter is enough.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_030",
+      "state_id": "state_hide",
+      "title": "Return Slowly",
+      "body": "You can return slowly.\nNo need to show up right away.",
+      "footer": "Coming back can be slow.",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_003",
+      "state_id": "state_annoyed",
+      "title": "Noise Cancel",
+      "body": "Cover your ears with headphones or your palms.\nGive noise a mute button.",
+      "footer": "You can turn the volume down.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_004",
+      "state_id": "state_annoyed",
+      "title": "Long Exhale",
+      "body": "Exhale long and slow.\nLet the heat out.",
+      "footer": "Exhale is release.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_005",
+      "state_id": "state_annoyed",
+      "title": "Jaw Release",
+      "body": "Relax a clenched jaw.\nLet your teeth separate.",
+      "footer": "A little release is enough.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_006",
+      "state_id": "state_annoyed",
+      "title": "Drop the Shoulders",
+      "body": "Drop your shoulders down.\nLike taking off a bag.",
+      "footer": "Less weight is lighter.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_007",
+      "state_id": "state_annoyed",
+      "title": "Write It Down",
+      "body": "Write the irritation on paper.\nClose it when done.",
+      "footer": "Paper can hold it.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_008",
+      "state_id": "state_annoyed",
+      "title": "Trash Bin",
+      "body": "Imagine the noise as trash.\nThrow it in the bin.",
+      "footer": "Throwing away is handling.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_009",
+      "state_id": "state_annoyed",
+      "title": "Name It",
+      "body": "Give the irritation a name.\nLike \"buzz\".",
+      "footer": "Names make it smaller.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_010",
+      "state_id": "state_annoyed",
+      "title": "One Meter Boundary",
+      "body": "Set a one meter safety circle.\nNo one enters.",
+      "footer": "Boundaries are yours.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_011",
+      "state_id": "state_annoyed",
+      "title": "Lower the Volume",
+      "body": "Imagine a volume knob on the world.\nTurn it down.",
+      "footer": "You have the knob.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_012",
+      "state_id": "state_annoyed",
+      "title": "Cold Splash",
+      "body": "Splash cold water on your face.\nLower the heat.",
+      "footer": "Cold breaks the loop.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_013",
+      "state_id": "state_annoyed",
+      "title": "Unclench Hands",
+      "body": "Open and close your fingers.\nLet tension out.",
+      "footer": "A little release helps.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_014",
+      "state_id": "state_annoyed",
+      "title": "Count to Ten",
+      "body": "Count slowly to ten.\nEvery number counts.",
+      "footer": "Numbers are a brake.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_015",
+      "state_id": "state_annoyed",
+      "title": "Shake It Out",
+      "body": "Stand and shake your arms and legs.\nScatter the heat.",
+      "footer": "Movement clears.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_016",
+      "state_id": "state_annoyed",
+      "title": "Move Fast",
+      "body": "Walk fast for one minute.\nGive the irritation an exit.",
+      "footer": "Sweat is an exit.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_017",
+      "state_id": "state_annoyed",
+      "title": "Vent Three Lines",
+      "body": "Let yourself vent three lines.\nThen stop.",
+      "footer": "Short venting releases pressure.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_018",
+      "state_id": "state_annoyed",
+      "title": "Stop Inputs",
+      "body": "No scrolling, no watching, no listening for a bit.\nStop new inputs.",
+      "footer": "Less input is relief.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_019",
+      "state_id": "state_annoyed",
+      "title": "Turn Away",
+      "body": "Turn your body toward a wall or window.\nChange direction.",
+      "footer": "Direction is a choice.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_020",
+      "state_id": "state_annoyed",
+      "title": "Longer Exhale",
+      "body": "Make your exhale longer than inhale.\nCarry the heat out.",
+      "footer": "Long exhale calms.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_021",
+      "state_id": "state_annoyed",
+      "title": "Close Tabs",
+      "body": "Close a few tabs in your mind.\nLeave only one.",
+      "footer": "Fewer is quieter.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_022",
+      "state_id": "state_annoyed",
+      "title": "Crumple It",
+      "body": "Write the irritation and crumple it.\nThrow it away.",
+      "footer": "Throwing away releases.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_023",
+      "state_id": "state_annoyed",
+      "title": "Phone Face Down",
+      "body": "Place your phone face down.\nLet it be quiet.",
+      "footer": "A little silence helps.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_024",
+      "state_id": "state_annoyed",
+      "title": "Three Rounds",
+      "body": "Inhale for four, exhale for six.\nRepeat three times.",
+      "footer": "Rhythm cools.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_025",
+      "state_id": "state_annoyed",
+      "title": "Slow Chew",
+      "body": "If you are eating, chew slowly.\nFocus on texture.",
+      "footer": "Texture brings you back.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_026",
+      "state_id": "state_annoyed",
+      "title": "Step Outside",
+      "body": "Step out of the room for a minute.\nChange the air.",
+      "footer": "New air changes mood.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_027",
+      "state_id": "state_annoyed",
+      "title": "One Honest Line",
+      "body": "Write one honest sentence.\nIt does not need to be pretty.",
+      "footer": "Truth loosens knots.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_028",
+      "state_id": "state_annoyed",
+      "title": "Drop the Bag",
+      "body": "If you carry a bag, put it down.\nLet your shoulders be empty.",
+      "footer": "Empty feels lighter.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_029",
+      "state_id": "state_annoyed",
+      "title": "Hold a Cup",
+      "body": "Hold a cup and feel its weight.\nLet the weight ground you.",
+      "footer": "Weight can calm.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_030",
+      "state_id": "state_annoyed",
+      "title": "Keep One Breath",
+      "body": "Tell yourself: keep one breath.\nEverything else can wait.",
+      "footer": "One breath is enough.",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    }
+  ]
+}

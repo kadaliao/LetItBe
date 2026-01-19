@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct StatePickerView: View {
     @EnvironmentObject private var appState: AppState
@@ -12,7 +13,7 @@ struct StatePickerView: View {
     var body: some View {
         let isDark = theme.isDarkMode
         VStack(spacing: Theme.spacingMedium) {
-            Text("现在感觉如何？")
+            Text("picker_title")
                 .font(Theme.fontBody(isDark: isDark))
                 .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
 
@@ -22,14 +23,38 @@ struct StatePickerView: View {
             }
 
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: Theme.spacingMedium) {
-                stateCard(name: "累", subtitle: "能量枯竭", style: .tired, key: .tired, isDark: isDark)
-                stateCard(name: "麻", subtitle: "麻木 · 空", style: .numb, key: .numb, isDark: isDark)
-                stateCard(name: "躲", subtitle: "拖延 · 逃避", style: .hide, key: .hide, isDark: isDark)
-                stateCard(name: "烦", subtitle: "焦虑 · 噪音", style: .annoyed, key: .annoyed, isDark: isDark)
+                stateCard(
+                    name: String(localized: "state_tired_name"),
+                    subtitle: String(localized: "state_tired_subtitle"),
+                    style: .tired,
+                    key: .tired,
+                    isDark: isDark
+                )
+                stateCard(
+                    name: String(localized: "state_numb_name"),
+                    subtitle: String(localized: "state_numb_subtitle"),
+                    style: .numb,
+                    key: .numb,
+                    isDark: isDark
+                )
+                stateCard(
+                    name: String(localized: "state_hide_name"),
+                    subtitle: String(localized: "state_hide_subtitle"),
+                    style: .hide,
+                    key: .hide,
+                    isDark: isDark
+                )
+                stateCard(
+                    name: String(localized: "state_annoyed_name"),
+                    subtitle: String(localized: "state_annoyed_subtitle"),
+                    style: .annoyed,
+                    key: .annoyed,
+                    isDark: isDark
+                )
             }
             .padding(.top, Theme.spacingMedium)
 
-            Text("无需思考，直觉选择")
+            Text("picker_hint")
                 .font(Theme.fontCaption(isDark: isDark))
                 .tracking(3)
                 .foregroundColor(Theme.secondaryTextColor(isDark: isDark))
@@ -70,6 +95,6 @@ struct StatePickerView: View {
             .frame(maxWidth: .infinity)
         }
         .accessibilityIdentifier("state_\(key.rawValue)")
-        .accessibilityLabel("选择状态：\(name)")
+        .accessibilityLabel(String(format: String(localized: "picker_state_accessibility"), name))
     }
 }

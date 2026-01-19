@@ -11,13 +11,19 @@ final class CardViewModel: ObservableObject {
         self.repository = repository
     }
 
-    func loadInitialCard(state: State) {
+    func loadInitialCard(state: State, initialCard: Card?) {
+        if let initialCard {
+            card = initialCard
+            lastCardId = initialCard.id
+            errorMessage = nil
+            return
+        }
         card = fetchCard(for: state)
     }
 
     func nextCard(state: State) {
         guard let next = fetchCard(for: state) else {
-            errorMessage = "暂时没有新的卡片"
+            errorMessage = String(localized: "error_no_new_card")
             return
         }
         card = next
@@ -41,7 +47,7 @@ final class CardViewModel: ObservableObject {
             errorMessage = nil
             return candidate
         } catch {
-            errorMessage = "暂时没有可用卡片"
+            errorMessage = String(localized: "error_no_card")
             return nil
         }
     }

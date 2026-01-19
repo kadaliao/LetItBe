@@ -19,6 +19,7 @@
 		34F9997D8FDEC1513057F5C5 /* CardRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053839EE137677FF99C2F68 /* CardRotationTests.swift */; };
 		395092C93F604D93EC652084 /* StateIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F68308C2705153035A59C4 /* StateIconView.swift */; };
 		3BA790B85F49FAAB124F10B5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C268AD30B95B313B38B8EDF /* Card.swift */; };
+		414398E99815F8B0020D6165 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 698273DF0D8D6000EA7A32DD /* en.lproj */; };
 		441B22E80AD01742B73AC01A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198B79A44BC077AE04FF356D /* AppState.swift */; };
 		49CC11C5C5512CDD44D3EACC /* StopLossViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0BB8BB7B642DDCA16603C5 /* StopLossViewModel.swift */; };
 		52ABA58BE6D285E9109B177B /* StopLossFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FB3B5A9D4ED8715627CA31 /* StopLossFlowTests.swift */; };
@@ -28,12 +29,14 @@
 		7DCC1988BF7D9292AFFA08E2 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01C2763D79173E0EB902889 /* CardViewModel.swift */; };
 		8033FE15A4ACD0D4D38A832D /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = BE4CE0EB751CDB22C1BCDBF4 /* content.json */; };
 		8356D08F88A810F2D46DA228 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */; };
+		879AE059AC68810BF98CCB62 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 793D23DD4622DAADEB4E7BF8 /* zh-Hans.lproj */; };
 		8D837637B479E677B882B446 /* StopLossService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07427827E3E904EEBBEE5E8 /* StopLossService.swift */; };
 		9508368E15FA82CA387244EA /* StatePickerSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37ED8AF18183B7D752976A9 /* StatePickerSnapshotTests.swift */; };
 		95E94ABBAABB645B7968711A /* ContentRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */; };
 		9D5DEA806C560FE0B7F3EF1E /* SQLiteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9335F0346120C86933172 /* SQLiteStore.swift */; };
 		9DEC8766AD641BB915AB0BD0 /* StopLossSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B47D0D0F4A13DA9D725C035 /* StopLossSnapshotTests.swift */; };
 		9E5A410C9AEF31091E072DA7 /* LetItBeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F9FFEFA87D67D8CA08DE58 /* LetItBeApp.swift */; };
+		A595795AA38BD4C19F21812D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4356A0715D251E1B1FCAABDF /* Assets.xcassets */; };
 		AB8CD997060C06609C483B0B /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3378436224740D30992AC4 /* State.swift */; };
 		B19D9B894FC23452A01D0429 /* HomeSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC2FF994A29AE9FB592CE4 /* HomeSnapshotTests.swift */; };
 		B25F1CB204F585465D788A1E /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F38000F66FC37EE7EF6F2 /* SnapshotHelper.swift */; };
@@ -78,13 +81,16 @@
 		3C268AD30B95B313B38B8EDF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		3C36C224962705943D529E90 /* ThemeToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeToggleTests.swift; sourceTree = "<group>"; };
 		4053839EE137677FF99C2F68 /* CardRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRotationTests.swift; sourceTree = "<group>"; };
-		43F6B5ED613865CFDFC93693 /* LetItBeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LetItBeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4356A0715D251E1B1FCAABDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F6B5ED613865CFDFC93693 /* LetItBeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetItBeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
 		4C5DEDE45245FB8BB18CA45E /* CardSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSnapshotTests.swift; sourceTree = "<group>"; };
 		5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossServiceTests.swift; sourceTree = "<group>"; };
+		698273DF0D8D6000EA7A32DD /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en.lproj"; sourceTree = "<group>"; };
 		65C9335F0346120C86933172 /* SQLiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteStore.swift; sourceTree = "<group>"; };
 		6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryTests.swift; sourceTree = "<group>"; };
-		72B2B5A2AEDADAF1B5B91CB0 /* LetItBeUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LetItBeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		793D23DD4622DAADEB4E7BF8 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		72B2B5A2AEDADAF1B5B91CB0 /* LetItBeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetItBeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771AC692B0E0FCDEE1AC03FC /* TopControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlsView.swift; sourceTree = "<group>"; };
 		95109B725AD4616FDA6DAFEC /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
 		A0A439087DC97FD9A91D4FFF /* ThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
@@ -135,7 +141,9 @@
 		62315BDD234EF6D576B66132 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				698273DF0D8D6000EA7A32DD /* en.lproj */,
 				BE4CE0EB751CDB22C1BCDBF4 /* content.json */,
+				793D23DD4622DAADEB4E7BF8 /* zh-Hans.lproj */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 				D6872A0F70F7911381692253 /* LetItBeUITests */,
 				E3BAA5D175D3929471A2FB04 /* Models */,
 				B1F5DB0F145BD015067D17E6 /* Persistence */,
+				4356A0715D251E1B1FCAABDF /* Assets.xcassets */,
 				62315BDD234EF6D576B66132 /* Resources */,
 				E036442054CA08F9DC26D57A /* Services */,
 				251C6B0B3F21D3954937D271 /* ViewModels */,
@@ -302,7 +311,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					168E317DB58E3C4F5D7D9C78 = {
@@ -344,7 +352,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A595795AA38BD4C19F21812D /* Assets.xcassets in Resources */,
+				414398E99815F8B0020D6165 /* en.lproj in Resources */,
 				8033FE15A4ACD0D4D38A832D /* content.json in Resources */,
+				879AE059AC68810BF98CCB62 /* zh-Hans.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +543,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -545,6 +557,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -626,6 +639,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -646,6 +660,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

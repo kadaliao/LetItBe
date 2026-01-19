@@ -20,6 +20,8 @@ final class AppState: ObservableObject {
 
     func goToPicker() {
         route = .picker
+        selectedState = nil
+        currentCard = nil
     }
 
     func goToCard(_ card: Card, state: State) {
