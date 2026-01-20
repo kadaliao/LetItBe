@@ -15,3 +15,7 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+
+# Local docs/specs (not tracked)
+docs/
+specs/
