@@ -7,11 +7,27 @@ import CoreImage.CIFilterBuiltins
 enum ShareImageService {
     static let qrLink = "http://github.com/kadaliao/letitbe"
 
-    static func saveShareImage(card: Card, state: State, isDark: Bool) async -> Result<Void, ShareImageError> {
-        guard let image = await MainActor.run({ renderShareImage(card: card, state: state, isDark: isDark) }) else {
+    static func makeShareImage(card: Card, state: State, isDark: Bool) async -> Result<UIImage, ShareImageError> {
+        let image = await MainActor.run(resultType: UIImage?.self) {
+            renderShareImage(card: card, state: state, isDark: isDark)
+        }
+        guard let image else {
             return .failure(.renderFailed)
         }
+        return .success(image)
+    }
 
+    static func saveShareImage(card: Card, state: State, isDark: Bool) async -> Result<Void, ShareImageError> {
+        let renderResult = await makeShareImage(card: card, state: state, isDark: isDark)
+        switch renderResult {
+        case .success(let image):
+            return await saveShareImage(image)
+        case .failure(let error):
+            return .failure(error)
+        }
+    }
+
+    static func saveShareImage(_ image: UIImage) async -> Result<Void, ShareImageError> {
         let status = await requestAuthorization()
         guard status == .authorized || status == .limited else {
             return .failure(.unauthorized)

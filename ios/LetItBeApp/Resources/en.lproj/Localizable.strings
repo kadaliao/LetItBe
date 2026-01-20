@@ -46,6 +46,9 @@
 "share_error_permission" = "Can't save: allow Photos access";
 "share_error_render" = "Unable to render image";
 "share_error_save" = "Save failed. Please try again.";
+"share_preview_title" = "Preview";
+"share_preview_save" = "Save to Photos";
+"share_preview_cancel" = "Cancel";
 "share_qr_title" = "Scan to learn more";
 "share_qr_subtitle" = "Let It Be";
 "share_qr_placeholder" = "QR code";

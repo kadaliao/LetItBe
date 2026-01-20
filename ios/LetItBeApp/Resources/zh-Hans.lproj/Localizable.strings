@@ -46,6 +46,9 @@
 "share_error_permission" = "无法保存：请允许添加到相册";
 "share_error_render" = "生成图片失败";
 "share_error_save" = "保存失败，请重试";
+"share_preview_title" = "预览";
+"share_preview_save" = "保存到相册";
+"share_preview_cancel" = "取消";
 "share_qr_title" = "扫码了解";
 "share_qr_subtitle" = "Let It Be";
 "share_qr_placeholder" = "二维码";

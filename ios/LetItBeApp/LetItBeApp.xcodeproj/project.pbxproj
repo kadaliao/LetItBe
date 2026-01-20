@@ -10,6 +10,8 @@
 		07D61F33A35CF36F9ABF3352 /* ContentPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E50B05C829C76D061EAB0 /* ContentPayload.swift */; };
 		1D0B791C654FB4554165B22D /* CardSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DEDE45245FB8BB18CA45E /* CardSnapshotTests.swift */; };
 		1D7CB643968169F4FB2B3A7D /* LetItBeUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8651089F6A0DA7BC9868C54 /* LetItBeUITestCase.swift */; };
+		1A29F8442B2F48B5966B42F9 /* ShareImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA67C06633443BB1B0C160 /* ShareImageService.swift */; };
+		D761824A94664CCF9E17DF9B /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223D9ADC7C94928B4139335 /* ShareCardView.swift */; };
 		25DEDF970DCA3CC99CAD394C /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */; };
 		25FD8484A3D1BA5E6040DE1C /* StopLossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988AF6C87738C94EC467BBD /* StopLossView.swift */; };
 		2C09E289C29B46177DE3A982 /* ThemeToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C36C224962705943D529E90 /* ThemeToggleTests.swift */; };
@@ -75,6 +77,8 @@
 		179C9D0FF2D38E25B490EA77 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		198B79A44BC077AE04FF356D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		1CBC2FF994A29AE9FB592CE4 /* HomeSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSnapshotTests.swift; sourceTree = "<group>"; };
+		1DFA67C06633443BB1B0C160 /* ShareImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageService.swift; sourceTree = "<group>"; };
+		0223D9ADC7C94928B4139335 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
 		237E50B05C829C76D061EAB0 /* ContentPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPayload.swift; sourceTree = "<group>"; };
 		252A85BBC24C00DEA0898DDD /* BreathingGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingGuideView.swift; sourceTree = "<group>"; };
 		3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */,
+				1DFA67C06633443BB1B0C160 /* ShareImageService.swift */,
 				13FAB34463DF0C4177F61971 /* StopLossRepository.swift */,
 				B07427827E3E904EEBBEE5E8 /* StopLossService.swift */,
 			);
@@ -237,6 +242,7 @@
 				95109B725AD4616FDA6DAFEC /* CardStyle.swift */,
 				179C9D0FF2D38E25B490EA77 /* CardView.swift */,
 				3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */,
+				0223D9ADC7C94928B4139335 /* ShareCardView.swift */,
 				C3F68308C2705153035A59C4 /* StateIconView.swift */,
 				C82D7116007C2B77E76E7F1D /* StatePickerView.swift */,
 				C988AF6C87738C94EC467BBD /* StopLossView.swift */,
@@ -391,6 +397,8 @@
 				7DCC1988BF7D9292AFFA08E2 /* CardViewModel.swift in Sources */,
 				07D61F33A35CF36F9ABF3352 /* ContentPayload.swift in Sources */,
 				25DEDF970DCA3CC99CAD394C /* ContentRepository.swift in Sources */,
+				D761824A94664CCF9E17DF9B /* ShareCardView.swift in Sources */,
+				1A29F8442B2F48B5966B42F9 /* ShareImageService.swift in Sources */,
 				8356D08F88A810F2D46DA228 /* HomeView.swift in Sources */,
 				9E5A410C9AEF31091E072DA7 /* LetItBeApp.swift in Sources */,
 				9D5DEA806C560FE0B7F3EF1E /* SQLiteStore.swift in Sources */,

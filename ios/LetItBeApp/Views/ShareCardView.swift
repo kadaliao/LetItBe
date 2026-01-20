@@ -9,7 +9,7 @@ struct ShareCardView: View {
 
     var body: some View {
         let style = ShareCardStyle(isDark: isDark)
-        ZStack {
+        ZStack(alignment: .topLeading) {
             style.background
 
             VStack(alignment: .leading, spacing: style.blockSpacing) {
@@ -55,6 +55,7 @@ struct ShareCardView: View {
                 }
             }
             .padding(style.padding)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         }
         .frame(width: ShareCardStyle.canvasSize.width, height: ShareCardStyle.canvasSize.height)
     }
