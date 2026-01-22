@@ -5,7 +5,7 @@ import CoreImage
 import CoreImage.CIFilterBuiltins
 
 enum ShareImageService {
-    static let qrLink = "http://github.com/kadaliao/letitbe"
+    static let qrLink = "https://letitbe.liaoxingyi.com/app"
 
     static func makeShareImage(card: Card, state: State, isDark: Bool) async -> Result<UIImage, ShareImageError> {
         let image = await MainActor.run(resultType: UIImage?.self) {
