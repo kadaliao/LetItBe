@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let It Be - Minimal Support</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo" data-i18n="app_name">Let It Be</div>
+            <div class="controls">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                    <!-- Sun Icon -->
+                    <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <!-- Moon Icon (hidden by default via CSS) -->
+                    <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <button id="langToggle" class="lang-switch">中文</button>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">Let It Be</h1>
+                <p data-i18n="hero_subtitle">A minimal iOS app that delivers short, low-pressure support cards for low-energy moments.</p>
+                <div class="cta-group">
+                    <a href="#" class="btn-download" data-i18n="cta_download">Download for iOS</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-frame">
+                    <!-- Image source will be set by JS -->
+                    <img id="hero-phone-img" src="" alt="Let It Be App Screen">
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="grid">
+                <div class="feature-card">
+                    <span class="card-icon">
+                        <!-- Battery Low -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"></rect><line x1="23" y1="13" x2="23" y2="11"></line><line x1="5" y1="10" x2="5" y2="14"></line></svg>
+                    </span>
+                    <h3 data-i18n="state_tired">Tired</h3>
+                    <p data-i18n="state_tired_desc">Low energy? Get gentle support.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="card-icon">
+                        <!-- Numb / Circle -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="15" x2="16" y2="15"></line><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                    </span>
+                    <h3 data-i18n="state_numb">Numb</h3>
+                    <p data-i18n="state_numb_desc">Feeling empty? Reconnect slowly.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="card-icon">
+                        <!-- Hide / Eye Off -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+                    </span>
+                    <h3 data-i18n="state_hide">Hide</h3>
+                    <p data-i18n="state_hide_desc">Avoiding everything? That's okay.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="card-icon">
+                        <!-- Annoyed / Cloud Lightning -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"></path><polyline points="13 11 9 17 15 17 11 23"></polyline></svg>
+                    </span>
+                    <h3 data-i18n="state_annoyed">Annoyed</h3>
+                    <p data-i18n="state_annoyed_desc">Too much noise? Find peace.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="stoploss-banner">
+             <div class="stoploss-content">
+                <span class="big-icon">
+                    <!-- Wind -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path></svg>
+                </span>
+                <h2 data-i18n="feature_stoploss">Stop Loss</h2>
+                <p data-i18n="feature_stoploss_desc">Simple breathing exercises and checklists to stop the downward spiral.</p>
+             </div>
+        </section>
+
+        <footer>
+            <p data-i18n="footer_copy">&copy; 2026 Let It Be. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
