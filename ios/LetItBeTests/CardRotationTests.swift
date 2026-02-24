@@ -8,7 +8,7 @@ final class CardRotationTests: XCTestCase {
         let viewModel = CardViewModel(repository: repository)
 
         let state = State(id: "state_tired", key: .tired, name: "累", description: nil)
-        viewModel.loadInitialCard(state: state)
+        viewModel.loadInitialCard(state: state, initialCard: nil)
         let first = viewModel.card
         viewModel.nextCard(state: state)
         let second = viewModel.card

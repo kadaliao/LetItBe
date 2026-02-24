@@ -1345,6 +1345,7806 @@
         "annoyed"
       ],
       "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_031",
+      "state_id": "state_tired",
+      "title": "低电量时刻",
+      "body": "你现在不是懒，是电量见底。\n喝口水，再看要不要继续。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_032",
+      "state_id": "state_tired",
+      "title": "慢速计划",
+      "body": "身体在提醒你：先别冲刺。\n先把节奏调慢，再处理复杂事。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_033",
+      "state_id": "state_tired",
+      "title": "暂停版本",
+      "body": "今天的你适合低功耗运行。\n先做最轻的那件事，然后停。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_034",
+      "state_id": "state_tired",
+      "title": "省电模式",
+      "body": "疲惫不是失败，是报警灯。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_035",
+      "state_id": "state_tired",
+      "title": "保底按钮",
+      "body": "你的系统需要先降温。\n先把手机放下，给大脑降噪。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_036",
+      "state_id": "state_tired",
+      "title": "短休协议",
+      "body": "这不是停滞，是必要维护。\n先坐下两分钟，让身体落地。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_037",
+      "state_id": "state_tired",
+      "title": "低负荷提醒",
+      "body": "你已经撑很久了，可以先放下。\n让肩膀松一松，别一直顶着。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_038",
+      "state_id": "state_tired",
+      "title": "续航通道",
+      "body": "先承认累，再决定下一步。\n先把今天过完，不必超额完成。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_039",
+      "state_id": "state_tired",
+      "title": "缓冲优先",
+      "body": "你不需要每分钟都高效。\n把清单砍半，保留最小任务。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_040",
+      "state_id": "state_tired",
+      "title": "轻量路线",
+      "body": "现在最重要的是保留续航。\n允许自己先休息，再回来。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_041",
+      "state_id": "state_tired",
+      "title": "降档时刻",
+      "body": "别和低电量状态硬碰硬。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_042",
+      "state_id": "state_tired",
+      "title": "安静计划",
+      "body": "今天可以把标准调低一点。\n先完成一件小事，其余暂缓。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_043",
+      "state_id": "state_tired",
+      "title": "低电量版本",
+      "body": "你不是掉队，只是在补给。\n先去窗边站一会儿，重新聚焦。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_044",
+      "state_id": "state_tired",
+      "title": "慢速模式",
+      "body": "当前任务：先稳住自己。\n喝口水，再看要不要继续。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_045",
+      "state_id": "state_tired",
+      "title": "暂停按钮",
+      "body": "今天先求不透支。\n先把节奏调慢，再处理复杂事。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_046",
+      "state_id": "state_tired",
+      "title": "省电协议",
+      "body": "你现在不是懒，是电量见底。\n先做最轻的那件事，然后停。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_047",
+      "state_id": "state_tired",
+      "title": "保底提醒",
+      "body": "身体在提醒你：先别冲刺。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_048",
+      "state_id": "state_tired",
+      "title": "短休通道",
+      "body": "今天的你适合低功耗运行。\n先把手机放下，给大脑降噪。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_049",
+      "state_id": "state_tired",
+      "title": "低负荷优先",
+      "body": "疲惫不是失败，是报警灯。\n先坐下两分钟，让身体落地。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_050",
+      "state_id": "state_tired",
+      "title": "续航路线",
+      "body": "你的系统需要先降温。\n让肩膀松一松，别一直顶着。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_051",
+      "state_id": "state_tired",
+      "title": "缓冲时刻",
+      "body": "这不是停滞，是必要维护。\n先把今天过完，不必超额完成。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_052",
+      "state_id": "state_tired",
+      "title": "轻量计划",
+      "body": "你已经撑很久了，可以先放下。\n把清单砍半，保留最小任务。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_053",
+      "state_id": "state_tired",
+      "title": "降档版本",
+      "body": "先承认累，再决定下一步。\n允许自己先休息，再回来。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_054",
+      "state_id": "state_tired",
+      "title": "安静模式",
+      "body": "你不需要每分钟都高效。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_055",
+      "state_id": "state_tired",
+      "title": "低电量按钮",
+      "body": "现在最重要的是保留续航。\n先完成一件小事，其余暂缓。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_056",
+      "state_id": "state_tired",
+      "title": "慢速协议",
+      "body": "别和低电量状态硬碰硬。\n先去窗边站一会儿，重新聚焦。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_057",
+      "state_id": "state_tired",
+      "title": "暂停提醒",
+      "body": "今天可以把标准调低一点。\n喝口水，再看要不要继续。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_058",
+      "state_id": "state_tired",
+      "title": "省电通道",
+      "body": "你不是掉队，只是在补给。\n先把节奏调慢，再处理复杂事。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_059",
+      "state_id": "state_tired",
+      "title": "保底优先",
+      "body": "当前任务：先稳住自己。\n先做最轻的那件事，然后停。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_060",
+      "state_id": "state_tired",
+      "title": "短休路线",
+      "body": "今天先求不透支。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_061",
+      "state_id": "state_tired",
+      "title": "低负荷时刻",
+      "body": "你现在不是懒，是电量见底。\n先把手机放下，给大脑降噪。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_062",
+      "state_id": "state_tired",
+      "title": "续航计划",
+      "body": "身体在提醒你：先别冲刺。\n先坐下两分钟，让身体落地。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_063",
+      "state_id": "state_tired",
+      "title": "缓冲版本",
+      "body": "今天的你适合低功耗运行。\n让肩膀松一松，别一直顶着。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_064",
+      "state_id": "state_tired",
+      "title": "轻量模式",
+      "body": "疲惫不是失败，是报警灯。\n先把今天过完，不必超额完成。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_065",
+      "state_id": "state_tired",
+      "title": "降档按钮",
+      "body": "你的系统需要先降温。\n把清单砍半，保留最小任务。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_066",
+      "state_id": "state_tired",
+      "title": "安静协议",
+      "body": "这不是停滞，是必要维护。\n允许自己先休息，再回来。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_067",
+      "state_id": "state_tired",
+      "title": "低电量提醒",
+      "body": "你已经撑很久了，可以先放下。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_068",
+      "state_id": "state_tired",
+      "title": "慢速通道",
+      "body": "先承认累，再决定下一步。\n先完成一件小事，其余暂缓。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_069",
+      "state_id": "state_tired",
+      "title": "暂停优先",
+      "body": "你不需要每分钟都高效。\n先去窗边站一会儿，重新聚焦。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_070",
+      "state_id": "state_tired",
+      "title": "省电路线",
+      "body": "现在最重要的是保留续航。\n喝口水，再看要不要继续。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_071",
+      "state_id": "state_tired",
+      "title": "保底时刻",
+      "body": "别和低电量状态硬碰硬。\n先把节奏调慢，再处理复杂事。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_072",
+      "state_id": "state_tired",
+      "title": "短休计划",
+      "body": "今天可以把标准调低一点。\n先做最轻的那件事，然后停。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_073",
+      "state_id": "state_tired",
+      "title": "低负荷版本",
+      "body": "你不是掉队，只是在补给。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_074",
+      "state_id": "state_tired",
+      "title": "续航模式",
+      "body": "当前任务：先稳住自己。\n先把手机放下，给大脑降噪。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_075",
+      "state_id": "state_tired",
+      "title": "缓冲按钮",
+      "body": "今天先求不透支。\n先坐下两分钟，让身体落地。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_076",
+      "state_id": "state_tired",
+      "title": "轻量协议",
+      "body": "你现在不是懒，是电量见底。\n让肩膀松一松，别一直顶着。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_077",
+      "state_id": "state_tired",
+      "title": "降档提醒",
+      "body": "身体在提醒你：先别冲刺。\n先把今天过完，不必超额完成。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_078",
+      "state_id": "state_tired",
+      "title": "安静通道",
+      "body": "今天的你适合低功耗运行。\n把清单砍半，保留最小任务。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_079",
+      "state_id": "state_tired",
+      "title": "低电量优先",
+      "body": "疲惫不是失败，是报警灯。\n允许自己先休息，再回来。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_080",
+      "state_id": "state_tired",
+      "title": "慢速路线",
+      "body": "你的系统需要先降温。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_081",
+      "state_id": "state_tired",
+      "title": "暂停时刻",
+      "body": "这不是停滞，是必要维护。\n先完成一件小事，其余暂缓。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_082",
+      "state_id": "state_tired",
+      "title": "省电计划",
+      "body": "你已经撑很久了，可以先放下。\n先去窗边站一会儿，重新聚焦。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_083",
+      "state_id": "state_tired",
+      "title": "保底版本",
+      "body": "先承认累，再决定下一步。\n喝口水，再看要不要继续。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_084",
+      "state_id": "state_tired",
+      "title": "短休模式",
+      "body": "你不需要每分钟都高效。\n先把节奏调慢，再处理复杂事。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_085",
+      "state_id": "state_tired",
+      "title": "低负荷按钮",
+      "body": "现在最重要的是保留续航。\n先做最轻的那件事，然后停。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_086",
+      "state_id": "state_tired",
+      "title": "续航协议",
+      "body": "别和低电量状态硬碰硬。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_087",
+      "state_id": "state_tired",
+      "title": "缓冲提醒",
+      "body": "今天可以把标准调低一点。\n先把手机放下，给大脑降噪。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_088",
+      "state_id": "state_tired",
+      "title": "轻量通道",
+      "body": "你不是掉队，只是在补给。\n先坐下两分钟，让身体落地。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_089",
+      "state_id": "state_tired",
+      "title": "降档优先",
+      "body": "当前任务：先稳住自己。\n让肩膀松一松，别一直顶着。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_090",
+      "state_id": "state_tired",
+      "title": "安静路线",
+      "body": "今天先求不透支。\n先把今天过完，不必超额完成。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_091",
+      "state_id": "state_tired",
+      "title": "低电量时刻",
+      "body": "你现在不是懒，是电量见底。\n把清单砍半，保留最小任务。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_092",
+      "state_id": "state_tired",
+      "title": "慢速计划",
+      "body": "身体在提醒你：先别冲刺。\n允许自己先休息，再回来。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_093",
+      "state_id": "state_tired",
+      "title": "暂停版本",
+      "body": "今天的你适合低功耗运行。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_094",
+      "state_id": "state_tired",
+      "title": "省电模式",
+      "body": "疲惫不是失败，是报警灯。\n先完成一件小事，其余暂缓。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_095",
+      "state_id": "state_tired",
+      "title": "保底按钮",
+      "body": "你的系统需要先降温。\n先去窗边站一会儿，重新聚焦。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_096",
+      "state_id": "state_tired",
+      "title": "短休协议",
+      "body": "这不是停滞，是必要维护。\n喝口水，再看要不要继续。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_097",
+      "state_id": "state_tired",
+      "title": "低负荷提醒",
+      "body": "你已经撑很久了，可以先放下。\n先把节奏调慢，再处理复杂事。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_098",
+      "state_id": "state_tired",
+      "title": "续航通道",
+      "body": "先承认累，再决定下一步。\n先做最轻的那件事，然后停。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_099",
+      "state_id": "state_tired",
+      "title": "缓冲优先",
+      "body": "你不需要每分钟都高效。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_100",
+      "state_id": "state_tired",
+      "title": "轻量路线",
+      "body": "现在最重要的是保留续航。\n先把手机放下，给大脑降噪。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_101",
+      "state_id": "state_tired",
+      "title": "降档时刻",
+      "body": "别和低电量状态硬碰硬。\n先坐下两分钟，让身体落地。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_102",
+      "state_id": "state_tired",
+      "title": "安静计划",
+      "body": "今天可以把标准调低一点。\n让肩膀松一松，别一直顶着。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_103",
+      "state_id": "state_tired",
+      "title": "低电量版本",
+      "body": "你不是掉队，只是在补给。\n先把今天过完，不必超额完成。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_104",
+      "state_id": "state_tired",
+      "title": "慢速模式",
+      "body": "当前任务：先稳住自己。\n把清单砍半，保留最小任务。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_105",
+      "state_id": "state_tired",
+      "title": "暂停按钮",
+      "body": "今天先求不透支。\n允许自己先休息，再回来。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_106",
+      "state_id": "state_tired",
+      "title": "省电协议",
+      "body": "你现在不是懒，是电量见底。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_107",
+      "state_id": "state_tired",
+      "title": "保底提醒",
+      "body": "身体在提醒你：先别冲刺。\n先完成一件小事，其余暂缓。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_108",
+      "state_id": "state_tired",
+      "title": "短休通道",
+      "body": "今天的你适合低功耗运行。\n先去窗边站一会儿，重新聚焦。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_109",
+      "state_id": "state_tired",
+      "title": "低负荷优先",
+      "body": "疲惫不是失败，是报警灯。\n喝口水，再看要不要继续。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_110",
+      "state_id": "state_tired",
+      "title": "续航路线",
+      "body": "你的系统需要先降温。\n先把节奏调慢，再处理复杂事。",
+      "footer": "暂停是前进的一部分。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_111",
+      "state_id": "state_tired",
+      "title": "缓冲时刻",
+      "body": "这不是停滞，是必要维护。\n先做最轻的那件事，然后停。",
+      "footer": "你先稳住，事情才会稳。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_112",
+      "state_id": "state_tired",
+      "title": "轻量计划",
+      "body": "你已经撑很久了，可以先放下。\n先闭眼十次呼吸，不急着做决定。",
+      "footer": "你已经很努力了，现在先缓一缓。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_113",
+      "state_id": "state_tired",
+      "title": "降档版本",
+      "body": "先承认累，再决定下一步。\n先把手机放下，给大脑降噪。",
+      "footer": "你可以慢，但不用自责。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_114",
+      "state_id": "state_tired",
+      "title": "安静模式",
+      "body": "你不需要每分钟都高效。\n先坐下两分钟，让身体落地。",
+      "footer": "休息是能力，不是借口。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_115",
+      "state_id": "state_tired",
+      "title": "低电量按钮",
+      "body": "现在最重要的是保留续航。\n让肩膀松一松，别一直顶着。",
+      "footer": "小恢复，也算恢复。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_116",
+      "state_id": "state_tired",
+      "title": "慢速协议",
+      "body": "别和低电量状态硬碰硬。\n先把今天过完，不必超额完成。",
+      "footer": "先不透支，明天才有余地。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_117",
+      "state_id": "state_tired",
+      "title": "暂停提醒",
+      "body": "今天可以把标准调低一点。\n把清单砍半，保留最小任务。",
+      "footer": "慢一点，不会把你变成失败者。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_118",
+      "state_id": "state_tired",
+      "title": "省电通道",
+      "body": "你不是掉队，只是在补给。\n允许自己先休息，再回来。",
+      "footer": "今天先把自己放在前面。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_119",
+      "state_id": "state_tired",
+      "title": "保底优先",
+      "body": "当前任务：先稳住自己。\n把动作放慢一点，先照顾呼吸。",
+      "footer": "保住电量，就是今天的胜利。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_120",
+      "state_id": "state_tired",
+      "title": "短休路线",
+      "body": "今天先求不透支。\n先完成一件小事，其余暂缓。",
+      "footer": "先让心跳回到正常速度。",
+      "tags": [
+        "tired"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_031",
+      "state_id": "state_numb",
+      "title": "存在练习",
+      "body": "麻木不是坏掉，是自我保护。\n数五样你看得见的东西。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_032",
+      "state_id": "state_numb",
+      "title": "感官对焦",
+      "body": "你现在只是感觉变小了，不是消失了。\n慢慢呼气，让身体先接管。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_033",
+      "state_id": "state_numb",
+      "title": "回神信号",
+      "body": "空空的感受，也是一种感受。\n先完成一个很小的动作。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_034",
+      "state_id": "state_numb",
+      "title": "落点确认",
+      "body": "今天不必找意义，先确认存在。\n把脚掌贴地，感受重量。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_035",
+      "state_id": "state_numb",
+      "title": "微光扫描",
+      "body": "你不是无感，你只是太久没休息。\n把注意力放在呼吸进出。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_036",
+      "state_id": "state_numb",
+      "title": "呼吸连接",
+      "body": "先别逼自己“立刻有感觉”。\n摸一摸杯子的温度，感受当下。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_037",
+      "state_id": "state_numb",
+      "title": "空白提醒",
+      "body": "现在先把注意力放回身体。\n抬头看光三十秒，不做分析。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_038",
+      "state_id": "state_numb",
+      "title": "现实时刻",
+      "body": "麻木时，先做最简单的连接。\n把眼神停在一个固定点上。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_039",
+      "state_id": "state_numb",
+      "title": "身体回路",
+      "body": "你还在这里，这件事很重要。\n听一段白噪音，让神经回到地面。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_040",
+      "state_id": "state_numb",
+      "title": "此刻动作",
+      "body": "无需解释情绪，先允许它存在。\n摸摸衣角，确认触感。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_041",
+      "state_id": "state_numb",
+      "title": "锚点练习",
+      "body": "心里空白，不代表你没价值。\n看看手心纹路，确认“我在”。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_042",
+      "state_id": "state_numb",
+      "title": "慢唤对焦",
+      "body": "你只是进入了低刺激模式。\n说一句：我现在在这里。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_043",
+      "state_id": "state_numb",
+      "title": "存在信号",
+      "body": "先从一个小感官开始回神。\n喝一口温水，感受流动。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_044",
+      "state_id": "state_numb",
+      "title": "感官确认",
+      "body": "今天先把自己找回来一点点。\n数五样你看得见的东西。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_045",
+      "state_id": "state_numb",
+      "title": "回神扫描",
+      "body": "别急着恢复，先慢慢接触现实。\n慢慢呼气，让身体先接管。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_046",
+      "state_id": "state_numb",
+      "title": "落点连接",
+      "body": "麻木不是坏掉，是自我保护。\n先完成一个很小的动作。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_047",
+      "state_id": "state_numb",
+      "title": "微光提醒",
+      "body": "你现在只是感觉变小了，不是消失了。\n把脚掌贴地，感受重量。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_048",
+      "state_id": "state_numb",
+      "title": "呼吸时刻",
+      "body": "空空的感受，也是一种感受。\n把注意力放在呼吸进出。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_049",
+      "state_id": "state_numb",
+      "title": "空白回路",
+      "body": "今天不必找意义，先确认存在。\n摸一摸杯子的温度，感受当下。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_050",
+      "state_id": "state_numb",
+      "title": "现实动作",
+      "body": "你不是无感，你只是太久没休息。\n抬头看光三十秒，不做分析。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_051",
+      "state_id": "state_numb",
+      "title": "身体练习",
+      "body": "先别逼自己“立刻有感觉”。\n把眼神停在一个固定点上。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_052",
+      "state_id": "state_numb",
+      "title": "此刻对焦",
+      "body": "现在先把注意力放回身体。\n听一段白噪音，让神经回到地面。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_053",
+      "state_id": "state_numb",
+      "title": "锚点信号",
+      "body": "麻木时，先做最简单的连接。\n摸摸衣角，确认触感。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_054",
+      "state_id": "state_numb",
+      "title": "慢唤确认",
+      "body": "你还在这里，这件事很重要。\n看看手心纹路，确认“我在”。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_055",
+      "state_id": "state_numb",
+      "title": "存在扫描",
+      "body": "无需解释情绪，先允许它存在。\n说一句：我现在在这里。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_056",
+      "state_id": "state_numb",
+      "title": "感官连接",
+      "body": "心里空白，不代表你没价值。\n喝一口温水，感受流动。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_057",
+      "state_id": "state_numb",
+      "title": "回神提醒",
+      "body": "你只是进入了低刺激模式。\n数五样你看得见的东西。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_058",
+      "state_id": "state_numb",
+      "title": "落点时刻",
+      "body": "先从一个小感官开始回神。\n慢慢呼气，让身体先接管。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_059",
+      "state_id": "state_numb",
+      "title": "微光回路",
+      "body": "今天先把自己找回来一点点。\n先完成一个很小的动作。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_060",
+      "state_id": "state_numb",
+      "title": "呼吸动作",
+      "body": "别急着恢复，先慢慢接触现实。\n把脚掌贴地，感受重量。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_061",
+      "state_id": "state_numb",
+      "title": "空白练习",
+      "body": "麻木不是坏掉，是自我保护。\n把注意力放在呼吸进出。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_062",
+      "state_id": "state_numb",
+      "title": "现实对焦",
+      "body": "你现在只是感觉变小了，不是消失了。\n摸一摸杯子的温度，感受当下。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_063",
+      "state_id": "state_numb",
+      "title": "身体信号",
+      "body": "空空的感受，也是一种感受。\n抬头看光三十秒，不做分析。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_064",
+      "state_id": "state_numb",
+      "title": "此刻确认",
+      "body": "今天不必找意义，先确认存在。\n把眼神停在一个固定点上。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_065",
+      "state_id": "state_numb",
+      "title": "锚点扫描",
+      "body": "你不是无感，你只是太久没休息。\n听一段白噪音，让神经回到地面。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_066",
+      "state_id": "state_numb",
+      "title": "慢唤连接",
+      "body": "先别逼自己“立刻有感觉”。\n摸摸衣角，确认触感。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_067",
+      "state_id": "state_numb",
+      "title": "存在提醒",
+      "body": "现在先把注意力放回身体。\n看看手心纹路，确认“我在”。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_068",
+      "state_id": "state_numb",
+      "title": "感官时刻",
+      "body": "麻木时，先做最简单的连接。\n说一句：我现在在这里。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_069",
+      "state_id": "state_numb",
+      "title": "回神回路",
+      "body": "你还在这里，这件事很重要。\n喝一口温水，感受流动。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_070",
+      "state_id": "state_numb",
+      "title": "落点动作",
+      "body": "无需解释情绪，先允许它存在。\n数五样你看得见的东西。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_071",
+      "state_id": "state_numb",
+      "title": "微光练习",
+      "body": "心里空白，不代表你没价值。\n慢慢呼气，让身体先接管。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_072",
+      "state_id": "state_numb",
+      "title": "呼吸对焦",
+      "body": "你只是进入了低刺激模式。\n先完成一个很小的动作。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_073",
+      "state_id": "state_numb",
+      "title": "空白信号",
+      "body": "先从一个小感官开始回神。\n把脚掌贴地，感受重量。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_074",
+      "state_id": "state_numb",
+      "title": "现实确认",
+      "body": "今天先把自己找回来一点点。\n把注意力放在呼吸进出。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_075",
+      "state_id": "state_numb",
+      "title": "身体扫描",
+      "body": "别急着恢复，先慢慢接触现实。\n摸一摸杯子的温度，感受当下。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_076",
+      "state_id": "state_numb",
+      "title": "此刻连接",
+      "body": "麻木不是坏掉，是自我保护。\n抬头看光三十秒，不做分析。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_077",
+      "state_id": "state_numb",
+      "title": "锚点提醒",
+      "body": "你现在只是感觉变小了，不是消失了。\n把眼神停在一个固定点上。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_078",
+      "state_id": "state_numb",
+      "title": "慢唤时刻",
+      "body": "空空的感受，也是一种感受。\n听一段白噪音，让神经回到地面。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_079",
+      "state_id": "state_numb",
+      "title": "存在回路",
+      "body": "今天不必找意义，先确认存在。\n摸摸衣角，确认触感。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_080",
+      "state_id": "state_numb",
+      "title": "感官动作",
+      "body": "你不是无感，你只是太久没休息。\n看看手心纹路，确认“我在”。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_081",
+      "state_id": "state_numb",
+      "title": "回神练习",
+      "body": "先别逼自己“立刻有感觉”。\n说一句：我现在在这里。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_082",
+      "state_id": "state_numb",
+      "title": "落点对焦",
+      "body": "现在先把注意力放回身体。\n喝一口温水，感受流动。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_083",
+      "state_id": "state_numb",
+      "title": "微光信号",
+      "body": "麻木时，先做最简单的连接。\n数五样你看得见的东西。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_084",
+      "state_id": "state_numb",
+      "title": "呼吸确认",
+      "body": "你还在这里，这件事很重要。\n慢慢呼气，让身体先接管。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_085",
+      "state_id": "state_numb",
+      "title": "空白扫描",
+      "body": "无需解释情绪，先允许它存在。\n先完成一个很小的动作。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_086",
+      "state_id": "state_numb",
+      "title": "现实连接",
+      "body": "心里空白，不代表你没价值。\n把脚掌贴地，感受重量。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_087",
+      "state_id": "state_numb",
+      "title": "身体提醒",
+      "body": "你只是进入了低刺激模式。\n把注意力放在呼吸进出。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_088",
+      "state_id": "state_numb",
+      "title": "此刻时刻",
+      "body": "先从一个小感官开始回神。\n摸一摸杯子的温度，感受当下。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_089",
+      "state_id": "state_numb",
+      "title": "锚点回路",
+      "body": "今天先把自己找回来一点点。\n抬头看光三十秒，不做分析。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_090",
+      "state_id": "state_numb",
+      "title": "慢唤动作",
+      "body": "别急着恢复，先慢慢接触现实。\n把眼神停在一个固定点上。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_091",
+      "state_id": "state_numb",
+      "title": "存在练习",
+      "body": "麻木不是坏掉，是自我保护。\n听一段白噪音，让神经回到地面。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_092",
+      "state_id": "state_numb",
+      "title": "感官对焦",
+      "body": "你现在只是感觉变小了，不是消失了。\n摸摸衣角，确认触感。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_093",
+      "state_id": "state_numb",
+      "title": "回神信号",
+      "body": "空空的感受，也是一种感受。\n看看手心纹路，确认“我在”。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_094",
+      "state_id": "state_numb",
+      "title": "落点确认",
+      "body": "今天不必找意义，先确认存在。\n说一句：我现在在这里。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_095",
+      "state_id": "state_numb",
+      "title": "微光扫描",
+      "body": "你不是无感，你只是太久没休息。\n喝一口温水，感受流动。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_096",
+      "state_id": "state_numb",
+      "title": "呼吸连接",
+      "body": "先别逼自己“立刻有感觉”。\n数五样你看得见的东西。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_097",
+      "state_id": "state_numb",
+      "title": "空白提醒",
+      "body": "现在先把注意力放回身体。\n慢慢呼气，让身体先接管。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_098",
+      "state_id": "state_numb",
+      "title": "现实时刻",
+      "body": "麻木时，先做最简单的连接。\n先完成一个很小的动作。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_099",
+      "state_id": "state_numb",
+      "title": "身体回路",
+      "body": "你还在这里，这件事很重要。\n把脚掌贴地，感受重量。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_100",
+      "state_id": "state_numb",
+      "title": "此刻动作",
+      "body": "无需解释情绪，先允许它存在。\n把注意力放在呼吸进出。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_101",
+      "state_id": "state_numb",
+      "title": "锚点练习",
+      "body": "心里空白，不代表你没价值。\n摸一摸杯子的温度，感受当下。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_102",
+      "state_id": "state_numb",
+      "title": "慢唤对焦",
+      "body": "你只是进入了低刺激模式。\n抬头看光三十秒，不做分析。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_103",
+      "state_id": "state_numb",
+      "title": "存在信号",
+      "body": "先从一个小感官开始回神。\n把眼神停在一个固定点上。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_104",
+      "state_id": "state_numb",
+      "title": "感官确认",
+      "body": "今天先把自己找回来一点点。\n听一段白噪音，让神经回到地面。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_105",
+      "state_id": "state_numb",
+      "title": "回神扫描",
+      "body": "别急着恢复，先慢慢接触现实。\n摸摸衣角，确认触感。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_106",
+      "state_id": "state_numb",
+      "title": "落点连接",
+      "body": "麻木不是坏掉，是自我保护。\n看看手心纹路，确认“我在”。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_107",
+      "state_id": "state_numb",
+      "title": "微光提醒",
+      "body": "你现在只是感觉变小了，不是消失了。\n说一句：我现在在这里。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_108",
+      "state_id": "state_numb",
+      "title": "呼吸时刻",
+      "body": "空空的感受，也是一种感受。\n喝一口温水，感受流动。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_109",
+      "state_id": "state_numb",
+      "title": "空白回路",
+      "body": "今天不必找意义，先确认存在。\n数五样你看得见的东西。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_110",
+      "state_id": "state_numb",
+      "title": "现实动作",
+      "body": "你不是无感，你只是太久没休息。\n慢慢呼气，让身体先接管。",
+      "footer": "今天先确认自己，再谈别的。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_111",
+      "state_id": "state_numb",
+      "title": "身体练习",
+      "body": "先别逼自己“立刻有感觉”。\n先完成一个很小的动作。",
+      "footer": "存在本身，就已经成立。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_112",
+      "state_id": "state_numb",
+      "title": "此刻对焦",
+      "body": "现在先把注意力放回身体。\n把脚掌贴地，感受重量。",
+      "footer": "先把自己抱回来一点。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_113",
+      "state_id": "state_numb",
+      "title": "锚点信号",
+      "body": "麻木时，先做最简单的连接。\n把注意力放在呼吸进出。",
+      "footer": "你在场，这就不是空白。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_114",
+      "state_id": "state_numb",
+      "title": "慢唤确认",
+      "body": "你还在这里，这件事很重要。\n摸一摸杯子的温度，感受当下。",
+      "footer": "你不需要立刻变好。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_115",
+      "state_id": "state_numb",
+      "title": "存在扫描",
+      "body": "无需解释情绪，先允许它存在。\n抬头看光三十秒，不做分析。",
+      "footer": "你不是空壳，你只是在省电。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_116",
+      "state_id": "state_numb",
+      "title": "感官连接",
+      "body": "心里空白，不代表你没价值。\n把眼神停在一个固定点上。",
+      "footer": "一点连接，也很珍贵。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_117",
+      "state_id": "state_numb",
+      "title": "回神提醒",
+      "body": "你只是进入了低刺激模式。\n听一段白噪音，让神经回到地面。",
+      "footer": "先有一点点感觉，就够了。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_118",
+      "state_id": "state_numb",
+      "title": "落点时刻",
+      "body": "先从一个小感官开始回神。\n摸摸衣角，确认触感。",
+      "footer": "小小的感受，也算回应。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_119",
+      "state_id": "state_numb",
+      "title": "微光回路",
+      "body": "今天先把自己找回来一点点。\n看看手心纹路，确认“我在”。",
+      "footer": "慢慢回神，不必着急。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_120",
+      "state_id": "state_numb",
+      "title": "呼吸动作",
+      "body": "别急着恢复，先慢慢接触现实。\n说一句：我现在在这里。",
+      "footer": "恢复可以很慢，但会发生。",
+      "tags": [
+        "numb"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_031",
+      "state_id": "state_hide",
+      "title": "先缩圈模式",
+      "body": "想躲开很正常，你已经很紧绷了。\n先清掉一个最小障碍。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_032",
+      "state_id": "state_hide",
+      "title": "小步动作",
+      "body": "拖延不是懒，是压力过载。\n先把桌面清出一小块空间。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_033",
+      "state_id": "state_hide",
+      "title": "躲一会方案",
+      "body": "你不是不行，是起步成本太高。\n先做两分钟，再决定要不要继续。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_034",
+      "state_id": "state_hide",
+      "title": "隐身计划",
+      "body": "先别骂自己，先把任务拆小。\n先回一条最短消息。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_035",
+      "state_id": "state_hide",
+      "title": "起步任务",
+      "body": "逃避感出现时，先降低难度。\n先说一句：我现在只做一件事。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_036",
+      "state_id": "state_hide",
+      "title": "低压通道",
+      "body": "你可以先躲一会儿，再回来。\n先写一个标题，后面再补。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_037",
+      "state_id": "state_hide",
+      "title": "最小化清单",
+      "body": "今天先做最小可行动作。\n把任务改成“只做一点点”。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_038",
+      "state_id": "state_hide",
+      "title": "五分钟版本",
+      "body": "不想面对时，先做开场动作。\n先允许粗糙，不求完整。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_039",
+      "state_id": "state_hide",
+      "title": "软着陆路径",
+      "body": "先把“要完美”关掉。\n设定五分钟计时，到点就停。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_040",
+      "state_id": "state_hide",
+      "title": "拆小按钮",
+      "body": "你现在需要的是可执行，不是伟大。\n先完成最不痛苦的那项。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_041",
+      "state_id": "state_hide",
+      "title": "今日模式",
+      "body": "害怕开始时，先做 1 分钟版本。\n先打开文件，不要求产出。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_042",
+      "state_id": "state_hide",
+      "title": "先开头动作",
+      "body": "先让自己动起来一点点。\n先做第一步，不看全程。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_043",
+      "state_id": "state_hide",
+      "title": "先缩圈方案",
+      "body": "卡住不代表结束，只是入口太大。\n先把难题拆成三个小块。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_044",
+      "state_id": "state_hide",
+      "title": "小步计划",
+      "body": "把门缝开一点，就算前进。\n先清掉一个最小障碍。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_045",
+      "state_id": "state_hide",
+      "title": "躲一会任务",
+      "body": "今天只做能做到的那一格。\n先把桌面清出一小块空间。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_046",
+      "state_id": "state_hide",
+      "title": "隐身通道",
+      "body": "想躲开很正常，你已经很紧绷了。\n先做两分钟，再决定要不要继续。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_047",
+      "state_id": "state_hide",
+      "title": "起步清单",
+      "body": "拖延不是懒，是压力过载。\n先回一条最短消息。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_048",
+      "state_id": "state_hide",
+      "title": "低压版本",
+      "body": "你不是不行，是起步成本太高。\n先说一句：我现在只做一件事。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_049",
+      "state_id": "state_hide",
+      "title": "最小化路径",
+      "body": "先别骂自己，先把任务拆小。\n先写一个标题，后面再补。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_050",
+      "state_id": "state_hide",
+      "title": "五分钟按钮",
+      "body": "逃避感出现时，先降低难度。\n把任务改成“只做一点点”。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_051",
+      "state_id": "state_hide",
+      "title": "软着陆模式",
+      "body": "你可以先躲一会儿，再回来。\n先允许粗糙，不求完整。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_052",
+      "state_id": "state_hide",
+      "title": "拆小动作",
+      "body": "今天先做最小可行动作。\n设定五分钟计时，到点就停。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_053",
+      "state_id": "state_hide",
+      "title": "今日方案",
+      "body": "不想面对时，先做开场动作。\n先完成最不痛苦的那项。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_054",
+      "state_id": "state_hide",
+      "title": "先开头计划",
+      "body": "先把“要完美”关掉。\n先打开文件，不要求产出。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_055",
+      "state_id": "state_hide",
+      "title": "先缩圈任务",
+      "body": "你现在需要的是可执行，不是伟大。\n先做第一步，不看全程。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_056",
+      "state_id": "state_hide",
+      "title": "小步通道",
+      "body": "害怕开始时，先做 1 分钟版本。\n先把难题拆成三个小块。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_057",
+      "state_id": "state_hide",
+      "title": "躲一会清单",
+      "body": "先让自己动起来一点点。\n先清掉一个最小障碍。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_058",
+      "state_id": "state_hide",
+      "title": "隐身版本",
+      "body": "卡住不代表结束，只是入口太大。\n先把桌面清出一小块空间。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_059",
+      "state_id": "state_hide",
+      "title": "起步路径",
+      "body": "把门缝开一点，就算前进。\n先做两分钟，再决定要不要继续。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_060",
+      "state_id": "state_hide",
+      "title": "低压按钮",
+      "body": "今天只做能做到的那一格。\n先回一条最短消息。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_061",
+      "state_id": "state_hide",
+      "title": "最小化模式",
+      "body": "想躲开很正常，你已经很紧绷了。\n先说一句：我现在只做一件事。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_062",
+      "state_id": "state_hide",
+      "title": "五分钟动作",
+      "body": "拖延不是懒，是压力过载。\n先写一个标题，后面再补。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_063",
+      "state_id": "state_hide",
+      "title": "软着陆方案",
+      "body": "你不是不行，是起步成本太高。\n把任务改成“只做一点点”。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_064",
+      "state_id": "state_hide",
+      "title": "拆小计划",
+      "body": "先别骂自己，先把任务拆小。\n先允许粗糙，不求完整。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_065",
+      "state_id": "state_hide",
+      "title": "今日任务",
+      "body": "逃避感出现时，先降低难度。\n设定五分钟计时，到点就停。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_066",
+      "state_id": "state_hide",
+      "title": "先开头通道",
+      "body": "你可以先躲一会儿，再回来。\n先完成最不痛苦的那项。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_067",
+      "state_id": "state_hide",
+      "title": "先缩圈清单",
+      "body": "今天先做最小可行动作。\n先打开文件，不要求产出。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_068",
+      "state_id": "state_hide",
+      "title": "小步版本",
+      "body": "不想面对时，先做开场动作。\n先做第一步，不看全程。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_069",
+      "state_id": "state_hide",
+      "title": "躲一会路径",
+      "body": "先把“要完美”关掉。\n先把难题拆成三个小块。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_070",
+      "state_id": "state_hide",
+      "title": "隐身按钮",
+      "body": "你现在需要的是可执行，不是伟大。\n先清掉一个最小障碍。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_071",
+      "state_id": "state_hide",
+      "title": "起步模式",
+      "body": "害怕开始时，先做 1 分钟版本。\n先把桌面清出一小块空间。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_072",
+      "state_id": "state_hide",
+      "title": "低压动作",
+      "body": "先让自己动起来一点点。\n先做两分钟，再决定要不要继续。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_073",
+      "state_id": "state_hide",
+      "title": "最小化方案",
+      "body": "卡住不代表结束，只是入口太大。\n先回一条最短消息。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_074",
+      "state_id": "state_hide",
+      "title": "五分钟计划",
+      "body": "把门缝开一点，就算前进。\n先说一句：我现在只做一件事。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_075",
+      "state_id": "state_hide",
+      "title": "软着陆任务",
+      "body": "今天只做能做到的那一格。\n先写一个标题，后面再补。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_076",
+      "state_id": "state_hide",
+      "title": "拆小通道",
+      "body": "想躲开很正常，你已经很紧绷了。\n把任务改成“只做一点点”。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_077",
+      "state_id": "state_hide",
+      "title": "今日清单",
+      "body": "拖延不是懒，是压力过载。\n先允许粗糙，不求完整。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_078",
+      "state_id": "state_hide",
+      "title": "先开头版本",
+      "body": "你不是不行，是起步成本太高。\n设定五分钟计时，到点就停。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_079",
+      "state_id": "state_hide",
+      "title": "先缩圈路径",
+      "body": "先别骂自己，先把任务拆小。\n先完成最不痛苦的那项。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_080",
+      "state_id": "state_hide",
+      "title": "小步按钮",
+      "body": "逃避感出现时，先降低难度。\n先打开文件，不要求产出。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_081",
+      "state_id": "state_hide",
+      "title": "躲一会模式",
+      "body": "你可以先躲一会儿，再回来。\n先做第一步，不看全程。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_082",
+      "state_id": "state_hide",
+      "title": "隐身动作",
+      "body": "今天先做最小可行动作。\n先把难题拆成三个小块。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_083",
+      "state_id": "state_hide",
+      "title": "起步方案",
+      "body": "不想面对时，先做开场动作。\n先清掉一个最小障碍。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_084",
+      "state_id": "state_hide",
+      "title": "低压计划",
+      "body": "先把“要完美”关掉。\n先把桌面清出一小块空间。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_085",
+      "state_id": "state_hide",
+      "title": "最小化任务",
+      "body": "你现在需要的是可执行，不是伟大。\n先做两分钟，再决定要不要继续。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_086",
+      "state_id": "state_hide",
+      "title": "五分钟通道",
+      "body": "害怕开始时，先做 1 分钟版本。\n先回一条最短消息。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_087",
+      "state_id": "state_hide",
+      "title": "软着陆清单",
+      "body": "先让自己动起来一点点。\n先说一句：我现在只做一件事。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_088",
+      "state_id": "state_hide",
+      "title": "拆小版本",
+      "body": "卡住不代表结束，只是入口太大。\n先写一个标题，后面再补。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_089",
+      "state_id": "state_hide",
+      "title": "今日路径",
+      "body": "把门缝开一点，就算前进。\n把任务改成“只做一点点”。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_090",
+      "state_id": "state_hide",
+      "title": "先开头按钮",
+      "body": "今天只做能做到的那一格。\n先允许粗糙，不求完整。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_091",
+      "state_id": "state_hide",
+      "title": "先缩圈模式",
+      "body": "想躲开很正常，你已经很紧绷了。\n设定五分钟计时，到点就停。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_092",
+      "state_id": "state_hide",
+      "title": "小步动作",
+      "body": "拖延不是懒，是压力过载。\n先完成最不痛苦的那项。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_093",
+      "state_id": "state_hide",
+      "title": "躲一会方案",
+      "body": "你不是不行，是起步成本太高。\n先打开文件，不要求产出。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_094",
+      "state_id": "state_hide",
+      "title": "隐身计划",
+      "body": "先别骂自己，先把任务拆小。\n先做第一步，不看全程。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_095",
+      "state_id": "state_hide",
+      "title": "起步任务",
+      "body": "逃避感出现时，先降低难度。\n先把难题拆成三个小块。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_096",
+      "state_id": "state_hide",
+      "title": "低压通道",
+      "body": "你可以先躲一会儿，再回来。\n先清掉一个最小障碍。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_097",
+      "state_id": "state_hide",
+      "title": "最小化清单",
+      "body": "今天先做最小可行动作。\n先把桌面清出一小块空间。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_098",
+      "state_id": "state_hide",
+      "title": "五分钟版本",
+      "body": "不想面对时，先做开场动作。\n先做两分钟，再决定要不要继续。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_099",
+      "state_id": "state_hide",
+      "title": "软着陆路径",
+      "body": "先把“要完美”关掉。\n先回一条最短消息。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_100",
+      "state_id": "state_hide",
+      "title": "拆小按钮",
+      "body": "你现在需要的是可执行，不是伟大。\n先说一句：我现在只做一件事。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_101",
+      "state_id": "state_hide",
+      "title": "今日模式",
+      "body": "害怕开始时，先做 1 分钟版本。\n先写一个标题，后面再补。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_102",
+      "state_id": "state_hide",
+      "title": "先开头动作",
+      "body": "先让自己动起来一点点。\n把任务改成“只做一点点”。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_103",
+      "state_id": "state_hide",
+      "title": "先缩圈方案",
+      "body": "卡住不代表结束，只是入口太大。\n先允许粗糙，不求完整。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_104",
+      "state_id": "state_hide",
+      "title": "小步计划",
+      "body": "把门缝开一点，就算前进。\n设定五分钟计时，到点就停。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_105",
+      "state_id": "state_hide",
+      "title": "躲一会任务",
+      "body": "今天只做能做到的那一格。\n先完成最不痛苦的那项。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_106",
+      "state_id": "state_hide",
+      "title": "隐身通道",
+      "body": "想躲开很正常，你已经很紧绷了。\n先打开文件，不要求产出。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_107",
+      "state_id": "state_hide",
+      "title": "起步清单",
+      "body": "拖延不是懒，是压力过载。\n先做第一步，不看全程。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_108",
+      "state_id": "state_hide",
+      "title": "低压版本",
+      "body": "你不是不行，是起步成本太高。\n先把难题拆成三个小块。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_109",
+      "state_id": "state_hide",
+      "title": "最小化路径",
+      "body": "先别骂自己，先把任务拆小。\n先清掉一个最小障碍。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_110",
+      "state_id": "state_hide",
+      "title": "五分钟按钮",
+      "body": "逃避感出现时，先降低难度。\n先把桌面清出一小块空间。",
+      "footer": "你不需要一次做到位。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_111",
+      "state_id": "state_hide",
+      "title": "软着陆模式",
+      "body": "你可以先躲一会儿，再回来。\n先做两分钟，再决定要不要继续。",
+      "footer": "今天有一点动作就很够。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_112",
+      "state_id": "state_hide",
+      "title": "拆小动作",
+      "body": "今天先做最小可行动作。\n先回一条最短消息。",
+      "footer": "先把入口变小，路就会出现。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_113",
+      "state_id": "state_hide",
+      "title": "今日方案",
+      "body": "不想面对时，先做开场动作。\n先说一句：我现在只做一件事。",
+      "footer": "低配完成，也叫完成。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_114",
+      "state_id": "state_hide",
+      "title": "先开头计划",
+      "body": "先把“要完美”关掉。\n先写一个标题，后面再补。",
+      "footer": "你先启动，后面自然会跟上。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_115",
+      "state_id": "state_hide",
+      "title": "先缩圈任务",
+      "body": "你现在需要的是可执行，不是伟大。\n把任务改成“只做一点点”。",
+      "footer": "可执行，比完美更重要。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_116",
+      "state_id": "state_hide",
+      "title": "小步通道",
+      "body": "害怕开始时，先做 1 分钟版本。\n先允许粗糙，不求完整。",
+      "footer": "躲一下也行，别把自己丢下。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_117",
+      "state_id": "state_hide",
+      "title": "躲一会清单",
+      "body": "先让自己动起来一点点。\n设定五分钟计时，到点就停。",
+      "footer": "小步不是退步，是可持续。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_118",
+      "state_id": "state_hide",
+      "title": "隐身版本",
+      "body": "卡住不代表结束，只是入口太大。\n先完成最不痛苦的那项。",
+      "footer": "只做一点点，也值得记一分。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_119",
+      "state_id": "state_hide",
+      "title": "起步路径",
+      "body": "把门缝开一点，就算前进。\n先打开文件，不要求产出。",
+      "footer": "先开始，已经赢过卡住。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_120",
+      "state_id": "state_hide",
+      "title": "低压按钮",
+      "body": "今天只做能做到的那一格。\n先做第一步，不看全程。",
+      "footer": "今天先开机，不必超频。",
+      "tags": [
+        "hide"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_031",
+      "state_id": "state_annoyed",
+      "title": "降噪练习",
+      "body": "烦躁不是失控，是系统过热。\n把肩膀放松，手心打开。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_032",
+      "state_id": "state_annoyed",
+      "title": "静音步骤",
+      "body": "你不是脾气差，是负荷太满。\n把语速降一半，情绪也会降一格。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_033",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸动作",
+      "body": "脑内噪音太大时，先别做决定。\n先说一句：我现在先冷静。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_034",
+      "state_id": "state_annoyed",
+      "title": "去火模式",
+      "body": "先把火气放下，再谈对错。\n先写下三件可控的小事。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_035",
+      "state_id": "state_annoyed",
+      "title": "卸压按钮",
+      "body": "焦虑在催你快，但你可以慢。\n把今天只保留一件关键任务。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_036",
+      "state_id": "state_annoyed",
+      "title": "停战方案",
+      "body": "你现在需要降噪，不是硬撑。\n离开当前界面三分钟再回来。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_037",
+      "state_id": "state_annoyed",
+      "title": "清屏协议",
+      "body": "先暂停争辩，保护你的神经。\n先喝一口水，再回复任何消息。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_038",
+      "state_id": "state_annoyed",
+      "title": "缓冲回合",
+      "body": "烦的时候，先照顾呼吸节奏。\n先从现场撤离到安静角落。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_039",
+      "state_id": "state_annoyed",
+      "title": "减速时刻",
+      "body": "你不是问题本身，你只是被淹没。\n去洗把脸，给身体一个重启信号。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_040",
+      "state_id": "state_annoyed",
+      "title": "稳心计划",
+      "body": "先让身体停战，头脑才会清楚。\n先看远处一个点，打断内耗回路。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_041",
+      "state_id": "state_annoyed",
+      "title": "断线练习",
+      "body": "情绪很吵，先把音量调低。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_042",
+      "state_id": "state_annoyed",
+      "title": "先冷却步骤",
+      "body": "别急着回应，先让自己稳定。\n把通知关十分钟，减少噪音源。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_043",
+      "state_id": "state_annoyed",
+      "title": "降噪动作",
+      "body": "现在先不解决全部，只先降温。\n先坐稳，脚掌贴地，数到十。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_044",
+      "state_id": "state_annoyed",
+      "title": "静音模式",
+      "body": "你可以先离开刺激源一会儿。\n把肩膀放松，手心打开。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_045",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸按钮",
+      "body": "先把注意力从灾难想象拉回来。\n把语速降一半，情绪也会降一格。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_046",
+      "state_id": "state_annoyed",
+      "title": "去火方案",
+      "body": "烦躁不是失控，是系统过热。\n先说一句：我现在先冷静。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_047",
+      "state_id": "state_annoyed",
+      "title": "卸压协议",
+      "body": "你不是脾气差，是负荷太满。\n先写下三件可控的小事。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_048",
+      "state_id": "state_annoyed",
+      "title": "停战回合",
+      "body": "脑内噪音太大时，先别做决定。\n把今天只保留一件关键任务。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_049",
+      "state_id": "state_annoyed",
+      "title": "清屏时刻",
+      "body": "先把火气放下，再谈对错。\n离开当前界面三分钟再回来。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_050",
+      "state_id": "state_annoyed",
+      "title": "缓冲计划",
+      "body": "焦虑在催你快，但你可以慢。\n先喝一口水，再回复任何消息。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_051",
+      "state_id": "state_annoyed",
+      "title": "减速练习",
+      "body": "你现在需要降噪，不是硬撑。\n先从现场撤离到安静角落。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_052",
+      "state_id": "state_annoyed",
+      "title": "稳心步骤",
+      "body": "先暂停争辩，保护你的神经。\n去洗把脸，给身体一个重启信号。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_053",
+      "state_id": "state_annoyed",
+      "title": "断线动作",
+      "body": "烦的时候，先照顾呼吸节奏。\n先看远处一个点，打断内耗回路。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_054",
+      "state_id": "state_annoyed",
+      "title": "先冷却模式",
+      "body": "你不是问题本身，你只是被淹没。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_055",
+      "state_id": "state_annoyed",
+      "title": "降噪按钮",
+      "body": "先让身体停战，头脑才会清楚。\n把通知关十分钟，减少噪音源。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_056",
+      "state_id": "state_annoyed",
+      "title": "静音方案",
+      "body": "情绪很吵，先把音量调低。\n先坐稳，脚掌贴地，数到十。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_057",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸协议",
+      "body": "别急着回应，先让自己稳定。\n把肩膀放松，手心打开。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_058",
+      "state_id": "state_annoyed",
+      "title": "去火回合",
+      "body": "现在先不解决全部，只先降温。\n把语速降一半，情绪也会降一格。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_059",
+      "state_id": "state_annoyed",
+      "title": "卸压时刻",
+      "body": "你可以先离开刺激源一会儿。\n先说一句：我现在先冷静。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_060",
+      "state_id": "state_annoyed",
+      "title": "停战计划",
+      "body": "先把注意力从灾难想象拉回来。\n先写下三件可控的小事。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_061",
+      "state_id": "state_annoyed",
+      "title": "清屏练习",
+      "body": "烦躁不是失控，是系统过热。\n把今天只保留一件关键任务。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_062",
+      "state_id": "state_annoyed",
+      "title": "缓冲步骤",
+      "body": "你不是脾气差，是负荷太满。\n离开当前界面三分钟再回来。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_063",
+      "state_id": "state_annoyed",
+      "title": "减速动作",
+      "body": "脑内噪音太大时，先别做决定。\n先喝一口水，再回复任何消息。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_064",
+      "state_id": "state_annoyed",
+      "title": "稳心模式",
+      "body": "先把火气放下，再谈对错。\n先从现场撤离到安静角落。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_065",
+      "state_id": "state_annoyed",
+      "title": "断线按钮",
+      "body": "焦虑在催你快，但你可以慢。\n去洗把脸，给身体一个重启信号。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_066",
+      "state_id": "state_annoyed",
+      "title": "先冷却方案",
+      "body": "你现在需要降噪，不是硬撑。\n先看远处一个点，打断内耗回路。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_067",
+      "state_id": "state_annoyed",
+      "title": "降噪协议",
+      "body": "先暂停争辩，保护你的神经。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_068",
+      "state_id": "state_annoyed",
+      "title": "静音回合",
+      "body": "烦的时候，先照顾呼吸节奏。\n把通知关十分钟，减少噪音源。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_069",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸时刻",
+      "body": "你不是问题本身，你只是被淹没。\n先坐稳，脚掌贴地，数到十。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_070",
+      "state_id": "state_annoyed",
+      "title": "去火计划",
+      "body": "先让身体停战，头脑才会清楚。\n把肩膀放松，手心打开。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_071",
+      "state_id": "state_annoyed",
+      "title": "卸压练习",
+      "body": "情绪很吵，先把音量调低。\n把语速降一半，情绪也会降一格。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_072",
+      "state_id": "state_annoyed",
+      "title": "停战步骤",
+      "body": "别急着回应，先让自己稳定。\n先说一句：我现在先冷静。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_073",
+      "state_id": "state_annoyed",
+      "title": "清屏动作",
+      "body": "现在先不解决全部，只先降温。\n先写下三件可控的小事。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_074",
+      "state_id": "state_annoyed",
+      "title": "缓冲模式",
+      "body": "你可以先离开刺激源一会儿。\n把今天只保留一件关键任务。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_075",
+      "state_id": "state_annoyed",
+      "title": "减速按钮",
+      "body": "先把注意力从灾难想象拉回来。\n离开当前界面三分钟再回来。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_076",
+      "state_id": "state_annoyed",
+      "title": "稳心方案",
+      "body": "烦躁不是失控，是系统过热。\n先喝一口水，再回复任何消息。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_077",
+      "state_id": "state_annoyed",
+      "title": "断线协议",
+      "body": "你不是脾气差，是负荷太满。\n先从现场撤离到安静角落。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_078",
+      "state_id": "state_annoyed",
+      "title": "先冷却回合",
+      "body": "脑内噪音太大时，先别做决定。\n去洗把脸，给身体一个重启信号。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_079",
+      "state_id": "state_annoyed",
+      "title": "降噪时刻",
+      "body": "先把火气放下，再谈对错。\n先看远处一个点，打断内耗回路。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_080",
+      "state_id": "state_annoyed",
+      "title": "静音计划",
+      "body": "焦虑在催你快，但你可以慢。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_081",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸练习",
+      "body": "你现在需要降噪，不是硬撑。\n把通知关十分钟，减少噪音源。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_082",
+      "state_id": "state_annoyed",
+      "title": "去火步骤",
+      "body": "先暂停争辩，保护你的神经。\n先坐稳，脚掌贴地，数到十。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_083",
+      "state_id": "state_annoyed",
+      "title": "卸压动作",
+      "body": "烦的时候，先照顾呼吸节奏。\n把肩膀放松，手心打开。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_084",
+      "state_id": "state_annoyed",
+      "title": "停战模式",
+      "body": "你不是问题本身，你只是被淹没。\n把语速降一半，情绪也会降一格。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_085",
+      "state_id": "state_annoyed",
+      "title": "清屏按钮",
+      "body": "先让身体停战，头脑才会清楚。\n先说一句：我现在先冷静。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_086",
+      "state_id": "state_annoyed",
+      "title": "缓冲方案",
+      "body": "情绪很吵，先把音量调低。\n先写下三件可控的小事。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_087",
+      "state_id": "state_annoyed",
+      "title": "减速协议",
+      "body": "别急着回应，先让自己稳定。\n把今天只保留一件关键任务。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_088",
+      "state_id": "state_annoyed",
+      "title": "稳心回合",
+      "body": "现在先不解决全部，只先降温。\n离开当前界面三分钟再回来。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_089",
+      "state_id": "state_annoyed",
+      "title": "断线时刻",
+      "body": "你可以先离开刺激源一会儿。\n先喝一口水，再回复任何消息。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_090",
+      "state_id": "state_annoyed",
+      "title": "先冷却计划",
+      "body": "先把注意力从灾难想象拉回来。\n先从现场撤离到安静角落。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_091",
+      "state_id": "state_annoyed",
+      "title": "降噪练习",
+      "body": "烦躁不是失控，是系统过热。\n去洗把脸，给身体一个重启信号。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_092",
+      "state_id": "state_annoyed",
+      "title": "静音步骤",
+      "body": "你不是脾气差，是负荷太满。\n先看远处一个点，打断内耗回路。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_093",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸动作",
+      "body": "脑内噪音太大时，先别做决定。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_094",
+      "state_id": "state_annoyed",
+      "title": "去火模式",
+      "body": "先把火气放下，再谈对错。\n把通知关十分钟，减少噪音源。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_095",
+      "state_id": "state_annoyed",
+      "title": "卸压按钮",
+      "body": "焦虑在催你快，但你可以慢。\n先坐稳，脚掌贴地，数到十。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_096",
+      "state_id": "state_annoyed",
+      "title": "停战方案",
+      "body": "你现在需要降噪，不是硬撑。\n把肩膀放松，手心打开。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_097",
+      "state_id": "state_annoyed",
+      "title": "清屏协议",
+      "body": "先暂停争辩，保护你的神经。\n把语速降一半，情绪也会降一格。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_098",
+      "state_id": "state_annoyed",
+      "title": "缓冲回合",
+      "body": "烦的时候，先照顾呼吸节奏。\n先说一句：我现在先冷静。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_099",
+      "state_id": "state_annoyed",
+      "title": "减速时刻",
+      "body": "你不是问题本身，你只是被淹没。\n先写下三件可控的小事。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_100",
+      "state_id": "state_annoyed",
+      "title": "稳心计划",
+      "body": "先让身体停战，头脑才会清楚。\n把今天只保留一件关键任务。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_101",
+      "state_id": "state_annoyed",
+      "title": "断线练习",
+      "body": "情绪很吵，先把音量调低。\n离开当前界面三分钟再回来。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_102",
+      "state_id": "state_annoyed",
+      "title": "先冷却步骤",
+      "body": "别急着回应，先让自己稳定。\n先喝一口水，再回复任何消息。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_103",
+      "state_id": "state_annoyed",
+      "title": "降噪动作",
+      "body": "现在先不解决全部，只先降温。\n先从现场撤离到安静角落。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_104",
+      "state_id": "state_annoyed",
+      "title": "静音模式",
+      "body": "你可以先离开刺激源一会儿。\n去洗把脸，给身体一个重启信号。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_105",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸按钮",
+      "body": "先把注意力从灾难想象拉回来。\n先看远处一个点，打断内耗回路。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_106",
+      "state_id": "state_annoyed",
+      "title": "去火方案",
+      "body": "烦躁不是失控，是系统过热。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_107",
+      "state_id": "state_annoyed",
+      "title": "卸压协议",
+      "body": "你不是脾气差，是负荷太满。\n把通知关十分钟，减少噪音源。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_108",
+      "state_id": "state_annoyed",
+      "title": "停战回合",
+      "body": "脑内噪音太大时，先别做决定。\n先坐稳，脚掌贴地，数到十。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_109",
+      "state_id": "state_annoyed",
+      "title": "清屏时刻",
+      "body": "先把火气放下，再谈对错。\n把肩膀放松，手心打开。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_110",
+      "state_id": "state_annoyed",
+      "title": "缓冲计划",
+      "body": "焦虑在催你快，但你可以慢。\n把语速降一半，情绪也会降一格。",
+      "footer": "先护住神经，再处理事情。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_111",
+      "state_id": "state_annoyed",
+      "title": "减速练习",
+      "body": "你现在需要降噪，不是硬撑。\n先说一句：我现在先冷静。",
+      "footer": "你先安静下来，世界才会安静。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_112",
+      "state_id": "state_annoyed",
+      "title": "稳心步骤",
+      "body": "先暂停争辩，保护你的神经。\n先写下三件可控的小事。",
+      "footer": "平稳，是现在最优先的任务。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_113",
+      "state_id": "state_annoyed",
+      "title": "断线动作",
+      "body": "烦的时候，先照顾呼吸节奏。\n把今天只保留一件关键任务。",
+      "footer": "把火熄一点，路会看见。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_114",
+      "state_id": "state_annoyed",
+      "title": "先冷却模式",
+      "body": "你不是问题本身，你只是被淹没。\n离开当前界面三分钟再回来。",
+      "footer": "降温以后，答案会更清楚。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_115",
+      "state_id": "state_annoyed",
+      "title": "降噪按钮",
+      "body": "先让身体停战，头脑才会清楚。\n先喝一口水，再回复任何消息。",
+      "footer": "先把音量调低，再继续前进。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_116",
+      "state_id": "state_annoyed",
+      "title": "静音方案",
+      "body": "情绪很吵，先把音量调低。\n先从现场撤离到安静角落。",
+      "footer": "你可以慢回应，不必秒反应。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_117",
+      "state_id": "state_annoyed",
+      "title": "慢呼吸协议",
+      "body": "别急着回应，先让自己稳定。\n去洗把脸，给身体一个重启信号。",
+      "footer": "稳住自己，比赢一场争论重要。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_118",
+      "state_id": "state_annoyed",
+      "title": "去火回合",
+      "body": "现在先不解决全部，只先降温。\n先看远处一个点，打断内耗回路。",
+      "footer": "你不是麻烦，你只是太吵了。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_119",
+      "state_id": "state_annoyed",
+      "title": "卸压时刻",
+      "body": "你可以先离开刺激源一会儿。\n做四次慢吸慢呼，把节奏放缓。",
+      "footer": "先不过载，就是今天的成果。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_120",
+      "state_id": "state_annoyed",
+      "title": "停战计划",
+      "body": "先把注意力从灾难想象拉回来。\n把通知关十分钟，减少噪音源。",
+      "footer": "先冷却，才有余地。",
+      "tags": [
+        "annoyed"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_121",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "今天这电量，连假装积极都费电。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_122",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_123",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "再卷下去，灵魂都要申请离职。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_124",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "你现在的状态，连焦虑都得排队。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_125",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "继续逞强的唯一成果，是更想请假。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_126",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "你不是不努力，你是被生活榨成了试用装。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_127",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "你还在运行，已经很给面子了。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_128",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "你今天的KPI叫“别原地报废”。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_129",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "别硬撑了，你又不是永动机代言人。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_130",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "你不是掉线，是服务器在维护。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_131",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "你不是懒，是把命留给明天。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_132",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "这不是颓，是系统提醒你别再超频。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_133",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "先承认累，别把自虐当职业素养。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_134",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "今天这电量，连假装积极都费电。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_135",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_136",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "再卷下去，灵魂都要申请离职。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_137",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "你现在的状态，连焦虑都得排队。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_138",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "继续逞强的唯一成果，是更想请假。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_139",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "你不是不努力，你是被生活榨成了试用装。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_140",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "你还在运行，已经很给面子了。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_141",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "你今天的KPI叫“别原地报废”。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_142",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "别硬撑了，你又不是永动机代言人。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_143",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "你不是掉线，是服务器在维护。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_144",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "你不是懒，是把命留给明天。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_145",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "这不是颓，是系统提醒你别再超频。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_146",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "先承认累，别把自虐当职业素养。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_147",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "今天这电量，连假装积极都费电。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_148",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_149",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "再卷下去，灵魂都要申请离职。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_150",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "你现在的状态，连焦虑都得排队。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_151",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "继续逞强的唯一成果，是更想请假。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_152",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "你不是不努力，你是被生活榨成了试用装。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_153",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "你还在运行，已经很给面子了。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_154",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "你今天的KPI叫“别原地报废”。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_155",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "别硬撑了，你又不是永动机代言人。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_156",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "你不是掉线，是服务器在维护。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_157",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "你不是懒，是把命留给明天。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_158",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "这不是颓，是系统提醒你别再超频。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_159",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "先承认累，别把自虐当职业素养。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_160",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "今天这电量，连假装积极都费电。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_161",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_162",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "再卷下去，灵魂都要申请离职。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_163",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "你现在的状态，连焦虑都得排队。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_164",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "继续逞强的唯一成果，是更想请假。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_165",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "你不是不努力，你是被生活榨成了试用装。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_166",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "你还在运行，已经很给面子了。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_167",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "你今天的KPI叫“别原地报废”。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_168",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "别硬撑了，你又不是永动机代言人。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_169",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "你不是掉线，是服务器在维护。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_170",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "你不是懒，是把命留给明天。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_171",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "这不是颓，是系统提醒你别再超频。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_172",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "先承认累，别把自虐当职业素养。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_173",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "今天这电量，连假装积极都费电。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_174",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_175",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "再卷下去，灵魂都要申请离职。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_176",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "你现在的状态，连焦虑都得排队。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_177",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "继续逞强的唯一成果，是更想请假。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_178",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "你不是不努力，你是被生活榨成了试用装。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_179",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "你还在运行，已经很给面子了。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_180",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "你今天的KPI叫“别原地报废”。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_181",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "别硬撑了，你又不是永动机代言人。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_182",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "你不是掉线，是服务器在维护。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_183",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "你不是懒，是把命留给明天。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_184",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "这不是颓，是系统提醒你别再超频。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_185",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "先承认累，别把自虐当职业素养。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_186",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "今天这电量，连假装积极都费电。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_187",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_188",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "再卷下去，灵魂都要申请离职。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_189",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "你现在的状态，连焦虑都得排队。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_190",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "继续逞强的唯一成果，是更想请假。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_191",
+      "state_id": "state_tired",
+      "title": "懒人保命通道",
+      "body": "你不是不努力，你是被生活榨成了试用装。\n先完成一件最小任务，然后立刻收手。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_192",
+      "state_id": "state_tired",
+      "title": "摆烂合规计划",
+      "body": "你还在运行，已经很给面子了。\n先把任务砍到最低配，能交差就行。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_193",
+      "state_id": "state_tired",
+      "title": "躺平开机手册",
+      "body": "你今天的KPI叫“别原地报废”。\n先按低电量模式，别再开高性能。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_194",
+      "state_id": "state_tired",
+      "title": "省电阴阳方案",
+      "body": "别硬撑了，你又不是永动机代言人。\n先把“必须完美”丢进回收站。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_195",
+      "state_id": "state_tired",
+      "title": "崩溃延后协议",
+      "body": "你不是掉线，是服务器在维护。\n先喝水，别让脑子在脱水里开会。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_196",
+      "state_id": "state_tired",
+      "title": "懒人保命提醒",
+      "body": "你不是懒，是把命留给明天。\n先休息十分钟，地球不会因此停转。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_197",
+      "state_id": "state_tired",
+      "title": "摆烂合规模式",
+      "body": "这不是颓，是系统提醒你别再超频。\n先把通知静音，让世界晚点来烦你。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_198",
+      "state_id": "state_tired",
+      "title": "躺平开机按钮",
+      "body": "先承认累，别把自虐当职业素养。\n先坐下三分钟，假装自己是重要资产。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_tired_199",
+      "state_id": "state_tired",
+      "title": "省电阴阳回合",
+      "body": "今天这电量，连假装积极都费电。\n先把节奏放慢，别拿命追进度条。",
+      "footer": "慢一点，你又没在跟死线结婚。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_tired_200",
+      "state_id": "state_tired",
+      "title": "崩溃延后守则",
+      "body": "把自己逼太紧，只会产出更多白眼。\n先去窗边喘口气，别在工位渡劫。",
+      "footer": "你先别垮，其他都能补救。",
+      "tags": [
+        "tired",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_121",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "麻木不是冷血，是系统自动避险。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_122",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "你现在像离线地图，能用但慢。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_123",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "你只是麻了一下，不是没救了。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_124",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "今天的你像缓存区，但还没清空。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_125",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "你不是坏了，只是进入省感模式。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_126",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "你不是没感觉，是感觉被你加了静音。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_127",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "别硬演元气人设，观众也没买票。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_128",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "大脑发呆，不代表人生注销。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_129",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "别急着证明热爱，你先证明自己还在。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_130",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "感觉不到不等于不存在，数学也这么算。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_131",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "先把自己叫回现场，再谈远方。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_132",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "你不是空壳，只是情绪网速太慢。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_133",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "先别找意义，意义今天也请假。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_134",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "麻木不是冷血，是系统自动避险。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_135",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "你现在像离线地图，能用但慢。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_136",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "你只是麻了一下，不是没救了。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_137",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "今天的你像缓存区，但还没清空。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_138",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "你不是坏了，只是进入省感模式。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_139",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "你不是没感觉，是感觉被你加了静音。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_140",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "别硬演元气人设，观众也没买票。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_141",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "大脑发呆，不代表人生注销。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_142",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "别急着证明热爱，你先证明自己还在。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_143",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "感觉不到不等于不存在，数学也这么算。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_144",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "先把自己叫回现场，再谈远方。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_145",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "你不是空壳，只是情绪网速太慢。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_146",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "先别找意义，意义今天也请假。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_147",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "麻木不是冷血，是系统自动避险。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_148",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "你现在像离线地图，能用但慢。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_149",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "你只是麻了一下，不是没救了。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_150",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "今天的你像缓存区，但还没清空。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_151",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "你不是坏了，只是进入省感模式。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_152",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "你不是没感觉，是感觉被你加了静音。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_153",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "别硬演元气人设，观众也没买票。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_154",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "大脑发呆，不代表人生注销。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_155",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "别急着证明热爱，你先证明自己还在。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_156",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "感觉不到不等于不存在，数学也这么算。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_157",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "先把自己叫回现场，再谈远方。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_158",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "你不是空壳，只是情绪网速太慢。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_159",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "先别找意义，意义今天也请假。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_160",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "麻木不是冷血，是系统自动避险。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_161",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "你现在像离线地图，能用但慢。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_162",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "你只是麻了一下，不是没救了。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_163",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "今天的你像缓存区，但还没清空。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_164",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "你不是坏了，只是进入省感模式。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_165",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "你不是没感觉，是感觉被你加了静音。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_166",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "别硬演元气人设，观众也没买票。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_167",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "大脑发呆，不代表人生注销。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_168",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "别急着证明热爱，你先证明自己还在。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_169",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "感觉不到不等于不存在，数学也这么算。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_170",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "先把自己叫回现场，再谈远方。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_171",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "你不是空壳，只是情绪网速太慢。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_172",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "先别找意义，意义今天也请假。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_173",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "麻木不是冷血，是系统自动避险。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_174",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "你现在像离线地图，能用但慢。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_175",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "你只是麻了一下，不是没救了。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_176",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "今天的你像缓存区，但还没清空。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_177",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "你不是坏了，只是进入省感模式。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_178",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "你不是没感觉，是感觉被你加了静音。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_179",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "别硬演元气人设，观众也没买票。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_180",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "大脑发呆，不代表人生注销。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_181",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "别急着证明热爱，你先证明自己还在。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_182",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "感觉不到不等于不存在，数学也这么算。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_183",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "先把自己叫回现场，再谈远方。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_184",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "你不是空壳，只是情绪网速太慢。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_185",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "先别找意义，意义今天也请假。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_186",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "麻木不是冷血，是系统自动避险。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_187",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "你现在像离线地图，能用但慢。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_188",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "你只是麻了一下，不是没救了。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_189",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "今天的你像缓存区，但还没清空。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_190",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "你不是坏了，只是进入省感模式。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_191",
+      "state_id": "state_numb",
+      "title": "空心复位提醒",
+      "body": "你不是没感觉，是感觉被你加了静音。\n做三次慢呼气，别让神经继续漂流。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_192",
+      "state_id": "state_numb",
+      "title": "麻木解冻方案",
+      "body": "别硬演元气人设，观众也没买票。\n摸一摸杯子温度，告诉身体你还在线。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_193",
+      "state_id": "state_numb",
+      "title": "感觉补丁计划",
+      "body": "大脑发呆，不代表人生注销。\n说一句“我现在在这里”，哪怕很敷衍。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_194",
+      "state_id": "state_numb",
+      "title": "存在自救步骤",
+      "body": "别急着证明热爱，你先证明自己还在。\n看着手心十秒，确认“我在这”。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_195",
+      "state_id": "state_numb",
+      "title": "精神返场回路",
+      "body": "感觉不到不等于不存在，数学也这么算。\n数五个你看见的东西，别让脑内悬空。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_196",
+      "state_id": "state_numb",
+      "title": "空心复位协议",
+      "body": "先把自己叫回现场，再谈远方。\n先完成一个小动作，让系统重新响应。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_197",
+      "state_id": "state_numb",
+      "title": "麻木解冻模式",
+      "body": "你不是空壳，只是情绪网速太慢。\n喝一口水，至少让身体先有反馈。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_198",
+      "state_id": "state_numb",
+      "title": "感觉补丁动作",
+      "body": "先别找意义，意义今天也请假。\n把脚掌贴地，先拿回一点存在感。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_numb_199",
+      "state_id": "state_numb",
+      "title": "存在自救通道",
+      "body": "麻木不是冷血，是系统自动避险。\n关掉多余输入，给大脑减一点噪。",
+      "footer": "今天不热血，先别失联。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_numb_200",
+      "state_id": "state_numb",
+      "title": "精神返场手册",
+      "body": "你现在像离线地图，能用但慢。\n盯住一个固定点，把注意力拉回来。",
+      "footer": "有一点回应，就算系统重启。",
+      "tags": [
+        "numb",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_121",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "拖延久了，任务会自己长牙。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_122",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "你不是废，你只是起步门槛太离谱。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_123",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "先动一下，别把焦虑养成宠物。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_124",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "你现在卡住，不代表你要住在这里。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_125",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "今天先做人，不做效率神话。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_126",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "你不是不想做，是被“太多了”吓退了。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_127",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "继续鸵鸟下去，截止日期会自己敲门。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_128",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "一直想太多，只会稳定地什么都不做。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_129",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "别再等完美时机，它比你还会拖。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_130",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "别跟任务谈恋爱，先把它拆了。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_131",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "任务没那么可怕，可怕的是你脑补。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_132",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "逃避确实爽，但利息通常很高。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_133",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "你不需要雄起，只需要点开第一步。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_134",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "拖延久了，任务会自己长牙。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_135",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "你不是废，你只是起步门槛太离谱。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_136",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "先动一下，别把焦虑养成宠物。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_137",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "你现在卡住，不代表你要住在这里。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_138",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "今天先做人，不做效率神话。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_139",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "你不是不想做，是被“太多了”吓退了。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_140",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "继续鸵鸟下去，截止日期会自己敲门。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_141",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "一直想太多，只会稳定地什么都不做。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_142",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "别再等完美时机，它比你还会拖。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_143",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "别跟任务谈恋爱，先把它拆了。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_144",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "任务没那么可怕，可怕的是你脑补。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_145",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "逃避确实爽，但利息通常很高。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_146",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "你不需要雄起，只需要点开第一步。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_147",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "拖延久了，任务会自己长牙。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_148",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "你不是废，你只是起步门槛太离谱。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_149",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "先动一下，别把焦虑养成宠物。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_150",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "你现在卡住，不代表你要住在这里。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_151",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "今天先做人，不做效率神话。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_152",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "你不是不想做，是被“太多了”吓退了。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_153",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "继续鸵鸟下去，截止日期会自己敲门。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_154",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "一直想太多，只会稳定地什么都不做。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_155",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "别再等完美时机，它比你还会拖。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_156",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "别跟任务谈恋爱，先把它拆了。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_157",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "任务没那么可怕，可怕的是你脑补。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_158",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "逃避确实爽，但利息通常很高。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_159",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "你不需要雄起，只需要点开第一步。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_160",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "拖延久了，任务会自己长牙。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_161",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "你不是废，你只是起步门槛太离谱。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_162",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "先动一下，别把焦虑养成宠物。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_163",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "你现在卡住，不代表你要住在这里。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_164",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "今天先做人，不做效率神话。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_165",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "你不是不想做，是被“太多了”吓退了。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_166",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "继续鸵鸟下去，截止日期会自己敲门。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_167",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "一直想太多，只会稳定地什么都不做。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_168",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "别再等完美时机，它比你还会拖。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_169",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "别跟任务谈恋爱，先把它拆了。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_170",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "任务没那么可怕，可怕的是你脑补。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_171",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "逃避确实爽，但利息通常很高。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_172",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "你不需要雄起，只需要点开第一步。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_173",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "拖延久了，任务会自己长牙。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_174",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "你不是废，你只是起步门槛太离谱。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_175",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "先动一下，别把焦虑养成宠物。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_176",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "你现在卡住，不代表你要住在这里。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_177",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "今天先做人，不做效率神话。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_178",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "你不是不想做，是被“太多了”吓退了。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_179",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "继续鸵鸟下去，截止日期会自己敲门。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_180",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "一直想太多，只会稳定地什么都不做。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_181",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "别再等完美时机，它比你还会拖。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_182",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "别跟任务谈恋爱，先把它拆了。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_183",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "任务没那么可怕，可怕的是你脑补。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_184",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "逃避确实爽，但利息通常很高。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_185",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "你不需要雄起，只需要点开第一步。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_186",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "拖延久了，任务会自己长牙。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_187",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "你不是废，你只是起步门槛太离谱。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_188",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "先动一下，别把焦虑养成宠物。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_189",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "你现在卡住，不代表你要住在这里。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_190",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "今天先做人，不做效率神话。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_191",
+      "state_id": "state_hide",
+      "title": "拖延拆弹按钮",
+      "body": "你不是不想做，是被“太多了”吓退了。\n先清掉最小阻碍，给自己留活路。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_192",
+      "state_id": "state_hide",
+      "title": "摸鱼自救协议",
+      "body": "继续鸵鸟下去，截止日期会自己敲门。\n先开文件，不写也算进场。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_193",
+      "state_id": "state_hide",
+      "title": "烂尾补丁守则",
+      "body": "一直想太多，只会稳定地什么都不做。\n先完成最低配版本，再考虑体面。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_194",
+      "state_id": "state_hide",
+      "title": "躲避归来方案",
+      "body": "别再等完美时机，它比你还会拖。\n先回一条最短消息，别全线失联。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_195",
+      "state_id": "state_hide",
+      "title": "敷衍上岸通道",
+      "body": "别跟任务谈恋爱，先把它拆了。\n先写一个烂开头，后面再补救。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_196",
+      "state_id": "state_hide",
+      "title": "拖延拆弹回合",
+      "body": "任务没那么可怕，可怕的是你脑补。\n先关掉分心源，给行动一点空间。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_197",
+      "state_id": "state_hide",
+      "title": "摸鱼自救模式",
+      "body": "逃避确实爽，但利息通常很高。\n先拆成三小步，只做第一步。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_198",
+      "state_id": "state_hide",
+      "title": "烂尾补丁计划",
+      "body": "你不需要雄起，只需要点开第一步。\n先做两分钟，时间到就停。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_hide_199",
+      "state_id": "state_hide",
+      "title": "躲避归来步骤",
+      "body": "拖延久了，任务会自己长牙。\n先勾掉清单里最不痛的一项。",
+      "footer": "低配完成，照样算完成。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_hide_200",
+      "state_id": "state_hide",
+      "title": "敷衍上岸路径",
+      "body": "你不是废，你只是起步门槛太离谱。\n先把标准降到“能交就行”。",
+      "footer": "可执行，永远比想象完美。",
+      "tags": [
+        "hide",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_121",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "现在开口容易翻车，先别给素材。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_122",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "别急着回怼，键盘不发年终奖。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_123",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "烦躁时做决定，常见结局叫返工。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_124",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "火气上头时，逻辑通常先下线。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_125",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "全世界都在吵，不差你这一句。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_126",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "你不是脾气差，是被噪音围殴太久。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_127",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "继续硬刚，只会多一个后悔项目。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_128",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "你现在需要冷却，不是辩论冠军。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_129",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "焦虑正在催债，你先别签字。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_130",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "你不是玻璃心，是神经超负荷。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_131",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "先别爆，留点体面给明天。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_132",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "你现在像高压锅，先别加火。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_133",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "先稳住呼吸，再稳住态度。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_134",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "现在开口容易翻车，先别给素材。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_135",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "别急着回怼，键盘不发年终奖。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_136",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "烦躁时做决定，常见结局叫返工。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_137",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "火气上头时，逻辑通常先下线。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_138",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "全世界都在吵，不差你这一句。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_139",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "你不是脾气差，是被噪音围殴太久。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_140",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "继续硬刚，只会多一个后悔项目。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_141",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "你现在需要冷却，不是辩论冠军。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_142",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "焦虑正在催债，你先别签字。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_143",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "你不是玻璃心，是神经超负荷。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_144",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "先别爆，留点体面给明天。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_145",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "你现在像高压锅，先别加火。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_146",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "先稳住呼吸，再稳住态度。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_147",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "现在开口容易翻车，先别给素材。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_148",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "别急着回怼，键盘不发年终奖。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_149",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "烦躁时做决定，常见结局叫返工。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_150",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "火气上头时，逻辑通常先下线。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_151",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "全世界都在吵，不差你这一句。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_152",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "你不是脾气差，是被噪音围殴太久。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_153",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "继续硬刚，只会多一个后悔项目。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_154",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "你现在需要冷却，不是辩论冠军。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_155",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "焦虑正在催债，你先别签字。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_156",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "你不是玻璃心，是神经超负荷。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_157",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "先别爆，留点体面给明天。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_158",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "你现在像高压锅，先别加火。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_159",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "先稳住呼吸，再稳住态度。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_160",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "现在开口容易翻车，先别给素材。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_161",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "别急着回怼，键盘不发年终奖。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_162",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "烦躁时做决定，常见结局叫返工。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_163",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "火气上头时，逻辑通常先下线。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_164",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "全世界都在吵，不差你这一句。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_165",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "你不是脾气差，是被噪音围殴太久。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_166",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "继续硬刚，只会多一个后悔项目。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_167",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "你现在需要冷却，不是辩论冠军。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_168",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "焦虑正在催债，你先别签字。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_169",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "你不是玻璃心，是神经超负荷。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_170",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "先别爆，留点体面给明天。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_171",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "你现在像高压锅，先别加火。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_172",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "先稳住呼吸，再稳住态度。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_173",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "现在开口容易翻车，先别给素材。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_174",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "别急着回怼，键盘不发年终奖。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_175",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "烦躁时做决定，常见结局叫返工。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_176",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "火气上头时，逻辑通常先下线。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_177",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "全世界都在吵，不差你这一句。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_178",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "你不是脾气差，是被噪音围殴太久。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_179",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "继续硬刚，只会多一个后悔项目。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_180",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "你现在需要冷却，不是辩论冠军。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_181",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "焦虑正在催债，你先别签字。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_182",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "你不是玻璃心，是神经超负荷。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_183",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "先别爆，留点体面给明天。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_184",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "你现在像高压锅，先别加火。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_185",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "先稳住呼吸，再稳住态度。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_186",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "现在开口容易翻车，先别给素材。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_187",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "别急着回怼，键盘不发年终奖。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_188",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "烦躁时做决定，常见结局叫返工。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_189",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "火气上头时，逻辑通常先下线。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_190",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "全世界都在吵，不差你这一句。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_191",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机按钮",
+      "body": "你不是脾气差，是被噪音围殴太久。\n先把通知关掉，别让噪音续杯。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_192",
+      "state_id": "state_annoyed",
+      "title": "情绪断网步骤",
+      "body": "继续硬刚，只会多一个后悔项目。\n先离开刺激源三分钟，别原地爆炸。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_193",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏计划",
+      "body": "你现在需要冷却，不是辩论冠军。\n先坐稳脚贴地，数到十再说话。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_194",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流方案",
+      "body": "焦虑正在催债，你先别签字。\n先把肩膀放松，别让身体顶雷。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_195",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲通道",
+      "body": "你不是玻璃心，是神经超负荷。\n先慢呼四次，把语速降半档。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_196",
+      "state_id": "state_annoyed",
+      "title": "烦躁停机回合",
+      "body": "先别爆，留点体面给明天。\n先撤到安静角落，给情绪降温。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_197",
+      "state_id": "state_annoyed",
+      "title": "情绪断网模式",
+      "body": "你现在像高压锅，先别加火。\n先写下三件可控小事，别跟空气打架。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_198",
+      "state_id": "state_annoyed",
+      "title": "脑噪清屏协议",
+      "body": "先稳住呼吸，再稳住态度。\n先喝口水，延迟你的第一反应。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "stop_loss"
+    },
+    {
+      "id": "card_annoyed_199",
+      "state_id": "state_annoyed",
+      "title": "暴躁限流守则",
+      "body": "现在开口容易翻车，先别给素材。\n先把今天目标缩到一件事。",
+      "footer": "你先稳住，输赢以后再算。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
+    },
+    {
+      "id": "card_annoyed_200",
+      "state_id": "state_annoyed",
+      "title": "怒气缓冲动作",
+      "body": "别急着回怼，键盘不发年终奖。\n先看远处一个点，打断灾难脑补。",
+      "footer": "情绪限流，是成年人特技。",
+      "tags": [
+        "annoyed",
+        "snark"
+      ],
+      "action_type": "none"
     }
   ]
 }
