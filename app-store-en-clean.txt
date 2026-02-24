@@ -1,0 +1,66 @@
+=== App Store English Version (Clean) ===
+
+【App Name】
+LetItBe
+
+【Subtitle】(30 characters max)
+Low-energy support cards
+
+【Promotional Text】(170 characters max)
+Short, judgment-free support when you're running on empty. No pressure, no guilt—just gentle words for tough moments.
+
+【Description】(Copy directly to App Store Connect)
+
+For those low-energy moments when you need support without pressure.
+
+LetItBe offers short, carefully crafted support cards for when you're exhausted, overwhelmed, or just running on empty. No motivational speeches, no guilt trips, just honest, gentle words that meet you where you are.
+
+Core Features:
+Four mood states with curated content
+One-tap card refresh within the same state
+Optional repair actions (breathing, simple checklists)
+Completely offline and privacy-first
+
+Perfect for:
+Late nights when energy is low
+Moments of self-doubt or inner noise
+When you know you should rest but can't
+Times when typical positive thinking feels empty
+
+What LetItBe is NOT:
+Not a therapy replacement
+Not a productivity tool
+Not about goals or self-improvement
+No tracking, no social features, no pressure
+
+Privacy:
+All data stays on your device
+No account required
+No usage tracking or analytics
+No data collection
+
+This is an app that respects your limits. It won't push you to be better, it just offers a buffer when things feel too hard.
+
+【Keywords】(100 characters max, comma-separated)
+mental health,self-care,anxiety,stress relief,burnout,emotional support,mindfulness,wellbeing,calm
+
+【What's New】(Version 1.0)
+First release of LetItBe. A minimal, judgment-free space for low-energy moments with curated support cards and optional repair actions.
+
+=== Notes ===
+
+1. Removed all ** bold markers (App Store doesn't support markdown)
+2. Removed all - bullet markers (App Store handles formatting)
+3. Removed special quotes/dashes (using standard ASCII)
+4. Ensured all punctuation is standard
+5. Kept em-dashes (—) only where essential
+
+=== Copy Guide ===
+
+Copy-paste to App Store Connect in this order:
+
+1. App Name: LetItBe
+2. Subtitle: Low-energy support cards
+3. Promotional Text: [Copy from above]
+4. Description: [Copy plain text version without markers]
+5. Keywords: mental health,self-care,anxiety,stress relief,burnout,emotional support,mindfulness,wellbeing,calm

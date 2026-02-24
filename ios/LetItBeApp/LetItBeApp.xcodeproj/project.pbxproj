@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07D61F33A35CF36F9ABF3352 /* ContentPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E50B05C829C76D061EAB0 /* ContentPayload.swift */; };
+		1A29F8442B2F48B5966B42F9 /* ShareImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA67C06633443BB1B0C160 /* ShareImageService.swift */; };
 		1D0B791C654FB4554165B22D /* CardSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5DEDE45245FB8BB18CA45E /* CardSnapshotTests.swift */; };
 		1D7CB643968169F4FB2B3A7D /* LetItBeUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8651089F6A0DA7BC9868C54 /* LetItBeUITestCase.swift */; };
-		1A29F8442B2F48B5966B42F9 /* ShareImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA67C06633443BB1B0C160 /* ShareImageService.swift */; };
-		D761824A94664CCF9E17DF9B /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223D9ADC7C94928B4139335 /* ShareCardView.swift */; };
 		25DEDF970DCA3CC99CAD394C /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */; };
 		25FD8484A3D1BA5E6040DE1C /* StopLossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988AF6C87738C94EC467BBD /* StopLossView.swift */; };
 		2C09E289C29B46177DE3A982 /* ThemeToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C36C224962705943D529E90 /* ThemeToggleTests.swift */; };
@@ -46,6 +45,7 @@
 		B8FED0E859F67EA64A55737D /* StatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82D7116007C2B77E76E7F1D /* StatePickerView.swift */; };
 		C382FABC183A2AC4B43F4E86 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D605D42B89913193ADFBD0 /* Theme.swift */; };
 		CC76E9D7D1EDDCFE7C43BCBD /* CardSwapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41200259A9BEF39EDE1DEBB /* CardSwapTests.swift */; };
+		D761824A94664CCF9E17DF9B /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0223D9ADC7C94928B4139335 /* ShareCardView.swift */; };
 		D94B81BB5B37102CE38328BC /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95109B725AD4616FDA6DAFEC /* CardStyle.swift */; };
 		DA49C31CF71C18EFE0BB8C5F /* BreathingGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252A85BBC24C00DEA0898DDD /* BreathingGuideView.swift */; };
 		E27883B51225560E9CC9EB2D /* View+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540CA74882ADC4D8FCA9A48 /* View+Theme.swift */; };
@@ -70,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0223D9ADC7C94928B4139335 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
 		03ADB4C8C89825CE77DA44B5 /* StopLossSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossSession.swift; sourceTree = "<group>"; };
 		073F38000F66FC37EE7EF6F2 /* SnapshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		0B47D0D0F4A13DA9D725C035 /* StopLossSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossSnapshotTests.swift; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		198B79A44BC077AE04FF356D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		1CBC2FF994A29AE9FB592CE4 /* HomeSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSnapshotTests.swift; sourceTree = "<group>"; };
 		1DFA67C06633443BB1B0C160 /* ShareImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImageService.swift; sourceTree = "<group>"; };
-		0223D9ADC7C94928B4139335 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
 		237E50B05C829C76D061EAB0 /* ContentPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPayload.swift; sourceTree = "<group>"; };
 		252A85BBC24C00DEA0898DDD /* BreathingGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingGuideView.swift; sourceTree = "<group>"; };
 		3B5FB5B8A2C6AB28FB500B1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -90,12 +90,12 @@
 		4BD9338DC89CD9E2ADF91ABF /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
 		4C5DEDE45245FB8BB18CA45E /* CardSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSnapshotTests.swift; sourceTree = "<group>"; };
 		5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossServiceTests.swift; sourceTree = "<group>"; };
-		698273DF0D8D6000EA7A32DD /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en.lproj"; sourceTree = "<group>"; };
 		65C9335F0346120C86933172 /* SQLiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteStore.swift; sourceTree = "<group>"; };
+		698273DF0D8D6000EA7A32DD /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryTests.swift; sourceTree = "<group>"; };
-		793D23DD4622DAADEB4E7BF8 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
 		72B2B5A2AEDADAF1B5B91CB0 /* LetItBeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetItBeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771AC692B0E0FCDEE1AC03FC /* TopControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlsView.swift; sourceTree = "<group>"; };
+		793D23DD4622DAADEB4E7BF8 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
 		95109B725AD4616FDA6DAFEC /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
 		A0A439087DC97FD9A91D4FFF /* ThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
 		A37ED8AF18183B7D752976A9 /* StatePickerSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePickerSnapshotTests.swift; sourceTree = "<group>"; };
@@ -456,7 +456,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.tests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetItBeApp.app/LetItBeApp";
 			};
 			name = Debug;
@@ -473,7 +477,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.uitests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = LetItBeApp;
 			};
 			name = Debug;
@@ -485,13 +493,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HMDAVG9B8J;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,7 +520,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.tests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetItBeApp.app/LetItBeApp";
 			};
 			name = Release;
@@ -581,13 +598,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = HMDAVG9B8J;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -603,7 +625,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.uitests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = LetItBeApp;
 			};
 			name = Release;
