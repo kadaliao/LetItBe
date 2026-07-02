@@ -13,27 +13,27 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.1</string>
+    <string>2.0</string>
     <key>CFBundleVersion</key>
-    <string>2</string>
+    <string>3</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.letitbe.app</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>letitbe</string>
+            </array>
+        </dict>
+    </array>
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>Save share images to your photo library.</string>
     <key>UILaunchScreen</key>
     <dict/>
-    <key>UIRequiredDeviceCapabilities</key>
-    <array>
-        <string>armv7</string>
-    </array>
     <key>UISupportedInterfaceOrientations</key>
     <array>
         <string>UIInterfaceOrientationPortrait</string>
-    </array>
-    <key>UISupportedInterfaceOrientations~ipad</key>
-    <array>
-        <string>UIInterfaceOrientationPortrait</string>
-        <string>UIInterfaceOrientationPortraitUpsideDown</string>
-        <string>UIInterfaceOrientationLandscapeLeft</string>
-        <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
     <key>UIApplicationSceneManifest</key>
     <dict>

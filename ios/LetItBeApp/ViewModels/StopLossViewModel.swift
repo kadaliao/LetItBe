@@ -1,12 +1,26 @@
 import Foundation
 
+@Observable
 @MainActor
-final class StopLossViewModel: ObservableObject {
-    @Published private(set) var remainingSeconds: Int = 120
-    @Published private(set) var isRunning = false
-    @Published private(set) var isInhaling = true
-    @Published private(set) var errorMessage: String?
-    @Published private(set) var didComplete = false
+final class StopLossViewModel {
+    enum Phase {
+        case idle
+        case running
+        case finished
+    }
+
+    private(set) var phase: Phase = .idle
+    private(set) var remainingSeconds: Int = 120
+    private(set) var isInhaling = true
+    private(set) var errorMessage: String?
+    var selectedDuration: Int = 120 {
+        didSet {
+            // 未开始时，倒计时显示跟随所选时长
+            if phase == .idle {
+                remainingSeconds = selectedDuration
+            }
+        }
+    }
 
     private let service: StopLossService
     private var timer: Timer?
@@ -18,35 +32,45 @@ final class StopLossViewModel: ObservableObject {
         self.service = service
     }
 
-    func start(card: Card, state: State, durationSeconds: Int = 120) {
+    func start(card: Card, state: MoodState) {
+        let duration = selectedDuration
         do {
-            session = try service.startSession(card: card, state: state, durationSeconds: durationSeconds)
-            remainingSeconds = durationSeconds
-            sessionDurationSeconds = durationSeconds
-            isRunning = true
+            session = try service.startSession(card: card, state: state, durationSeconds: duration)
+            remainingSeconds = duration
+            sessionDurationSeconds = duration
+            phase = .running
             isInhaling = true
             errorMessage = nil
-            didComplete = false
             startTimer()
         } catch {
             errorMessage = String(localized: "error_start_repair")
         }
     }
 
-    func stop(reason: StopLossExitReason) {
+    func cancelIfRunning() {
+        guard phase == .running else { return }
+        stop(reason: .canceled)
+    }
+
+    /// 清单模式：记录一次完成的极简动作（无计时）。
+    func recordChecklist(card: Card, state: MoodState) {
+        guard let session = try? service.startSession(card: card, state: state, durationSeconds: 0) else { return }
+        _ = try? service.finishSession(session, reason: .completed)
+    }
+
+    private func stop(reason: StopLossExitReason) {
         guard let session else { return }
         timer?.invalidate()
         timer = nil
-        isRunning = false
         isInhaling = true
         do {
             _ = try service.finishSession(session, reason: reason)
-            if reason == .completed {
-                didComplete = true
-            }
+            phase = reason == .completed ? .finished : .idle
         } catch {
+            phase = .idle
             errorMessage = String(localized: "error_end_repair")
         }
+        self.session = nil
     }
 
     private func startTimer() {
@@ -54,12 +78,11 @@ final class StopLossViewModel: ObservableObject {
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
             guard let self else { return }
             Task { @MainActor in
-                if self.remainingSeconds > 0 {
-                    self.remainingSeconds -= 1
-                    self.updateBreathPhase()
-                    if self.remainingSeconds == 0 {
-                        self.stop(reason: .completed)
-                    }
+                guard self.phase == .running, self.remainingSeconds > 0 else { return }
+                self.remainingSeconds -= 1
+                self.updateBreathPhase()
+                if self.remainingSeconds == 0 {
+                    self.stop(reason: .completed)
                 }
             }
         }

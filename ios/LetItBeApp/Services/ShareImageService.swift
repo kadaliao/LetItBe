@@ -7,7 +7,7 @@ import CoreImage.CIFilterBuiltins
 enum ShareImageService {
     static let qrLink = "https://letitbe.liaoxingyi.com/app"
 
-    static func makeShareImage(card: Card, state: State, isDark: Bool) async -> Result<UIImage, ShareImageError> {
+    static func makeShareImage(card: Card, state: MoodState, isDark: Bool) async -> Result<UIImage, ShareImageError> {
         let image = await MainActor.run(resultType: UIImage?.self) {
             renderShareImage(card: card, state: state, isDark: isDark)
         }
@@ -17,7 +17,7 @@ enum ShareImageService {
         return .success(image)
     }
 
-    static func saveShareImage(card: Card, state: State, isDark: Bool) async -> Result<Void, ShareImageError> {
+    static func saveShareImage(card: Card, state: MoodState, isDark: Bool) async -> Result<Void, ShareImageError> {
         let renderResult = await makeShareImage(card: card, state: state, isDark: isDark)
         switch renderResult {
         case .success(let image):
@@ -42,7 +42,7 @@ enum ShareImageService {
     }
 
     @MainActor
-    private static func renderShareImage(card: Card, state: State, isDark: Bool) -> UIImage? {
+    private static func renderShareImage(card: Card, state: MoodState, isDark: Bool) -> UIImage? {
         let qrImage = QRCodeGenerator.makeImage(text: qrLink, size: ShareCardStyle.qrSide)
         let view = ShareCardView(card: card, state: state, isDark: isDark, qrImage: qrImage)
         return ShareImageRenderer.render(view: view, size: ShareCardStyle.canvasSize)

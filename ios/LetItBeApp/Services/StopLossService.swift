@@ -7,7 +7,7 @@ final class StopLossService {
         self.repository = repository
     }
 
-    func startSession(card: Card, state: State, durationSeconds: Int = 120) throws -> StopLossSession {
+    func startSession(card: Card, state: MoodState, durationSeconds: Int = 120) throws -> StopLossSession {
         return try repository.startSession(
             cardId: card.id,
             stateId: state.id,

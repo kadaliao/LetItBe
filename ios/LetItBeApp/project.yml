@@ -2,11 +2,11 @@ name: LetItBeApp
 options:
   bundleIdPrefix: com.letitbe
   deploymentTarget:
-    iOS: "15.0"
+    iOS: "17.0"
 settings:
   base:
     SWIFT_VERSION: "5.9"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: HMDAVG9B8J
     CODE_SIGN_STYLE: Automatic
     TARGETED_DEVICE_FAMILY: "1"
     SUPPORTED_PLATFORMS: "iphonesimulator iphoneos"
@@ -26,11 +26,33 @@ targets:
       - Models
       - Services
       - Persistence
-      - Resources
-    resources:
+      - Shared
       - path: Resources
+        buildPhase: resources
       - path: Assets.xcassets
-        type: folder.assetcatalog
+        buildPhase: resources
+    dependencies:
+      - target: LetItBeWidget
+        embed: true
+  LetItBeWidget:
+    type: app-extension
+    platform: iOS
+    settings:
+      base:
+        INFOPLIST_FILE: ../LetItBeWidget/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.widget
+        APPLICATION_EXTENSION_API_ONLY: true
+    sources:
+      - path: ../LetItBeWidget
+        excludes:
+          - "Info.plist"
+      - path: Models/Card.swift
+      - path: Models/State.swift
+      - path: Models/ContentPayload.swift
+      - path: Services/ContentRepository.swift
+      - path: Shared
+      - path: Resources
+        buildPhase: resources
   LetItBeTests:
     type: bundle.unit-test
     platform: iOS
@@ -42,8 +64,8 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.tests
     sources:
       - path: ../LetItBeTests
-    resources:
-      - Resources/content.json
+      - path: Resources/content.json
+        buildPhase: resources
   LetItBeUITests:
     type: bundle.ui-testing
     platform: iOS

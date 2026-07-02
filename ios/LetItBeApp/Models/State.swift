@@ -1,6 +1,6 @@
 import Foundation
 
-struct State: Codable, Identifiable, Equatable {
+struct MoodState: Codable, Identifiable, Equatable {
     let id: String
     let key: StateKey
     let name: String

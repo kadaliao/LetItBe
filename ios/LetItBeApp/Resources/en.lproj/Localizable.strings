@@ -22,19 +22,50 @@
 "card_fix_accessibility" = "Start quick repair";
 "card_swap" = "Another one";
 "card_swap_accessibility" = "Show another card";
-"card_back" = "Choose another state";
-"card_back_accessibility" = "Back to state picker";
+"card_swipe_hint" = "Swipe left or right for another one";
 "card_empty" = "No content yet";
 "card_share_accessibility" = "Save share image";
+"card_favorite_accessibility" = "Bookmark this card";
+
+"menu_favorites" = "Saved lines";
+"menu_appearance" = "Appearance";
+"menu_about" = "About";
+"appearance_system" = "System";
+"appearance_light" = "Light";
+"appearance_dark" = "Dark";
+
+"favorites_title" = "Saved lines";
+"favorites_empty" = "Nothing saved yet.\nWhen a line is worth keeping,\ntap the bookmark on the card.";
+
+"repair_breathing_tab" = "Breathe";
+"repair_checklist_tab" = "Tiny list";
 
 "stoploss_breathe" = "Breathe";
 "stoploss_inhale" = "Inhale...";
 "stoploss_exhale" = "Exhale...";
-"stoploss_running" = "In progress...";
+"stoploss_running" = "Nothing to do here";
 "stoploss_start" = "Start";
 "stoploss_start_accessibility" = "Start repair timer";
-"stoploss_end" = "Finish";
-"stoploss_end_accessibility" = "Finish repair and return home";
+"stoploss_end" = "Go back";
+"stoploss_end_accessibility" = "Finish repair and return";
+"stoploss_done" = "That was enough.";
+"stoploss_back" = "Go back";
+
+"duration_1min" = "1 min";
+"duration_2min" = "2 min";
+"duration_5min" = "5 min";
+
+"checklist_hint" = "One is enough. Zero is fine too.";
+"checklist_water" = "Sip some water";
+"checklist_face" = "Rinse your face";
+"checklist_window" = "Open a window";
+
+"about_position_title" = "What this is";
+"about_position_body" = "A small tool for low-energy moments. It doesn't push you to try harder, doesn't guilt-trip, doesn't force positivity. It just says one non-useless line when you can barely hold on, and keeps things from getting worse.";
+"about_disclaimer_title" = "Boundaries";
+"about_disclaimer_body" = "This is not a medical tool and is no substitute for therapy. If the low mood has lasted a long time, or you feel you can't hold on, please consider reaching out for professional help. That is not a defeat.";
+"about_privacy_title" = "Privacy";
+"about_privacy_body" = "Everything stays on your phone. No accounts, no uploads, no analytics. We don't know when you open this app, and we don't want to.";
 
 "error_no_states" = "No states available right now";
 "error_no_new_card" = "No new cards right now";
@@ -52,4 +83,12 @@
 "share_qr_title" = "Scan to learn more";
 "share_qr_subtitle" = "Let It Be";
 "share_qr_placeholder" = "QR code";
+
 "common_ok" = "OK";
+"common_done" = "Done";
+
+"widget_display_name" = "One quiet line";
+"widget_description" = "A low-pressure line, sitting quietly on your screen.";
+"widget_sample_title" = "Powering down";
+"widget_sample_body" = "Let the screen go dark for a while.";
+"widget_sample_footer" = "The world won't end because you rested ten minutes.";

@@ -1,25 +1,34 @@
 import XCTest
 
 final class CardSwapTests: LetItBeUITestCase {
-    func testSwapCardWithinState() {
-        let entryButton = app.buttons["home_primary_entry"]
-        XCTAssertTrue(entryButton.waitForExistence(timeout: 2))
-        entryButton.tap()
+    func testSwapButtonChangesCard() {
+        launch(state: "tired")
 
-        let stateButton = app.buttons["state_tired"]
-        XCTAssertTrue(stateButton.waitForExistence(timeout: 2))
-        stateButton.tap()
+        let title = app.staticTexts["card_title"]
+        XCTAssertTrue(title.waitForExistence(timeout: 3))
+        let firstTitle = title.label
 
-        let firstTitle = app.staticTexts["card_title"].label
         let swapButton = app.buttons["card_swap"]
         XCTAssertTrue(swapButton.waitForExistence(timeout: 2))
         swapButton.tap()
 
-        let secondTitle = app.staticTexts["card_title"].label
-        if firstTitle == secondTitle {
-            swapButton.tap()
-        }
+        let changed = NSPredicate(format: "label != %@", firstTitle)
+        let expectation = XCTNSPredicateExpectation(predicate: changed, object: title)
+        XCTAssertEqual(XCTWaiter.wait(for: [expectation], timeout: 3), .completed)
+    }
 
-        XCTAssertTrue(app.staticTexts["card_title"].exists)
+    func testSwipeLeftChangesCard() {
+        launch(state: "tired")
+
+        let title = app.staticTexts["card_title"]
+        XCTAssertTrue(title.waitForExistence(timeout: 3))
+        let firstTitle = title.label
+
+        let card = app.staticTexts["card_body"]
+        card.swipeLeft()
+
+        let changed = NSPredicate(format: "label != %@", firstTitle)
+        let expectation = XCTNSPredicateExpectation(predicate: changed, object: title)
+        XCTAssertEqual(XCTWaiter.wait(for: [expectation], timeout: 3), .completed)
     }
 }

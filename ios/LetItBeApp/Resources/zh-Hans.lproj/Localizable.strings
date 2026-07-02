@@ -19,22 +19,53 @@
 "state_annoyed_subtitle" = "焦虑 · 噪音";
 
 "card_fix" = "修复一下";
-"card_fix_accessibility" = "进入修复计时";
+"card_fix_accessibility" = "进入修复";
 "card_swap" = "换一条";
 "card_swap_accessibility" = "切换到另一条卡片";
-"card_back" = "重新选择状态";
-"card_back_accessibility" = "返回状态选择";
+"card_swipe_hint" = "左右滑动，也能换一条";
 "card_empty" = "暂无内容";
 "card_share_accessibility" = "保存分享图片";
+"card_favorite_accessibility" = "收藏这张卡片";
+
+"menu_favorites" = "捡回来";
+"menu_appearance" = "外观";
+"menu_about" = "关于";
+"appearance_system" = "跟随系统";
+"appearance_light" = "亮色";
+"appearance_dark" = "暗色";
+
+"favorites_title" = "捡回来";
+"favorites_empty" = "还没有收藏。\n看到不想弄丢的句子，\n点卡片右上角的书签。";
+
+"repair_breathing_tab" = "呼吸";
+"repair_checklist_tab" = "小清单";
 
 "stoploss_breathe" = "呼吸";
 "stoploss_inhale" = "吸气...";
 "stoploss_exhale" = "呼气...";
-"stoploss_running" = "正在进行...";
+"stoploss_running" = "不用做任何事";
 "stoploss_start" = "开始";
 "stoploss_start_accessibility" = "开始修复计时";
-"stoploss_end" = "结束";
-"stoploss_end_accessibility" = "结束修复并返回主页";
+"stoploss_end" = "回去";
+"stoploss_end_accessibility" = "结束修复并返回";
+"stoploss_done" = "已经很好了。";
+"stoploss_back" = "回去";
+
+"duration_1min" = "1 分钟";
+"duration_2min" = "2 分钟";
+"duration_5min" = "5 分钟";
+
+"checklist_hint" = "做一件就够了。不做也行。";
+"checklist_water" = "喝一口水";
+"checklist_face" = "洗把脸";
+"checklist_window" = "开一下窗";
+
+"about_position_title" = "这是什么";
+"about_position_body" = "一个在低能量时刻用的小工具。不鼓励努力，不制造内疚，不强行积极。只在你最撑不住的时候，说一句不废的话，并防止事情变得更糟。";
+"about_disclaimer_title" = "边界";
+"about_disclaimer_body" = "这不是医疗工具，也不能替代心理咨询。如果低落持续了很久，或者你觉得撑不下去，请考虑联系专业的帮助。这不丢人。";
+"about_privacy_title" = "隐私";
+"about_privacy_body" = "所有数据只存在你的手机上。没有账号，没有上传，没有行为统计。我们不知道你什么时候打开过它，也不想知道。";
 
 "error_no_states" = "暂时没有可用状态";
 "error_no_new_card" = "暂时没有新的卡片";
@@ -52,4 +83,12 @@
 "share_qr_title" = "扫码了解";
 "share_qr_subtitle" = "Let It Be";
 "share_qr_placeholder" = "二维码";
+
 "common_ok" = "好的";
+"common_done" = "完成";
+
+"widget_display_name" = "每日一句";
+"widget_description" = "一句低压力的话，安静地待在屏幕上。";
+"widget_sample_title" = "允许断电";
+"widget_sample_body" = "让屏幕黑一会儿吧。";
+"widget_sample_footer" = "世界不会因为你休息十分钟而毁灭。";

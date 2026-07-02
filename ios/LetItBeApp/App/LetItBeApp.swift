@@ -2,45 +2,66 @@ import SwiftUI
 
 @main
 struct LetItBeApp: App {
-    @Environment(\.scenePhase) private var scenePhase
-    @StateObject private var appState = AppState()
-    @StateObject private var theme = ThemeViewModel()
-    private let isUITesting = ProcessInfo.processInfo.arguments.contains("-ui-testing")
+    @State private var content: ContentStore
+    @State private var favorites: FavoritesStore
+    @State private var appearance: AppearanceModel
+
+    init() {
+        UITestSupport.configureIfNeeded()
+        _content = State(wrappedValue: ContentStore())
+        _favorites = State(wrappedValue: FavoritesStore())
+        _appearance = State(wrappedValue: AppearanceModel())
+    }
 
     var body: some Scene {
         WindowGroup {
-            ZStack(alignment: .topTrailing) {
-                Group {
-                    switch appState.route {
-                    case .home:
-                        HomeView()
-                    case .picker:
-                        StatePickerView()
-                    case .card:
-                        CardView()
-                    case .stopLoss:
-                        StopLossView()
-                    }
-                }
+            RootView()
+                .environment(content)
+                .environment(favorites)
+                .environment(appearance)
+                .preferredColorScheme(appearance.mode.colorScheme)
+        }
+    }
+}
 
-                if appState.route != .stopLoss {
-                    TopControlsView()
-                        .padding(.top, Theme.spacingLarge)
-                        .padding(.trailing, Theme.spacingLarge)
-                }
+struct RootView: View {
+    @Environment(ContentStore.self) private var content
+
+    var body: some View {
+        ZStack {
+            if content.currentState == nil {
+                FirstRunView()
+                    .transition(.opacity)
+            } else {
+                MainCardView()
+                    .transition(.opacity)
             }
-            .environmentObject(appState)
-            .environmentObject(theme)
-            .onAppear {
-                if isUITesting {
-                    appState.goHome()
-                }
-            }
-            .onChange(of: scenePhase) { phase in
-                if isUITesting && phase == .active {
-                    appState.goHome()
-                }
-            }
+        }
+        .animation(.easeInOut(duration: Theme.transitionDuration), value: content.currentState == nil)
+        .onAppear {
+            content.restoreLastSession()
+        }
+        .onOpenURL { url in
+            guard url.scheme == "letitbe", url.host == "card" else { return }
+            let cardID = url.lastPathComponent
+            guard !cardID.isEmpty else { return }
+            content.show(cardID: cardID)
+        }
+    }
+}
+
+enum UITestSupport {
+    static func configureIfNeeded() {
+        let args = ProcessInfo.processInfo.arguments
+        guard args.contains("-ui-testing") else { return }
+        SharedDefaults.lastState = nil
+        SharedDefaults.favoriteCardIDs = []
+        UserDefaults.standard.removeObject(forKey: "appearance_mode")
+        UserDefaults.standard.removeObject(forKey: "swipe_hint_count")
+        if let index = args.firstIndex(of: "-ui-testing-state"),
+           args.indices.contains(index + 1),
+           let key = StateKey(rawValue: args[index + 1]) {
+            SharedDefaults.lastState = key
         }
     }
 }

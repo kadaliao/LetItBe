@@ -54,11 +54,11 @@ final class ContentRepository {
         return payload
     }
 
-    func states() throws -> [State] {
+    func states() throws -> [MoodState] {
         return try load().states
     }
 
-    func cards(for state: State) throws -> [Card] {
+    func cards(for state: MoodState) throws -> [Card] {
         let payload = try load()
         let cards = payload.cards.filter { $0.stateId == state.id }
         if cards.isEmpty {
@@ -67,7 +67,7 @@ final class ContentRepository {
         return cards
     }
 
-    func randomCard(for state: State) throws -> Card {
+    func randomCard(for state: MoodState) throws -> Card {
         let cards = try cards(for: state)
         guard let card = cards.randomElement() else {
             throw ContentRepositoryError.emptyResult

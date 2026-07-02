@@ -7,7 +7,7 @@ final class StopLossServiceTests: XCTestCase {
         let repository = try StopLossRepository(store: store)
         let service = StopLossService(repository: repository)
 
-        let state = State(id: "state_tired", key: .tired, name: "累", description: nil)
+        let state = MoodState(id: "state_tired", key: .tired, name: "累", description: nil)
         let card = Card(
             id: "card_tired_001",
             stateId: state.id,

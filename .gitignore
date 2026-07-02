@@ -19,3 +19,6 @@ Thumbs.db
 # Local docs/specs (not tracked)
 docs/
 specs/
+
+# Xcode build output
+ios/build/

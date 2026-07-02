@@ -1,21 +1,22 @@
 import SwiftUI
 
 struct StateIconView: View {
+    @Environment(\.colorScheme) private var scheme
+
     let style: StateIconStyle
     let isSelected: Bool
-    let isDark: Bool
 
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 2)
-                .strokeBorder(Theme.highlightColor(isDark: isDark), lineWidth: Theme.borderWidth)
+                .strokeBorder(Theme.highlightColor(scheme), lineWidth: Theme.borderWidth)
                 .background(
                     RoundedRectangle(cornerRadius: 2)
-                        .fill(isSelected ? Theme.textColor(isDark: isDark) : Theme.cardBackground(isDark: isDark))
+                        .fill(isSelected ? Theme.textColor(scheme) : Theme.cardBackground(scheme))
                 )
 
             icon
-                .stroke(isSelected ? Theme.backgroundColor(isDark: isDark) : Theme.textColor(isDark: isDark), lineWidth: 1.5)
+                .stroke(isSelected ? Theme.backgroundColor(scheme) : Theme.textColor(scheme), lineWidth: 1.5)
         }
         .aspectRatio(1, contentMode: .fit)
     }

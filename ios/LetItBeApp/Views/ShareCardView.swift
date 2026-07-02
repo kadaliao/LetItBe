@@ -3,7 +3,7 @@ import UIKit
 
 struct ShareCardView: View {
     let card: Card
-    let state: State
+    let state: MoodState
     let isDark: Bool
     let qrImage: UIImage?
 
@@ -105,11 +105,11 @@ struct ShareCardStyle {
     }
 
     var textColor: Color {
-        Theme.textColor(isDark: isDark)
+        Theme.textColor(isDark ? .dark : .light)
     }
 
     var secondaryTextColor: Color {
-        Theme.secondaryTextColor(isDark: isDark)
+        Theme.secondaryTextColor(isDark ? .dark : .light)
     }
 
     var qrBackground: Color {
@@ -137,10 +137,10 @@ struct ShareCardStyle {
     }
 
     var qrTitleFont: Font {
-        Font.custom("-apple-system", size: 28)
+        Font.system(size: 28)
     }
 
     var qrSubtitleFont: Font {
-        Font.custom("-apple-system", size: 26)
+        Font.system(size: 26)
     }
 }
