@@ -128,6 +128,8 @@ struct MainCardView: View {
             VStack(spacing: 5) {
                 Text(state.name)
                     .font(Theme.fontBody)
+                    .lineLimit(1)
+                    .fixedSize(horizontal: true, vertical: false)
                     .foregroundColor(isSelected ? Theme.textColor(scheme) : Theme.secondaryTextColor(scheme).opacity(0.7))
 
                 Circle()
