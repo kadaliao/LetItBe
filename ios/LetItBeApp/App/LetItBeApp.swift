@@ -47,6 +47,12 @@ struct RootView: View {
             guard !cardID.isEmpty else { return }
             content.show(cardID: cardID)
         }
+        .onReceive(NotificationCenter.default.publisher(for: .letItBeDrawNewCard)) { _ in
+            // Siri「我想摆烂」：已在卡片页则直接换一张新的
+            if content.currentState != nil {
+                content.nextCard()
+            }
+        }
     }
 }
 

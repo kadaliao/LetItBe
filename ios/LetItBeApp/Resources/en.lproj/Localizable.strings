@@ -80,12 +80,18 @@
 "share_preview_title" = "Preview";
 "share_preview_save" = "Save to Photos";
 "share_preview_cancel" = "Cancel";
+"share_system" = "Share";
 "share_qr_title" = "Scan to learn more";
 "share_qr_subtitle" = "Let It Be";
 "share_qr_placeholder" = "QR code";
 
 "common_ok" = "OK";
 "common_done" = "Done";
+
+"intent_open_card_title" = "One line";
+"intent_open_card_desc" = "Opens Let It Be straight to a line.";
+"live_breathing_title" = "Breathing";
+"live_breathing_subtitle" = "Nothing to do here";
 
 "widget_display_name" = "One quiet line";
 "widget_description" = "A low-pressure line, sitting quietly on your screen.";

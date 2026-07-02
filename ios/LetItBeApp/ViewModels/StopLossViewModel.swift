@@ -1,4 +1,5 @@
 import Foundation
+import ActivityKit
 
 @Observable
 @MainActor
@@ -27,6 +28,7 @@ final class StopLossViewModel {
     private let breathCycleSeconds = 4
     private var sessionDurationSeconds = 120
     private(set) var session: StopLossSession?
+    private var liveActivity: Activity<BreathingActivityAttributes>?
 
     init(service: StopLossService) {
         self.service = service
@@ -42,6 +44,7 @@ final class StopLossViewModel {
             isInhaling = true
             errorMessage = nil
             startTimer()
+            startLiveActivity(durationSeconds: duration)
         } catch {
             errorMessage = String(localized: "error_start_repair")
         }
@@ -63,6 +66,7 @@ final class StopLossViewModel {
         timer?.invalidate()
         timer = nil
         isInhaling = true
+        endLiveActivity()
         do {
             _ = try service.finishSession(session, reason: reason)
             phase = reason == .completed ? .finished : .idle
@@ -91,5 +95,28 @@ final class StopLossViewModel {
     private func updateBreathPhase() {
         let elapsedSeconds = sessionDurationSeconds - remainingSeconds
         isInhaling = (elapsedSeconds / breathCycleSeconds) % 2 == 0
+    }
+
+    // MARK: - Live Activity
+
+    private func startLiveActivity(durationSeconds: Int) {
+        guard ActivityAuthorizationInfo().areActivitiesEnabled else { return }
+        let endDate = Date().addingTimeInterval(TimeInterval(durationSeconds))
+        let content = ActivityContent(
+            state: BreathingActivityAttributes.ContentState(endDate: endDate),
+            staleDate: endDate
+        )
+        liveActivity = try? Activity.request(
+            attributes: BreathingActivityAttributes(startDate: Date()),
+            content: content
+        )
+    }
+
+    private func endLiveActivity() {
+        guard let liveActivity else { return }
+        self.liveActivity = nil
+        Task {
+            await liveActivity.end(nil, dismissalPolicy: .immediate)
+        }
     }
 }

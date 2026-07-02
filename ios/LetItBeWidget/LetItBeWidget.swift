@@ -1,10 +1,70 @@
 import WidgetKit
 import SwiftUI
+import ActivityKit
 
 @main
 struct LetItBeWidgetBundle: WidgetBundle {
     var body: some Widget {
         DailyCardWidget()
+        BreathingLiveActivity()
+    }
+}
+
+// MARK: - 呼吸实时活动（锁屏 / 灵动岛）
+
+struct BreathingLiveActivity: Widget {
+    var body: some WidgetConfiguration {
+        ActivityConfiguration(for: BreathingActivityAttributes.self) { context in
+            HStack(spacing: 14) {
+                Image(systemName: "wind")
+                    .font(.system(size: 22, weight: .light))
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("live_breathing_title")
+                        .font(.custom("Songti SC", size: 16))
+
+                    Text("live_breathing_subtitle")
+                        .font(.system(size: 12))
+                        .opacity(0.7)
+                }
+
+                Spacer()
+
+                Text(timerInterval: Date.now...context.state.endDate, countsDown: true)
+                    .font(.system(size: 28, weight: .light, design: .rounded))
+                    .monospacedDigit()
+                    .frame(maxWidth: 76)
+                    .multilineTextAlignment(.trailing)
+            }
+            .padding(16)
+            .activityBackgroundTint(Color.black.opacity(0.6))
+            .activitySystemActionForegroundColor(.white)
+        } dynamicIsland: { context in
+            DynamicIsland {
+                DynamicIslandExpandedRegion(.leading) {
+                    Image(systemName: "wind")
+                        .font(.system(size: 20, weight: .light))
+                }
+                DynamicIslandExpandedRegion(.center) {
+                    Text("live_breathing_title")
+                        .font(.custom("Songti SC", size: 15))
+                }
+                DynamicIslandExpandedRegion(.trailing) {
+                    Text(timerInterval: Date.now...context.state.endDate, countsDown: true)
+                        .font(.system(size: 22, weight: .light, design: .rounded))
+                        .monospacedDigit()
+                        .frame(maxWidth: 64)
+                }
+            } compactLeading: {
+                Image(systemName: "wind")
+            } compactTrailing: {
+                Text(timerInterval: Date.now...context.state.endDate, countsDown: true)
+                    .monospacedDigit()
+                    .frame(maxWidth: 44)
+            } minimal: {
+                Image(systemName: "wind")
+            }
+        }
     }
 }
 

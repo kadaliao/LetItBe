@@ -80,12 +80,18 @@
 "share_preview_title" = "预览";
 "share_preview_save" = "保存到相册";
 "share_preview_cancel" = "取消";
+"share_system" = "分享";
 "share_qr_title" = "扫码了解";
 "share_qr_subtitle" = "Let It Be";
 "share_qr_placeholder" = "二维码";
 
 "common_ok" = "好的";
 "common_done" = "完成";
+
+"intent_open_card_title" = "来一句";
+"intent_open_card_desc" = "打开摆烂心法，直接给你一句话。";
+"live_breathing_title" = "正在呼吸";
+"live_breathing_subtitle" = "不用做任何事";
 
 "widget_display_name" = "每日一句";
 "widget_description" = "一句低压力的话，安静地待在屏幕上。";

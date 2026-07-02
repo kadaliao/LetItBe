@@ -1,5 +1,7 @@
 import SwiftUI
 import UIKit
+import CoreTransferable
+import UniformTypeIdentifiers
 
 struct MainCardView: View {
     @Environment(ContentStore.self) private var content
@@ -405,11 +407,20 @@ struct SharePreviewSheet: View {
             }
 
             HStack(spacing: Theme.spacingSmall) {
-                Button("share_preview_cancel") {
-                    onCancel()
+                if let image {
+                    ShareLink(
+                        item: ShareableCardImage(image: image),
+                        preview: SharePreview(
+                            Text("share_preview_title"),
+                            image: Image(uiImage: image)
+                        )
+                    ) {
+                        Text("share_system")
+                    }
+                    .buttonStyle(PrimaryOutlineButtonStyle())
+                    .disabled(isSaving)
+                    .accessibilityIdentifier("share_system")
                 }
-                .buttonStyle(LinkButtonStyle())
-                .disabled(isSaving)
 
                 Button {
                     onSave()
@@ -424,10 +435,27 @@ struct SharePreviewSheet: View {
                 .buttonStyle(PrimaryOutlineButtonStyle())
                 .disabled(isSaving || image == nil)
             }
+
+            Button("share_preview_cancel") {
+                onCancel()
+            }
+            .buttonStyle(LinkButtonStyle())
+            .disabled(isSaving)
         }
         .padding(Theme.spacingLarge)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Theme.backgroundColor(scheme))
+    }
+}
+
+/// 系统分享用的图片封装（导出为 PNG）。
+struct ShareableCardImage: Transferable {
+    let image: UIImage
+
+    static var transferRepresentation: some TransferRepresentation {
+        DataRepresentation(exportedContentType: .png) { item in
+            item.image.pngData() ?? Data()
+        }
     }
 }
 

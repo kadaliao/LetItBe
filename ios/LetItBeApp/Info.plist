@@ -29,6 +29,8 @@
     </array>
     <key>NSPhotoLibraryAddUsageDescription</key>
     <string>Save share images to your photo library.</string>
+    <key>NSSupportsLiveActivities</key>
+    <true/>
     <key>UILaunchScreen</key>
     <dict/>
     <key>UISupportedInterfaceOrientations</key>
