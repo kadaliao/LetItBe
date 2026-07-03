@@ -17,8 +17,11 @@ LetItBe offers short, carefully crafted support cards for when you're exhausted,
 
 Core Features:
 Four mood states with curated content
-One-tap card refresh within the same state
+Opens straight to a card, swipe for another
 Optional repair actions (breathing, simple checklists)
+Home and Lock Screen widget with one quiet line a day
+Siri and Shortcuts: say "let me be" for a fresh card
+Bookmark lines you want to keep
 Completely offline and privacy-first
 
 Perfect for:
@@ -44,8 +47,18 @@ This is an app that respects your limits. It won't push you to be better, it jus
 【Keywords】(100 characters max, comma-separated)
 mental health,self-care,anxiety,stress relief,burnout,emotional support,mindfulness,wellbeing,calm
 
-【What's New】(Version 1.0)
-First release of LetItBe. A minimal, judgment-free space for low-energy moments with curated support cards and optional repair actions.
+【What's New】(Version 2.0)
+A major redesign. The goal: you're caught the moment you open it.
+Opens straight to a card, remembering your last state
+One-tap state switcher: Tired / Numb / Hide / Annoyed
+Swipe left or right for another card, with haptics
+Bookmark lines you don't want to lose
+Breathing in 1 / 2 / 5 minutes, with a live countdown on the Lock Screen
+Home and Lock Screen widget: one quiet line a day
+Siri and Shortcuts: say "let me be" for a fresh card
+Share a card via the share sheet or save it to Photos
+Appearance follows the system, with manual override
+Still local-first: no accounts, no uploads, no analytics
 
 === Notes ===
 
