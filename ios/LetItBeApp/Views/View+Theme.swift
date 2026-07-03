@@ -10,38 +10,3 @@ extension StateKey {
         }
     }
 }
-
-// MARK: - 睡前降噪环境
-
-private struct NightDimEnvironmentKey: EnvironmentKey {
-    static let defaultValue = false
-}
-
-extension EnvironmentValues {
-    var nightDim: Bool {
-        get { self[NightDimEnvironmentKey.self] }
-        set { self[NightDimEnvironmentKey.self] = newValue }
-    }
-}
-
-/// 深夜窗口内给整块界面盖一层均匀的压暗，文字对比一起降，像把灯调暗。
-private struct NightDimModifier: ViewModifier {
-    @Environment(\.nightDim) private var nightDim
-
-    func body(content: Content) -> some View {
-        content.overlay {
-            if nightDim {
-                Color.black.opacity(0.22)
-                    .ignoresSafeArea()
-                    .allowsHitTesting(false)
-                    .transition(.opacity)
-            }
-        }
-    }
-}
-
-extension View {
-    func nightDimOverlay() -> some View {
-        modifier(NightDimModifier())
-    }
-}

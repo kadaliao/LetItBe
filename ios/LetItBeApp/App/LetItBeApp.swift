@@ -17,20 +17,15 @@ struct LetItBeApp: App {
         _appearance = State(wrappedValue: AppearanceModel())
     }
 
-    private var nightActive: Bool {
-        appearance.nightDimEnabled && NightDim.isNight(now)
-    }
-
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(content)
                 .environment(favorites)
                 .environment(appearance)
-                .environment(\.nightDim, nightActive)
-                .nightDimOverlay()
-                .preferredColorScheme(nightActive ? .dark : appearance.mode.colorScheme)
+                .preferredColorScheme(appearance.mode.colorScheme(at: now))
                 .onReceive(minuteTick) { date in
+                    // 「夜间降噪」模式跨过 22:00 / 05:00 时自动切换明暗
                     now = date
                 }
         }
@@ -77,8 +72,6 @@ enum UITestSupport {
         SharedDefaults.favoriteCardIDs = []
         UserDefaults.standard.removeObject(forKey: "appearance_mode")
         UserDefaults.standard.removeObject(forKey: "swipe_hint_count")
-        // UI 测试不受运行时刻影响：夜间降噪固定关闭
-        UserDefaults.standard.set(false, forKey: "night_dim_enabled")
         if let index = args.firstIndex(of: "-ui-testing-state"),
            args.indices.contains(index + 1),
            let key = StateKey(rawValue: args[index + 1]) {

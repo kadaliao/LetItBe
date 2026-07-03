@@ -99,7 +99,6 @@
 "widget_sample_body" = "Let the screen go dark for a while.";
 "widget_sample_footer" = "The world won't end because you rested ten minutes.";
 
-"menu_night_dim" = "Night dimming";
 
 "repair_throwaway_tab" = "Toss";
 "throwaway_placeholder" = "Write the noise down";
@@ -110,3 +109,5 @@
 
 "widget_swap_title" = "Another one";
 "widget_swap_accessibility" = "Show another line";
+
+"appearance_night_auto" = "Dark at night";

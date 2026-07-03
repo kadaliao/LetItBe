@@ -49,6 +49,53 @@ final class CardRotationTests: XCTestCase {
         XCTAssertFalse(store.canGoBack)
     }
 
+    func testPeekNextMatchesNextCard() throws {
+        let store = makeStore()
+        store.loadIfNeeded()
+        let state = try XCTUnwrap(store.states.first)
+        store.select(state)
+
+        for _ in 0..<5 {
+            let peeked = try XCTUnwrap(store.peekNextCard())
+            store.nextCard()
+            XCTAssertEqual(store.currentCard?.id, peeked.id, "预览的底牌必须与实际抽到的下一张一致")
+        }
+    }
+
+    func testPeekPreviousMatchesHistory() throws {
+        let store = makeStore()
+        store.loadIfNeeded()
+        let state = try XCTUnwrap(store.states.first)
+        store.select(state)
+
+        XCTAssertNil(store.peekPreviousCard())
+        let first = try XCTUnwrap(store.currentCard)
+        store.nextCard()
+        XCTAssertEqual(store.peekPreviousCard()?.id, first.id)
+    }
+
+    /// Widget 深链的两种启动时序都必须落在目标卡上。
+    func testDeepLinkSurvivesRestoreOrdering() throws {
+        let bundle = Bundle(for: CardRotationTests.self)
+        let repository = ContentRepository(bundle: bundle, resourceName: "content")
+        let anyState = try XCTUnwrap(try repository.states().last)
+        let target = try XCTUnwrap(try repository.cards(for: anyState).first)
+        SharedDefaults.lastState = anyState.key
+        defer { SharedDefaults.lastState = nil }
+
+        // 时序 A：先恢复上次会话，再收到深链
+        let storeA = makeStore()
+        storeA.restoreLastSession()
+        storeA.show(cardID: target.id)
+        XCTAssertEqual(storeA.currentCard?.id, target.id)
+
+        // 时序 B：先收到深链，再跑恢复逻辑（不得覆盖深链卡片）
+        let storeB = makeStore()
+        storeB.show(cardID: target.id)
+        storeB.restoreLastSession()
+        XCTAssertEqual(storeB.currentCard?.id, target.id)
+    }
+
     func testShowCardByIDSwitchesState() throws {
         let store = makeStore()
         store.loadIfNeeded()

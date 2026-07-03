@@ -8,10 +8,10 @@ struct MainCardView: View {
     @Environment(FavoritesStore.self) private var favorites
     @Environment(AppearanceModel.self) private var appearance
     @Environment(\.colorScheme) private var scheme
-    @Environment(\.nightDim) private var nightDim
 
     @State private var dragOffset: CGFloat = 0
     @State private var swipeDirection: SwipeDirection = .forward
+    @State private var isSwipeSettling = false
     @State private var isRepairPresented = false
     @State private var isFavoritesPresented = false
     @State private var isAboutPresented = false
@@ -59,15 +59,12 @@ struct MainCardView: View {
         }
         .fullScreenCover(isPresented: $isRepairPresented) {
             RepairView()
-                .nightDimOverlay()
         }
         .sheet(isPresented: $isFavoritesPresented) {
             FavoritesView()
-                .nightDimOverlay()
         }
         .sheet(isPresented: $isAboutPresented) {
             AboutView()
-                .nightDimOverlay()
         }
         .sheet(isPresented: $isSharePresented) {
             SharePreviewSheet(
@@ -81,7 +78,6 @@ struct MainCardView: View {
                     confirmShareSave()
                 }
             )
-            .nightDimOverlay()
         }
         .alert(alertMessage ?? "", isPresented: $isAlertPresented) {
             Button(String(localized: "common_ok"), role: .cancel) {}
@@ -99,13 +95,6 @@ struct MainCardView: View {
             }
 
             Spacer()
-
-            if nightDim {
-                Image(systemName: "moon.fill")
-                    .font(.system(size: 12))
-                    .foregroundColor(Theme.secondaryTextColor(scheme).opacity(0.7))
-                    .accessibilityLabel(String(localized: "menu_night_dim"))
-            }
 
             if isPreparingShare || isSavingShare {
                 ProgressView()
@@ -171,11 +160,6 @@ struct MainCardView: View {
             }
             .pickerStyle(.menu)
 
-            Toggle(isOn: $appearance.nightDimEnabled) {
-                Label(String(localized: "menu_night_dim"), systemImage: "moon")
-            }
-            .accessibilityIdentifier("menu_night_dim")
-
             Button {
                 isAboutPresented = true
             } label: {
@@ -196,18 +180,32 @@ struct MainCardView: View {
     private var cardArea: some View {
         Group {
             if let card = content.currentCard {
-                CardFaceView(
-                    card: card,
-                    isFavorite: favorites.isFavorite(card.id),
-                    onToggleFavorite: { toggleFavorite(card) }
-                )
-                .id(card.id)
-                .transition(cardTransition)
-                .offset(x: dragOffset)
-                .rotationEffect(.degrees(Double(dragOffset) / 40), anchor: .bottom)
-                .gesture(cardDrag)
-                .onTapGesture(count: 2) {
-                    toggleFavorite(card)
+                ZStack {
+                    // 牌堆：拖动时下一张（或上一张）在底下渐显跟进
+                    if let peek = peekCard {
+                        CardFaceView(
+                            card: peek,
+                            isFavorite: favorites.isFavorite(peek.id),
+                            onToggleFavorite: {}
+                        )
+                        .scaleEffect(0.94 + 0.06 * dragProgress)
+                        .opacity(0.2 + 0.8 * Double(dragProgress))
+                        .allowsHitTesting(false)
+                    }
+
+                    CardFaceView(
+                        card: card,
+                        isFavorite: favorites.isFavorite(card.id),
+                        onToggleFavorite: { toggleFavorite(card) }
+                    )
+                    .id(card.id)
+                    .transition(cardTransition)
+                    .offset(x: dragOffset)
+                    .rotationEffect(.degrees(Double(dragOffset) / 40), anchor: .bottom)
+                    .gesture(cardDrag)
+                    .onTapGesture(count: 2) {
+                        toggleFavorite(card)
+                    }
                 }
             } else {
                 Text(content.errorMessage ?? String(localized: "card_empty"))
@@ -215,6 +213,21 @@ struct MainCardView: View {
                     .foregroundColor(Theme.secondaryTextColor(scheme))
             }
         }
+    }
+
+    /// 拖动进度：140pt 达到满进度，底牌完全就位
+    private var dragProgress: CGFloat {
+        min(1, abs(dragOffset) / 140)
+    }
+
+    private var peekCard: Card? {
+        if dragOffset < -1 {
+            return content.peekNextCard()
+        }
+        if dragOffset > 1 {
+            return content.peekPreviousCard()
+        }
+        return nil
     }
 
     private var cardTransition: AnyTransition {
@@ -235,14 +248,19 @@ struct MainCardView: View {
     private var cardDrag: some Gesture {
         DragGesture(minimumDistance: 12)
             .onChanged { value in
-                dragOffset = value.translation.width
+                var translation = value.translation.width
+                // 没有上一张时右滑给阻尼，暗示到头了
+                if translation > 0, !content.canGoBack {
+                    translation *= 0.25
+                }
+                dragOffset = translation
             }
             .onEnded { value in
                 let translation = value.translation.width
                 if translation < -80 {
-                    showNextCard()
+                    completeSwipe(.forward)
                 } else if translation > 80, content.canGoBack {
-                    showPreviousCard()
+                    completeSwipe(.backward)
                 } else {
                     withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                         dragOffset = 0
@@ -251,22 +269,34 @@ struct MainCardView: View {
             }
     }
 
-    private func showNextCard() {
-        swipeDirection = .forward
+    /// 顺着拖动方向把当前卡送出屏幕，底牌就位后无缝接管。
+    private func completeSwipe(_ direction: SwipeDirection) {
+        guard !isSwipeSettling else { return }
+        isSwipeSettling = true
         Haptics.soft()
-        dragOffset = 0
-        withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
-            content.nextCard()
+        let width = UIScreen.main.bounds.width
+        withAnimation(.easeOut(duration: 0.22)) {
+            dragOffset = direction == .forward ? -width * 1.1 : width * 1.1
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.22) {
+            var transaction = Transaction()
+            transaction.disablesAnimations = true
+            withTransaction(transaction) {
+                switch direction {
+                case .forward:
+                    content.nextCard()
+                case .backward:
+                    content.previousCard()
+                }
+                dragOffset = 0
+            }
+            isSwipeSettling = false
         }
     }
 
-    private func showPreviousCard() {
-        swipeDirection = .backward
-        Haptics.soft()
-        dragOffset = 0
-        withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
-            content.previousCard()
-        }
+    private func showNextCard() {
+        swipeDirection = .forward
+        completeSwipe(.forward)
     }
 
     private func toggleFavorite(_ card: Card) {

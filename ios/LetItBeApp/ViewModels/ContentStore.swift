@@ -8,8 +8,9 @@ final class ContentStore {
     private(set) var errorMessage: String?
 
     private let repository: ContentRepository
-    private var decks: [String: [Card]] = [:]
-    private var history: [Card] = []
+    // 抽卡簿记，不直接驱动 UI；标记 ignored 避免 body 内 peek 触发发布循环
+    @ObservationIgnored private var decks: [String: [Card]] = [:]
+    @ObservationIgnored private var history: [Card] = []
 
     var canGoBack: Bool { !history.isEmpty }
 
@@ -62,6 +63,18 @@ final class ContentStore {
         return true
     }
 
+    /// 滑动预览：下一张会抽到的卡（不消耗），与随后的 nextCard() 结果一致。
+    func peekNextCard() -> Card? {
+        guard let state = currentState else { return nil }
+        ensureDeck(for: state)
+        return decks[state.id]?.last
+    }
+
+    /// 滑动预览：上一张卡（不消耗）。
+    func peekPreviousCard() -> Card? {
+        history.last
+    }
+
     func card(withID id: String) -> Card? {
         (try? repository.load())?.cards.first { $0.id == id }
     }
@@ -83,20 +96,25 @@ final class ContentStore {
 
     /// 洗牌卡组抽卡：整组抽完才重洗，天然避免短期内重复。
     private func draw(for state: MoodState) -> Card? {
-        var deck = decks[state.id] ?? []
-        if deck.isEmpty {
-            guard let cards = try? repository.cards(for: state) else {
-                errorMessage = String(localized: "error_no_card")
-                return nil
-            }
-            deck = cards.shuffled()
-            if deck.count > 1, deck.last?.id == currentCard?.id {
-                deck.swapAt(deck.count - 1, 0)
-            }
+        ensureDeck(for: state)
+        guard var deck = decks[state.id], !deck.isEmpty else {
+            errorMessage = String(localized: "error_no_card")
+            return nil
         }
         let card = deck.removeLast()
         decks[state.id] = deck
         errorMessage = nil
         return card
+    }
+
+    /// 卡组空了就重洗一副（重洗时把与当前卡相同的牌换到底部，避免连续重复）。
+    private func ensureDeck(for state: MoodState) {
+        guard (decks[state.id] ?? []).isEmpty else { return }
+        guard let cards = try? repository.cards(for: state) else { return }
+        var deck = cards.shuffled()
+        if deck.count > 1, deck.last?.id == currentCard?.id {
+            deck.swapAt(deck.count - 1, 0)
+        }
+        decks[state.id] = deck
     }
 }

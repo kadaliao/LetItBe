@@ -99,7 +99,6 @@
 "widget_sample_body" = "让屏幕黑一会儿吧。";
 "widget_sample_footer" = "世界不会因为你休息十分钟而毁灭。";
 
-"menu_night_dim" = "夜间降噪";
 
 "repair_throwaway_tab" = "扔掉";
 "throwaway_placeholder" = "把心里的噪音写下来";
@@ -110,3 +109,5 @@
 
 "widget_swap_title" = "换一条";
 "widget_swap_accessibility" = "换一条";
+
+"appearance_night_auto" = "夜间降噪";

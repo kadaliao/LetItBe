@@ -62,14 +62,17 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
     case system
     case light
     case dark
+    /// 夜间降噪：晚上自动暗色，白天亮色
+    case nightAuto = "night_auto"
 
     var id: String { rawValue }
 
-    var colorScheme: ColorScheme? {
+    func colorScheme(at date: Date = Date()) -> ColorScheme? {
         switch self {
         case .system: return nil
         case .light: return .light
         case .dark: return .dark
+        case .nightAuto: return NightDim.isNight(date) ? .dark : .light
         }
     }
 
@@ -78,6 +81,7 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
         case .system: return "appearance_system"
         case .light: return "appearance_light"
         case .dark: return "appearance_dark"
+        case .nightAuto: return "appearance_night_auto"
         }
     }
 }
@@ -86,15 +90,9 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
 final class AppearanceModel {
     private static let modeKey = "appearance_mode"
     private static let legacyDarkKey = "letitbe_dark_mode"
-    private static let nightDimKey = "night_dim_enabled"
 
     var mode: AppearanceMode {
         didSet { UserDefaults.standard.set(mode.rawValue, forKey: Self.modeKey) }
-    }
-
-    /// 睡前降噪：深夜窗口内自动压暗界面，默认开。
-    var nightDimEnabled: Bool {
-        didSet { UserDefaults.standard.set(nightDimEnabled, forKey: Self.nightDimKey) }
     }
 
     init(defaults: UserDefaults = .standard) {
@@ -107,11 +105,10 @@ final class AppearanceModel {
         } else {
             mode = .system
         }
-        nightDimEnabled = defaults.object(forKey: Self.nightDimKey) as? Bool ?? true
     }
 }
 
-// MARK: - 睡前降噪（Night dim）
+// MARK: - 夜间窗口
 
 enum NightDim {
     /// 22:00–04:59 视为深夜窗口

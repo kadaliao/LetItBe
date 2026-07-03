@@ -27,4 +27,24 @@ final class NightDimTests: XCTestCase {
         let morning = calendar.date(from: components)!
         XCTAssertFalse(NightDim.isNight(morning, calendar: calendar))
     }
+
+    /// 「夜间降噪」外观：晚上暗色、白天亮色；其他模式不受时间影响。
+    func testNightAutoAppearanceMode() {
+        let lateNight = date(hour: 23)
+        let morning = date(hour: 10)
+
+        XCTAssertEqual(AppearanceMode.nightAuto.colorScheme(at: lateNight), .dark)
+        XCTAssertEqual(AppearanceMode.nightAuto.colorScheme(at: morning), .light)
+
+        XCTAssertNil(AppearanceMode.system.colorScheme(at: lateNight))
+        XCTAssertEqual(AppearanceMode.light.colorScheme(at: lateNight), .light)
+        XCTAssertEqual(AppearanceMode.dark.colorScheme(at: morning), .dark)
+    }
+
+    private func date(hour: Int) -> Date {
+        var components = Calendar.current.dateComponents([.year, .month, .day], from: Date())
+        components.hour = hour
+        components.minute = 0
+        return Calendar.current.date(from: components)!
+    }
 }
