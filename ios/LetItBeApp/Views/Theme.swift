@@ -62,17 +62,16 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
     case system
     case light
     case dark
-    /// 夜间降噪：晚上自动暗色，白天亮色
-    case nightAuto = "night_auto"
 
     var id: String { rawValue }
 
+    /// 产品默认立场：深夜就该是暗的。「跟随系统」在夜间窗口强制暗色，
+    /// 白天才真正跟随系统；用户显式选亮色/暗色则永远尊重。
     func colorScheme(at date: Date = Date()) -> ColorScheme? {
         switch self {
-        case .system: return nil
+        case .system: return NightDim.isNight(date) ? .dark : nil
         case .light: return .light
         case .dark: return .dark
-        case .nightAuto: return NightDim.isNight(date) ? .dark : .light
         }
     }
 
@@ -81,7 +80,6 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
         case .system: return "appearance_system"
         case .light: return "appearance_light"
         case .dark: return "appearance_dark"
-        case .nightAuto: return "appearance_night_auto"
         }
     }
 }

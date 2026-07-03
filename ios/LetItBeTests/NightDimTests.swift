@@ -28,15 +28,14 @@ final class NightDimTests: XCTestCase {
         XCTAssertFalse(NightDim.isNight(morning, calendar: calendar))
     }
 
-    /// 「夜间降噪」外观：晚上暗色、白天亮色；其他模式不受时间影响。
-    func testNightAutoAppearanceMode() {
+    /// 默认（跟随系统）：夜间强制暗色，白天真正跟随系统；显式亮/暗永远尊重。
+    func testSystemModeForcesDarkAtNight() {
         let lateNight = date(hour: 23)
         let morning = date(hour: 10)
 
-        XCTAssertEqual(AppearanceMode.nightAuto.colorScheme(at: lateNight), .dark)
-        XCTAssertEqual(AppearanceMode.nightAuto.colorScheme(at: morning), .light)
+        XCTAssertEqual(AppearanceMode.system.colorScheme(at: lateNight), .dark)
+        XCTAssertNil(AppearanceMode.system.colorScheme(at: morning))
 
-        XCTAssertNil(AppearanceMode.system.colorScheme(at: lateNight))
         XCTAssertEqual(AppearanceMode.light.colorScheme(at: lateNight), .light)
         XCTAssertEqual(AppearanceMode.dark.colorScheme(at: morning), .dark)
     }
