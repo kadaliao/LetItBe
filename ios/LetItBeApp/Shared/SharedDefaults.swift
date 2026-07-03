@@ -6,6 +6,7 @@ enum SharedDefaults {
 
     static let lastStateKey = "last_state_key"
     static let favoriteCardIDsKey = "favorite_card_ids"
+    static let widgetCardOffsetKey = "widget_card_offset"
 
     /// 无 App Group 权限（如个人开发签名）时自动降级到本地 defaults。
     static let store: UserDefaults = {
@@ -33,5 +34,11 @@ enum SharedDefaults {
     static var favoriteCardIDs: [String] {
         get { store.stringArray(forKey: favoriteCardIDsKey) ?? [] }
         set { store.set(newValue, forKey: favoriteCardIDsKey) }
+    }
+
+    /// Widget「换一条」按钮的换卡偏移，只在 widget 进程内自增。
+    static var widgetCardOffset: Int {
+        get { store.integer(forKey: widgetCardOffsetKey) }
+        set { store.set(newValue, forKey: widgetCardOffsetKey) }
     }
 }

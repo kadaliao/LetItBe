@@ -46,6 +46,7 @@
 		B25F1CB204F585465D788A1E /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F38000F66FC37EE7EF6F2 /* SnapshotHelper.swift */; };
 		B5CEA5AA9C9F7B10F003E7DD /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C368FD37E6C9610777FA9F /* ShareCardView.swift */; };
 		B5D9DBD1B6ED9DBC4861CBAF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3378436224740D30992AC4 /* State.swift */; };
+		B91519C5441A6E6EA60F0079 /* NightDimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D712AB2DD8E54D219C89B /* NightDimTests.swift */; };
 		B9A66A763DB6FB2509D012CB /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A23F33095F3B7F6E7A436F /* MainCardView.swift */; };
 		B9A9130C251566116394B20F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA8FF59C985EE3595785DDEF /* InfoPlist.strings */; };
 		BF709CD4D0F29409D6668A11 /* FirstRunFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D34EA170FDA44A3F9971A1C /* FirstRunFlowTests.swift */; };
@@ -126,6 +127,7 @@
 		5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopLossServiceTests.swift; sourceTree = "<group>"; };
 		5F8F0E70EC272983DB310279 /* AppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShortcuts.swift; sourceTree = "<group>"; };
 		65C9335F0346120C86933172 /* SQLiteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteStore.swift; sourceTree = "<group>"; };
+		6A2D712AB2DD8E54D219C89B /* NightDimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightDimTests.swift; sourceTree = "<group>"; };
 		6B2EA3031145CEC89944A8FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "zh-Hans"; path = "zh-Hans.lproj/content.json"; sourceTree = "<group>"; };
 		6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepositoryTests.swift; sourceTree = "<group>"; };
 		6DC468F8DC12AAF73D353E70 /* FavoritesStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStoreTests.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				4053839EE137677FF99C2F68 /* CardRotationTests.swift */,
 				6D29BAD90F6E9F701E037E54 /* ContentRepositoryTests.swift */,
 				6DC468F8DC12AAF73D353E70 /* FavoritesStoreTests.swift */,
+				6A2D712AB2DD8E54D219C89B /* NightDimTests.swift */,
 				5E1636AA07F4DDF729F7B1E1 /* StopLossServiceTests.swift */,
 			);
 			name = LetItBeTests;
@@ -528,6 +531,7 @@
 				34F9997D8FDEC1513057F5C5 /* CardRotationTests.swift in Sources */,
 				95E94ABBAABB645B7968711A /* ContentRepositoryTests.swift in Sources */,
 				701B2E6596E6B86D84222E6F /* FavoritesStoreTests.swift in Sources */,
+				B91519C5441A6E6EA60F0079 /* NightDimTests.swift in Sources */,
 				31A94B92F9A8BAEB21E5480A /* StopLossServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,7 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.tests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetItBeApp.app/LetItBeApp";
 			};
 			name = Debug;
@@ -626,7 +630,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.uitests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LetItBeApp;
 			};
 			name = Debug;
@@ -643,7 +647,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -659,7 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.tests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetItBeApp.app/LetItBeApp";
 			};
 			name = Release;
@@ -676,7 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.widget;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -752,7 +756,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.widget;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -768,7 +772,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -784,7 +788,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.letitbe.app.uitests;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LetItBeApp;
 			};
 			name = Release;

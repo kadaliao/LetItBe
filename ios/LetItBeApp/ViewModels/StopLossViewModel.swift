@@ -57,6 +57,15 @@ final class StopLossViewModel {
 
     /// 清单模式：记录一次完成的极简动作（无计时）。
     func recordChecklist(card: Card, state: MoodState) {
+        recordInstantSession(card: card, state: state)
+    }
+
+    /// 扔掉模式：只记录「发生过一次修复」，写下的内容永不落盘。
+    func recordThrowaway(card: Card, state: MoodState) {
+        recordInstantSession(card: card, state: state)
+    }
+
+    private func recordInstantSession(card: Card, state: MoodState) {
         guard let session = try? service.startSession(card: card, state: state, durationSeconds: 0) else { return }
         _ = try? service.finishSession(session, reason: .completed)
     }

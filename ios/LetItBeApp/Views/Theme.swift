@@ -86,9 +86,15 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
 final class AppearanceModel {
     private static let modeKey = "appearance_mode"
     private static let legacyDarkKey = "letitbe_dark_mode"
+    private static let nightDimKey = "night_dim_enabled"
 
     var mode: AppearanceMode {
         didSet { UserDefaults.standard.set(mode.rawValue, forKey: Self.modeKey) }
+    }
+
+    /// 睡前降噪：深夜窗口内自动压暗界面，默认开。
+    var nightDimEnabled: Bool {
+        didSet { UserDefaults.standard.set(nightDimEnabled, forKey: Self.nightDimKey) }
     }
 
     init(defaults: UserDefaults = .standard) {
@@ -101,5 +107,19 @@ final class AppearanceModel {
         } else {
             mode = .system
         }
+        nightDimEnabled = defaults.object(forKey: Self.nightDimKey) as? Bool ?? true
+    }
+}
+
+// MARK: - 睡前降噪（Night dim）
+
+enum NightDim {
+    /// 22:00–04:59 视为深夜窗口
+    static func isNight(hour: Int) -> Bool {
+        hour >= 22 || hour < 5
+    }
+
+    static func isNight(_ date: Date = Date(), calendar: Calendar = .current) -> Bool {
+        isNight(hour: calendar.component(.hour, from: date))
     }
 }

@@ -1,12 +1,27 @@
 import WidgetKit
 import SwiftUI
 import ActivityKit
+import AppIntents
 
 @main
 struct LetItBeWidgetBundle: WidgetBundle {
     var body: some Widget {
         DailyCardWidget()
         BreathingLiveActivity()
+    }
+}
+
+// MARK: - 交互：小组件上直接换一条
+
+struct NextWidgetCardIntent: AppIntent {
+    static var title: LocalizedStringResource = "widget_swap_title"
+    /// 只服务 widget 按钮，不进快捷指令库（App 内已有 OpenCardIntent）
+    static var isDiscoverable: Bool = false
+
+    func perform() async throws -> some IntentResult {
+        SharedDefaults.widgetCardOffset += 1
+        WidgetCenter.shared.reloadTimelines(ofKind: "DailyCardWidget")
+        return .result()
     }
 }
 
@@ -130,9 +145,10 @@ struct DailyCardProvider: TimelineProvider {
             }
         }
 
-        // 用时间块做确定性选卡，同一时间块内保持稳定
+        // 用时间块做确定性选卡，同一时间块内保持稳定；「换一条」通过偏移量跳卡
         let block = UInt64(floor(date.timeIntervalSince1970 / blockSeconds))
-        let index = Int((block &* 2654435761) % UInt64(cards.count))
+        let offset = UInt64(max(0, SharedDefaults.widgetCardOffset))
+        let index = Int((block &* 2654435761 &+ offset &* 97) % UInt64(cards.count))
         let card = cards[index]
         if stateName.isEmpty {
             stateName = payload.states.first(where: { $0.id == card.stateId })?.name ?? ""
@@ -206,10 +222,16 @@ struct DailyCardWidgetEntryView: View {
 
             Spacer(minLength: 0)
 
-            Text(entry.footer)
-                .font(.system(size: 11))
-                .foregroundColor(secondaryColor)
-                .lineLimit(3)
+            HStack(alignment: .bottom, spacing: 4) {
+                Text(entry.footer)
+                    .font(.system(size: 11))
+                    .foregroundColor(secondaryColor)
+                    .lineLimit(3)
+
+                Spacer(minLength: 4)
+
+                swapButton
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .containerBackground(for: .widget) { paperColor }
@@ -228,13 +250,32 @@ struct DailyCardWidgetEntryView: View {
 
             Spacer(minLength: 0)
 
-            Text(entry.footer)
-                .font(.system(size: 11))
-                .foregroundColor(secondaryColor)
-                .lineLimit(1)
+            HStack(alignment: .center, spacing: 4) {
+                Text(entry.footer)
+                    .font(.system(size: 11))
+                    .foregroundColor(secondaryColor)
+                    .lineLimit(1)
+
+                Spacer(minLength: 4)
+
+                swapButton
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .containerBackground(for: .widget) { paperColor }
+    }
+
+    /// 小组件上的「换一条」：不打开 App，原地换一句。
+    private var swapButton: some View {
+        Button(intent: NextWidgetCardIntent()) {
+            Image(systemName: "arrow.2.squarepath")
+                .font(.system(size: 11, weight: .regular))
+                .foregroundColor(secondaryColor.opacity(0.85))
+                .frame(width: 24, height: 24)
+                .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(Text("widget_swap_accessibility"))
     }
 
     private var accessoryView: some View {

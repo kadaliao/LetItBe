@@ -98,3 +98,15 @@
 "widget_sample_title" = "Powering down";
 "widget_sample_body" = "Let the screen go dark for a while.";
 "widget_sample_footer" = "The world won't end because you rested ten minutes.";
+
+"menu_night_dim" = "Night dimming";
+
+"repair_throwaway_tab" = "Toss";
+"throwaway_placeholder" = "Write the noise down";
+"throwaway_action" = "Throw it away";
+"throwaway_hint" = "Nothing written here is saved";
+"throwaway_done_title" = "Gone.";
+"throwaway_done_note" = "It was not saved. It did not need to be.";
+
+"widget_swap_title" = "Another one";
+"widget_swap_accessibility" = "Show another line";

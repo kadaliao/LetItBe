@@ -8,6 +8,7 @@ struct MainCardView: View {
     @Environment(FavoritesStore.self) private var favorites
     @Environment(AppearanceModel.self) private var appearance
     @Environment(\.colorScheme) private var scheme
+    @Environment(\.nightDim) private var nightDim
 
     @State private var dragOffset: CGFloat = 0
     @State private var swipeDirection: SwipeDirection = .forward
@@ -58,12 +59,15 @@ struct MainCardView: View {
         }
         .fullScreenCover(isPresented: $isRepairPresented) {
             RepairView()
+                .nightDimOverlay()
         }
         .sheet(isPresented: $isFavoritesPresented) {
             FavoritesView()
+                .nightDimOverlay()
         }
         .sheet(isPresented: $isAboutPresented) {
             AboutView()
+                .nightDimOverlay()
         }
         .sheet(isPresented: $isSharePresented) {
             SharePreviewSheet(
@@ -77,6 +81,7 @@ struct MainCardView: View {
                     confirmShareSave()
                 }
             )
+            .nightDimOverlay()
         }
         .alert(alertMessage ?? "", isPresented: $isAlertPresented) {
             Button(String(localized: "common_ok"), role: .cancel) {}
@@ -94,6 +99,13 @@ struct MainCardView: View {
             }
 
             Spacer()
+
+            if nightDim {
+                Image(systemName: "moon.fill")
+                    .font(.system(size: 12))
+                    .foregroundColor(Theme.secondaryTextColor(scheme).opacity(0.7))
+                    .accessibilityLabel(String(localized: "menu_night_dim"))
+            }
 
             if isPreparingShare || isSavingShare {
                 ProgressView()
@@ -158,6 +170,11 @@ struct MainCardView: View {
                 }
             }
             .pickerStyle(.menu)
+
+            Toggle(isOn: $appearance.nightDimEnabled) {
+                Label(String(localized: "menu_night_dim"), systemImage: "moon")
+            }
+            .accessibilityIdentifier("menu_night_dim")
 
             Button {
                 isAboutPresented = true

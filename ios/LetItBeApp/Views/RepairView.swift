@@ -13,6 +13,7 @@ struct RepairView: View {
     enum RepairMode: String, CaseIterable, Identifiable {
         case breathing
         case checklist
+        case throwaway
 
         var id: String { rawValue }
 
@@ -20,6 +21,7 @@ struct RepairView: View {
             switch self {
             case .breathing: return "repair_breathing_tab"
             case .checklist: return "repair_checklist_tab"
+            case .throwaway: return "repair_throwaway_tab"
             }
         }
     }
@@ -38,6 +40,10 @@ struct RepairView: View {
                 breathingContent
             case .checklist:
                 checklistContent
+            case .throwaway:
+                ThrowawaySection {
+                    recordThrowaway()
+                }
             }
 
             Spacer()
@@ -274,14 +280,114 @@ struct RepairView: View {
             if !checkedItems.isEmpty, let card = content.currentCard, let state = content.currentState {
                 viewModel.recordChecklist(card: card, state: state)
             }
+        case .throwaway:
+            break
         }
         dismiss()
+    }
+
+    private func recordThrowaway() {
+        guard let card = content.currentCard, let state = content.currentState else { return }
+        viewModel.recordThrowaway(card: card, state: state)
     }
 
     private func timeString(from seconds: Int) -> String {
         let minutes = seconds / 60
         let remaining = seconds % 60
         return String(format: "%02d:%02d", minutes, remaining)
+    }
+}
+
+// MARK: - 写下来扔掉
+
+/// 写一句烦心事，揉成纸团扔掉。内容只活在内存里，从不落盘。
+private struct ThrowawaySection: View {
+    @Environment(\.colorScheme) private var scheme
+    @FocusState private var isFocused: Bool
+
+    @State private var text = ""
+    @State private var isFlying = false
+    @State private var isThrown = false
+
+    let onThrow: () -> Void
+
+    private var trimmedText: String {
+        text.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    var body: some View {
+        VStack(spacing: Theme.spacingMedium) {
+            if isThrown {
+                VStack(spacing: Theme.spacingSmall) {
+                    Text("throwaway_done_title")
+                        .font(Theme.fontCardTitle)
+                        .foregroundColor(Theme.textColor(scheme))
+                        .accessibilityIdentifier("throwaway_done")
+
+                    Text("throwaway_done_note")
+                        .font(Theme.fontCaption)
+                        .foregroundColor(Theme.secondaryTextColor(scheme))
+                }
+                .transition(.opacity)
+            } else {
+                paperInput
+                    .offset(y: isFlying ? 520 : 0)
+                    .rotationEffect(.degrees(isFlying ? 16 : 0))
+                    .scaleEffect(isFlying ? 0.3 : 1)
+                    .opacity(isFlying ? 0 : 1)
+
+                Button("throwaway_action") {
+                    throwIt()
+                }
+                .buttonStyle(PrimaryOutlineButtonStyle())
+                .disabled(trimmedText.isEmpty || isFlying)
+                .opacity(trimmedText.isEmpty ? 0.4 : 1)
+                .accessibilityIdentifier("throwaway_action")
+
+                Text("throwaway_hint")
+                    .font(Theme.fontCaption)
+                    .foregroundColor(Theme.secondaryTextColor(scheme).opacity(0.8))
+            }
+        }
+        .frame(maxWidth: 320)
+    }
+
+    private var paperInput: some View {
+        TextField("throwaway_placeholder", text: $text, axis: .vertical)
+            .font(Theme.fontBody)
+            .foregroundColor(Theme.textColor(scheme))
+            .tint(Theme.textColor(scheme))
+            .lineLimit(2...5)
+            .focused($isFocused)
+            .padding(Theme.spacingMedium)
+            .frame(maxWidth: .infinity, alignment: .topLeading)
+            .background(
+                RoundedRectangle(cornerRadius: Theme.cornerRadius)
+                    .fill(Theme.cardBackground(scheme))
+                    .shadow(color: Theme.cardShadow(scheme), radius: 14, x: 0, y: 6)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: Theme.cornerRadius)
+                    .stroke(Theme.highlightColor(scheme), lineWidth: Theme.borderWidth)
+            )
+            .accessibilityIdentifier("throwaway_field")
+    }
+
+    private func throwIt() {
+        guard !trimmedText.isEmpty, !isFlying else { return }
+        isFocused = false
+        Haptics.light()
+        onThrow()
+        withAnimation(.easeIn(duration: 0.45)) {
+            isFlying = true
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            Haptics.success()
+            text = ""
+            withAnimation(.easeOut(duration: 0.35)) {
+                isThrown = true
+            }
+        }
     }
 }
 
