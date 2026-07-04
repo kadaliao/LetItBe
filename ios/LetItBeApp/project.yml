@@ -19,6 +19,7 @@ targets:
       base:
         INFOPLIST_FILE: Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app
+        TARGETED_DEVICE_FAMILY: "1"
     sources:
       - App
       - Views
@@ -42,6 +43,7 @@ targets:
         INFOPLIST_FILE: ../LetItBeWidget/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.widget
         APPLICATION_EXTENSION_API_ONLY: true
+        TARGETED_DEVICE_FAMILY: "1"
     sources:
       - path: ../LetItBeWidget
         excludes:
@@ -62,6 +64,7 @@ targets:
       base:
         INFOPLIST_FILE: Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.tests
+        TARGETED_DEVICE_FAMILY: "1"
     sources:
       - path: ../LetItBeTests
       - path: Resources/content.json
@@ -75,6 +78,7 @@ targets:
       base:
         INFOPLIST_FILE: Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: com.letitbe.app.uitests
+        TARGETED_DEVICE_FAMILY: "1"
     sources:
       - path: ../LetItBeUITests
 schemes:
